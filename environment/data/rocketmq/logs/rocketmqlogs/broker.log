@@ -1,0 +1,2304 @@
+2023-05-13 08:10:22 INFO main - rocketmqHome=/home/rocketmq/rocketmq-4.5.0
+2023-05-13 08:10:23 INFO main - namesrvAddr=rmqnamesrv:9876
+2023-05-13 08:10:23 INFO main - brokerIP1=192.168.1.10
+2023-05-13 08:10:23 INFO main - brokerIP2=172.18.0.9
+2023-05-13 08:10:23 INFO main - brokerName=broker-a
+2023-05-13 08:10:23 INFO main - brokerClusterName=DefaultCluster
+2023-05-13 08:10:23 INFO main - brokerId=0
+2023-05-13 08:10:23 INFO main - brokerPermission=6
+2023-05-13 08:10:23 INFO main - defaultTopicQueueNums=8
+2023-05-13 08:10:23 INFO main - autoCreateTopicEnable=true
+2023-05-13 08:10:23 INFO main - clusterTopicEnable=true
+2023-05-13 08:10:23 INFO main - brokerTopicEnable=true
+2023-05-13 08:10:23 INFO main - autoCreateSubscriptionGroup=true
+2023-05-13 08:10:23 INFO main - messageStorePlugIn=
+2023-05-13 08:10:23 INFO main - msgTraceTopicName=RMQ_SYS_TRACE_TOPIC
+2023-05-13 08:10:23 INFO main - traceTopicEnable=false
+2023-05-13 08:10:23 INFO main - sendMessageThreadPoolNums=1
+2023-05-13 08:10:23 INFO main - pullMessageThreadPoolNums=24
+2023-05-13 08:10:23 INFO main - queryMessageThreadPoolNums=12
+2023-05-13 08:10:23 INFO main - adminBrokerThreadPoolNums=16
+2023-05-13 08:10:23 INFO main - clientManageThreadPoolNums=32
+2023-05-13 08:10:23 INFO main - consumerManageThreadPoolNums=32
+2023-05-13 08:10:23 INFO main - heartbeatThreadPoolNums=4
+2023-05-13 08:10:23 INFO main - endTransactionThreadPoolNums=16
+2023-05-13 08:10:23 INFO main - flushConsumerOffsetInterval=5000
+2023-05-13 08:10:23 INFO main - flushConsumerOffsetHistoryInterval=60000
+2023-05-13 08:10:23 INFO main - rejectTransactionMessage=false
+2023-05-13 08:10:23 INFO main - fetchNamesrvAddrByAddressServer=false
+2023-05-13 08:10:23 INFO main - sendThreadPoolQueueCapacity=10000
+2023-05-13 08:10:23 INFO main - pullThreadPoolQueueCapacity=100000
+2023-05-13 08:10:23 INFO main - queryThreadPoolQueueCapacity=20000
+2023-05-13 08:10:23 INFO main - clientManagerThreadPoolQueueCapacity=1000000
+2023-05-13 08:10:23 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
+2023-05-13 08:10:23 INFO main - heartbeatThreadPoolQueueCapacity=50000
+2023-05-13 08:10:23 INFO main - endTransactionPoolQueueCapacity=100000
+2023-05-13 08:10:23 INFO main - filterServerNums=0
+2023-05-13 08:10:23 INFO main - longPollingEnable=true
+2023-05-13 08:10:23 INFO main - shortPollingTimeMills=1000
+2023-05-13 08:10:23 INFO main - notifyConsumerIdsChangedEnable=true
+2023-05-13 08:10:23 INFO main - highSpeedMode=false
+2023-05-13 08:10:23 INFO main - commercialEnable=true
+2023-05-13 08:10:23 INFO main - commercialTimerCount=1
+2023-05-13 08:10:23 INFO main - commercialTransCount=1
+2023-05-13 08:10:23 INFO main - commercialBigCount=1
+2023-05-13 08:10:23 INFO main - commercialBaseCount=1
+2023-05-13 08:10:23 INFO main - transferMsgByHeap=true
+2023-05-13 08:10:23 INFO main - maxDelayTime=40
+2023-05-13 08:10:23 INFO main - regionId=DefaultRegion
+2023-05-13 08:10:23 INFO main - registerBrokerTimeoutMills=6000
+2023-05-13 08:10:23 INFO main - slaveReadEnable=false
+2023-05-13 08:10:23 INFO main - disableConsumeIfConsumerReadSlowly=false
+2023-05-13 08:10:23 INFO main - consumerFallbehindThreshold=17179869184
+2023-05-13 08:10:23 INFO main - brokerFastFailureEnable=true
+2023-05-13 08:10:23 INFO main - waitTimeMillsInSendQueue=200
+2023-05-13 08:10:23 INFO main - waitTimeMillsInPullQueue=5000
+2023-05-13 08:10:23 INFO main - waitTimeMillsInHeartbeatQueue=31000
+2023-05-13 08:10:23 INFO main - waitTimeMillsInTransactionQueue=3000
+2023-05-13 08:10:23 INFO main - startAcceptSendRequestTimeStamp=0
+2023-05-13 08:10:23 INFO main - traceOn=true
+2023-05-13 08:10:23 INFO main - enableCalcFilterBitMap=false
+2023-05-13 08:10:23 INFO main - expectConsumerNumUseFilter=32
+2023-05-13 08:10:23 INFO main - maxErrorRateOfBloomFilter=20
+2023-05-13 08:10:23 INFO main - filterDataCleanTimeSpan=86400000
+2023-05-13 08:10:23 INFO main - filterSupportRetry=false
+2023-05-13 08:10:23 INFO main - enablePropertyFilter=false
+2023-05-13 08:10:23 INFO main - compressedRegister=false
+2023-05-13 08:10:23 INFO main - forceRegister=true
+2023-05-13 08:10:23 INFO main - registerNameServerPeriod=30000
+2023-05-13 08:10:23 INFO main - transactionTimeOut=6000
+2023-05-13 08:10:23 INFO main - transactionCheckMax=15
+2023-05-13 08:10:23 INFO main - transactionCheckInterval=60000
+2023-05-13 08:10:23 INFO main - aclEnable=false
+2023-05-13 08:10:23 INFO main - listenPort=10911
+2023-05-13 08:10:23 INFO main - serverWorkerThreads=8
+2023-05-13 08:10:23 INFO main - serverCallbackExecutorThreads=0
+2023-05-13 08:10:23 INFO main - serverSelectorThreads=3
+2023-05-13 08:10:23 INFO main - serverOnewaySemaphoreValue=256
+2023-05-13 08:10:23 INFO main - serverAsyncSemaphoreValue=64
+2023-05-13 08:10:23 INFO main - serverChannelMaxIdleTimeSeconds=120
+2023-05-13 08:10:23 INFO main - serverSocketSndBufSize=131072
+2023-05-13 08:10:23 INFO main - serverSocketRcvBufSize=131072
+2023-05-13 08:10:23 INFO main - serverPooledByteBufAllocatorEnable=true
+2023-05-13 08:10:23 INFO main - useEpollNativeSelector=false
+2023-05-13 08:10:23 INFO main - clientWorkerThreads=4
+2023-05-13 08:10:23 INFO main - clientCallbackExecutorThreads=4
+2023-05-13 08:10:23 INFO main - clientOnewaySemaphoreValue=65535
+2023-05-13 08:10:23 INFO main - clientAsyncSemaphoreValue=65535
+2023-05-13 08:10:23 INFO main - connectTimeoutMillis=3000
+2023-05-13 08:10:23 INFO main - channelNotActiveInterval=60000
+2023-05-13 08:10:23 INFO main - clientChannelMaxIdleTimeSeconds=120
+2023-05-13 08:10:23 INFO main - clientSocketSndBufSize=131072
+2023-05-13 08:10:23 INFO main - clientSocketRcvBufSize=131072
+2023-05-13 08:10:23 INFO main - clientPooledByteBufAllocatorEnable=false
+2023-05-13 08:10:23 INFO main - clientCloseSocketIfTimeout=false
+2023-05-13 08:10:23 INFO main - useTLS=false
+2023-05-13 08:10:23 INFO main - storePathRootDir=/home/rocketmq/store
+2023-05-13 08:10:23 INFO main - storePathCommitLog=/home/rocketmq/store/commitlog
+2023-05-13 08:10:23 INFO main - mapedFileSizeCommitLog=1073741824
+2023-05-13 08:10:23 INFO main - mapedFileSizeConsumeQueue=6000000
+2023-05-13 08:10:23 INFO main - enableConsumeQueueExt=false
+2023-05-13 08:10:23 INFO main - mappedFileSizeConsumeQueueExt=50331648
+2023-05-13 08:10:23 INFO main - bitMapLengthConsumeQueueExt=64
+2023-05-13 08:10:23 INFO main - flushIntervalCommitLog=500
+2023-05-13 08:10:23 INFO main - commitIntervalCommitLog=200
+2023-05-13 08:10:23 INFO main - useReentrantLockWhenPutMessage=false
+2023-05-13 08:10:23 INFO main - flushCommitLogTimed=false
+2023-05-13 08:10:23 INFO main - flushIntervalConsumeQueue=1000
+2023-05-13 08:10:23 INFO main - cleanResourceInterval=10000
+2023-05-13 08:10:23 INFO main - deleteCommitLogFilesInterval=100
+2023-05-13 08:10:23 INFO main - deleteConsumeQueueFilesInterval=100
+2023-05-13 08:10:23 INFO main - destroyMapedFileIntervalForcibly=120000
+2023-05-13 08:10:23 INFO main - redeleteHangedFileInterval=120000
+2023-05-13 08:10:23 INFO main - deleteWhen=04
+2023-05-13 08:10:23 INFO main - diskMaxUsedSpaceRatio=75
+2023-05-13 08:10:23 INFO main - fileReservedTime=48
+2023-05-13 08:10:23 INFO main - putMsgIndexHightWater=600000
+2023-05-13 08:10:23 INFO main - maxMessageSize=4194304
+2023-05-13 08:10:23 INFO main - checkCRCOnRecover=true
+2023-05-13 08:10:23 INFO main - flushCommitLogLeastPages=4
+2023-05-13 08:10:23 INFO main - commitCommitLogLeastPages=4
+2023-05-13 08:10:23 INFO main - flushLeastPagesWhenWarmMapedFile=4096
+2023-05-13 08:10:23 INFO main - flushConsumeQueueLeastPages=2
+2023-05-13 08:10:23 INFO main - flushCommitLogThoroughInterval=10000
+2023-05-13 08:10:23 INFO main - commitCommitLogThoroughInterval=200
+2023-05-13 08:10:23 INFO main - flushConsumeQueueThoroughInterval=60000
+2023-05-13 08:10:23 INFO main - maxTransferBytesOnMessageInMemory=262144
+2023-05-13 08:10:23 INFO main - maxTransferCountOnMessageInMemory=32
+2023-05-13 08:10:23 INFO main - maxTransferBytesOnMessageInDisk=65536
+2023-05-13 08:10:23 INFO main - maxTransferCountOnMessageInDisk=8
+2023-05-13 08:10:23 INFO main - accessMessageInMemoryMaxRatio=40
+2023-05-13 08:10:23 INFO main - messageIndexEnable=true
+2023-05-13 08:10:23 INFO main - maxHashSlotNum=5000000
+2023-05-13 08:10:23 INFO main - maxIndexNum=20000000
+2023-05-13 08:10:23 INFO main - maxMsgsNumBatch=64
+2023-05-13 08:10:23 INFO main - messageIndexSafe=false
+2023-05-13 08:10:23 INFO main - haListenPort=10912
+2023-05-13 08:10:23 INFO main - haSendHeartbeatInterval=5000
+2023-05-13 08:10:23 INFO main - haHousekeepingInterval=20000
+2023-05-13 08:10:23 INFO main - haTransferBatchSize=32768
+2023-05-13 08:10:23 INFO main - haMasterAddress=
+2023-05-13 08:10:23 INFO main - haSlaveFallbehindMax=268435456
+2023-05-13 08:10:23 INFO main - brokerRole=ASYNC_MASTER
+2023-05-13 08:10:23 INFO main - flushDiskType=ASYNC_FLUSH
+2023-05-13 08:10:23 INFO main - syncFlushTimeout=5000
+2023-05-13 08:10:23 INFO main - messageDelayLevel=1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h
+2023-05-13 08:10:23 INFO main - flushDelayOffsetInterval=10000
+2023-05-13 08:10:23 INFO main - cleanFileForciblyEnable=true
+2023-05-13 08:10:23 INFO main - warmMapedFileEnable=false
+2023-05-13 08:10:23 INFO main - offsetCheckInSlave=false
+2023-05-13 08:10:23 INFO main - debugLockEnable=false
+2023-05-13 08:10:23 INFO main - duplicationEnable=false
+2023-05-13 08:10:23 INFO main - diskFallRecorded=true
+2023-05-13 08:10:23 INFO main - osPageCacheBusyTimeOutMills=1000
+2023-05-13 08:10:23 INFO main - defaultQueryMaxNum=32
+2023-05-13 08:10:23 INFO main - transientStorePoolEnable=false
+2023-05-13 08:10:23 INFO main - transientStorePoolSize=5
+2023-05-13 08:10:23 INFO main - fastFailIfNoBufferInStorePool=false
+2023-05-13 08:10:23 INFO main - enableDLegerCommitLog=false
+2023-05-13 08:10:23 INFO main - dLegerGroup=
+2023-05-13 08:10:23 INFO main - dLegerPeers=
+2023-05-13 08:10:23 INFO main - dLegerSelfId=
+2023-05-13 08:10:29 INFO main - Try to start service thread:AllocateMappedFileService started:false lastThread:null
+2023-05-13 08:10:43 INFO main - Set user specified name server address: rmqnamesrv:9876
+2023-05-13 08:10:43 WARN main - Load default transaction message hook service: TransactionalMessageServiceImpl
+2023-05-13 08:10:43 WARN main - Load default discard message hook service: DefaultTransactionalMessageCheckListener
+2023-05-13 08:10:43 INFO main - The broker dose not enable acl
+2023-05-13 08:10:44 INFO main - Try to start service thread:ReputMessageService started:false lastThread:null
+2023-05-13 08:10:44 INFO main - Try to start service thread:AcceptSocketService started:false lastThread:null
+2023-05-13 08:10:44 INFO main - Try to start service thread:GroupTransferService started:false lastThread:null
+2023-05-13 08:10:44 INFO main - Try to start service thread:HAClient started:false lastThread:null
+2023-05-13 08:10:44 INFO main - Try to start service thread:FlushConsumeQueueService started:false lastThread:null
+2023-05-13 08:10:44 INFO main - Try to start service thread:FlushRealTimeService started:false lastThread:null
+2023-05-13 08:10:44 INFO main - Try to start service thread:StoreStatsService started:false lastThread:null
+2023-05-13 08:10:46 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2023-05-13 08:10:46 INFO FileWatchService - FileWatchService service started
+2023-05-13 08:10:46 INFO main - Try to start service thread:PullRequestHoldService started:false lastThread:null
+2023-05-13 08:10:46 INFO PullRequestHoldService - PullRequestHoldService service started
+2023-05-13 08:10:46 INFO main - Try to start service thread:TransactionalMessageCheckService started:false lastThread:null
+2023-05-13 08:10:51 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:10:51 INFO main - The broker[broker-a, 192.168.1.10:10911] boot success. serializeType=JSON and name server is rmqnamesrv:9876
+2023-05-13 08:10:54 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 08:10:54 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 08:11:01 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:11:31 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:11:46 INFO TransactionalMessageCheckService - create new topic TopicConfig [topicName=RMQ_SYS_TRANS_HALF_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 08:11:46 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:11:53 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 08:11:53 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 08:12:01 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:12:31 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:12:53 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 08:12:53 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 08:13:01 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:13:31 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:13:53 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 08:13:53 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 08:14:01 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:14:31 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:14:53 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 08:14:53 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 08:15:01 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:15:31 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:15:53 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 08:15:53 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 08:16:01 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:16:31 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:16:53 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 08:16:53 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 08:17:01 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:17:31 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:17:53 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 08:17:53 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 08:18:01 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:18:31 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:18:53 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 08:18:53 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 08:19:01 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:19:31 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:19:53 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 08:19:53 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 08:20:01 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:20:31 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:20:53 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 08:20:53 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 08:21:01 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:21:31 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:21:53 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 08:21:53 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 08:22:01 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:22:31 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:22:53 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 08:22:53 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 08:23:01 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:23:31 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:23:53 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 08:23:53 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 08:24:01 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:24:31 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:24:53 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 08:24:53 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 08:25:01 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:25:31 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:25:53 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 08:25:53 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 08:26:01 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:26:41 INFO main - rocketmqHome=/home/rocketmq/rocketmq-4.5.0
+2023-05-13 08:26:41 INFO main - namesrvAddr=rmqnamesrv:9876
+2023-05-13 08:26:41 INFO main - brokerIP1=192.168.1.10
+2023-05-13 08:26:41 INFO main - brokerIP2=172.18.0.8
+2023-05-13 08:26:41 INFO main - brokerName=broker-a
+2023-05-13 08:26:41 INFO main - brokerClusterName=DefaultCluster
+2023-05-13 08:26:41 INFO main - brokerId=0
+2023-05-13 08:26:41 INFO main - brokerPermission=6
+2023-05-13 08:26:41 INFO main - defaultTopicQueueNums=8
+2023-05-13 08:26:41 INFO main - autoCreateTopicEnable=true
+2023-05-13 08:26:41 INFO main - clusterTopicEnable=true
+2023-05-13 08:26:41 INFO main - brokerTopicEnable=true
+2023-05-13 08:26:41 INFO main - autoCreateSubscriptionGroup=true
+2023-05-13 08:26:41 INFO main - messageStorePlugIn=
+2023-05-13 08:26:41 INFO main - msgTraceTopicName=RMQ_SYS_TRACE_TOPIC
+2023-05-13 08:26:41 INFO main - traceTopicEnable=false
+2023-05-13 08:26:41 INFO main - sendMessageThreadPoolNums=1
+2023-05-13 08:26:41 INFO main - pullMessageThreadPoolNums=24
+2023-05-13 08:26:41 INFO main - queryMessageThreadPoolNums=12
+2023-05-13 08:26:41 INFO main - adminBrokerThreadPoolNums=16
+2023-05-13 08:26:41 INFO main - clientManageThreadPoolNums=32
+2023-05-13 08:26:41 INFO main - consumerManageThreadPoolNums=32
+2023-05-13 08:26:41 INFO main - heartbeatThreadPoolNums=4
+2023-05-13 08:26:41 INFO main - endTransactionThreadPoolNums=16
+2023-05-13 08:26:41 INFO main - flushConsumerOffsetInterval=5000
+2023-05-13 08:26:41 INFO main - flushConsumerOffsetHistoryInterval=60000
+2023-05-13 08:26:41 INFO main - rejectTransactionMessage=false
+2023-05-13 08:26:41 INFO main - fetchNamesrvAddrByAddressServer=false
+2023-05-13 08:26:41 INFO main - sendThreadPoolQueueCapacity=10000
+2023-05-13 08:26:41 INFO main - pullThreadPoolQueueCapacity=100000
+2023-05-13 08:26:41 INFO main - queryThreadPoolQueueCapacity=20000
+2023-05-13 08:26:41 INFO main - clientManagerThreadPoolQueueCapacity=1000000
+2023-05-13 08:26:41 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
+2023-05-13 08:26:41 INFO main - heartbeatThreadPoolQueueCapacity=50000
+2023-05-13 08:26:41 INFO main - endTransactionPoolQueueCapacity=100000
+2023-05-13 08:26:41 INFO main - filterServerNums=0
+2023-05-13 08:26:41 INFO main - longPollingEnable=true
+2023-05-13 08:26:41 INFO main - shortPollingTimeMills=1000
+2023-05-13 08:26:41 INFO main - notifyConsumerIdsChangedEnable=true
+2023-05-13 08:26:41 INFO main - highSpeedMode=false
+2023-05-13 08:26:41 INFO main - commercialEnable=true
+2023-05-13 08:26:41 INFO main - commercialTimerCount=1
+2023-05-13 08:26:41 INFO main - commercialTransCount=1
+2023-05-13 08:26:41 INFO main - commercialBigCount=1
+2023-05-13 08:26:41 INFO main - commercialBaseCount=1
+2023-05-13 08:26:41 INFO main - transferMsgByHeap=true
+2023-05-13 08:26:41 INFO main - maxDelayTime=40
+2023-05-13 08:26:41 INFO main - regionId=DefaultRegion
+2023-05-13 08:26:41 INFO main - registerBrokerTimeoutMills=6000
+2023-05-13 08:26:41 INFO main - slaveReadEnable=false
+2023-05-13 08:26:41 INFO main - disableConsumeIfConsumerReadSlowly=false
+2023-05-13 08:26:41 INFO main - consumerFallbehindThreshold=17179869184
+2023-05-13 08:26:41 INFO main - brokerFastFailureEnable=true
+2023-05-13 08:26:41 INFO main - waitTimeMillsInSendQueue=200
+2023-05-13 08:26:41 INFO main - waitTimeMillsInPullQueue=5000
+2023-05-13 08:26:41 INFO main - waitTimeMillsInHeartbeatQueue=31000
+2023-05-13 08:26:41 INFO main - waitTimeMillsInTransactionQueue=3000
+2023-05-13 08:26:41 INFO main - startAcceptSendRequestTimeStamp=0
+2023-05-13 08:26:41 INFO main - traceOn=true
+2023-05-13 08:26:41 INFO main - enableCalcFilterBitMap=false
+2023-05-13 08:26:41 INFO main - expectConsumerNumUseFilter=32
+2023-05-13 08:26:41 INFO main - maxErrorRateOfBloomFilter=20
+2023-05-13 08:26:41 INFO main - filterDataCleanTimeSpan=86400000
+2023-05-13 08:26:41 INFO main - filterSupportRetry=false
+2023-05-13 08:26:41 INFO main - enablePropertyFilter=false
+2023-05-13 08:26:41 INFO main - compressedRegister=false
+2023-05-13 08:26:41 INFO main - forceRegister=true
+2023-05-13 08:26:41 INFO main - registerNameServerPeriod=30000
+2023-05-13 08:26:41 INFO main - transactionTimeOut=6000
+2023-05-13 08:26:41 INFO main - transactionCheckMax=15
+2023-05-13 08:26:41 INFO main - transactionCheckInterval=60000
+2023-05-13 08:26:41 INFO main - aclEnable=false
+2023-05-13 08:26:41 INFO main - listenPort=10911
+2023-05-13 08:26:41 INFO main - serverWorkerThreads=8
+2023-05-13 08:26:41 INFO main - serverCallbackExecutorThreads=0
+2023-05-13 08:26:41 INFO main - serverSelectorThreads=3
+2023-05-13 08:26:41 INFO main - serverOnewaySemaphoreValue=256
+2023-05-13 08:26:41 INFO main - serverAsyncSemaphoreValue=64
+2023-05-13 08:26:41 INFO main - serverChannelMaxIdleTimeSeconds=120
+2023-05-13 08:26:41 INFO main - serverSocketSndBufSize=131072
+2023-05-13 08:26:41 INFO main - serverSocketRcvBufSize=131072
+2023-05-13 08:26:41 INFO main - serverPooledByteBufAllocatorEnable=true
+2023-05-13 08:26:41 INFO main - useEpollNativeSelector=false
+2023-05-13 08:26:41 INFO main - clientWorkerThreads=4
+2023-05-13 08:26:41 INFO main - clientCallbackExecutorThreads=4
+2023-05-13 08:26:41 INFO main - clientOnewaySemaphoreValue=65535
+2023-05-13 08:26:41 INFO main - clientAsyncSemaphoreValue=65535
+2023-05-13 08:26:41 INFO main - connectTimeoutMillis=3000
+2023-05-13 08:26:41 INFO main - channelNotActiveInterval=60000
+2023-05-13 08:26:41 INFO main - clientChannelMaxIdleTimeSeconds=120
+2023-05-13 08:26:41 INFO main - clientSocketSndBufSize=131072
+2023-05-13 08:26:41 INFO main - clientSocketRcvBufSize=131072
+2023-05-13 08:26:41 INFO main - clientPooledByteBufAllocatorEnable=false
+2023-05-13 08:26:41 INFO main - clientCloseSocketIfTimeout=false
+2023-05-13 08:26:41 INFO main - useTLS=false
+2023-05-13 08:26:41 INFO main - storePathRootDir=/home/rocketmq/store
+2023-05-13 08:26:41 INFO main - storePathCommitLog=/home/rocketmq/store/commitlog
+2023-05-13 08:26:41 INFO main - mapedFileSizeCommitLog=1073741824
+2023-05-13 08:26:41 INFO main - mapedFileSizeConsumeQueue=6000000
+2023-05-13 08:26:41 INFO main - enableConsumeQueueExt=false
+2023-05-13 08:26:41 INFO main - mappedFileSizeConsumeQueueExt=50331648
+2023-05-13 08:26:41 INFO main - bitMapLengthConsumeQueueExt=64
+2023-05-13 08:26:41 INFO main - flushIntervalCommitLog=500
+2023-05-13 08:26:41 INFO main - commitIntervalCommitLog=200
+2023-05-13 08:26:41 INFO main - useReentrantLockWhenPutMessage=false
+2023-05-13 08:26:41 INFO main - flushCommitLogTimed=false
+2023-05-13 08:26:41 INFO main - flushIntervalConsumeQueue=1000
+2023-05-13 08:26:41 INFO main - cleanResourceInterval=10000
+2023-05-13 08:26:41 INFO main - deleteCommitLogFilesInterval=100
+2023-05-13 08:26:41 INFO main - deleteConsumeQueueFilesInterval=100
+2023-05-13 08:26:41 INFO main - destroyMapedFileIntervalForcibly=120000
+2023-05-13 08:26:41 INFO main - redeleteHangedFileInterval=120000
+2023-05-13 08:26:41 INFO main - deleteWhen=04
+2023-05-13 08:26:41 INFO main - diskMaxUsedSpaceRatio=75
+2023-05-13 08:26:41 INFO main - fileReservedTime=48
+2023-05-13 08:26:41 INFO main - putMsgIndexHightWater=600000
+2023-05-13 08:26:41 INFO main - maxMessageSize=4194304
+2023-05-13 08:26:41 INFO main - checkCRCOnRecover=true
+2023-05-13 08:26:41 INFO main - flushCommitLogLeastPages=4
+2023-05-13 08:26:41 INFO main - commitCommitLogLeastPages=4
+2023-05-13 08:26:41 INFO main - flushLeastPagesWhenWarmMapedFile=4096
+2023-05-13 08:26:41 INFO main - flushConsumeQueueLeastPages=2
+2023-05-13 08:26:41 INFO main - flushCommitLogThoroughInterval=10000
+2023-05-13 08:26:41 INFO main - commitCommitLogThoroughInterval=200
+2023-05-13 08:26:41 INFO main - flushConsumeQueueThoroughInterval=60000
+2023-05-13 08:26:41 INFO main - maxTransferBytesOnMessageInMemory=262144
+2023-05-13 08:26:41 INFO main - maxTransferCountOnMessageInMemory=32
+2023-05-13 08:26:41 INFO main - maxTransferBytesOnMessageInDisk=65536
+2023-05-13 08:26:41 INFO main - maxTransferCountOnMessageInDisk=8
+2023-05-13 08:26:41 INFO main - accessMessageInMemoryMaxRatio=40
+2023-05-13 08:26:41 INFO main - messageIndexEnable=true
+2023-05-13 08:26:41 INFO main - maxHashSlotNum=5000000
+2023-05-13 08:26:41 INFO main - maxIndexNum=20000000
+2023-05-13 08:26:41 INFO main - maxMsgsNumBatch=64
+2023-05-13 08:26:41 INFO main - messageIndexSafe=false
+2023-05-13 08:26:41 INFO main - haListenPort=10912
+2023-05-13 08:26:41 INFO main - haSendHeartbeatInterval=5000
+2023-05-13 08:26:41 INFO main - haHousekeepingInterval=20000
+2023-05-13 08:26:41 INFO main - haTransferBatchSize=32768
+2023-05-13 08:26:41 INFO main - haMasterAddress=
+2023-05-13 08:26:41 INFO main - haSlaveFallbehindMax=268435456
+2023-05-13 08:26:41 INFO main - brokerRole=ASYNC_MASTER
+2023-05-13 08:26:41 INFO main - flushDiskType=ASYNC_FLUSH
+2023-05-13 08:26:41 INFO main - syncFlushTimeout=5000
+2023-05-13 08:26:41 INFO main - messageDelayLevel=1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h
+2023-05-13 08:26:41 INFO main - flushDelayOffsetInterval=10000
+2023-05-13 08:26:41 INFO main - cleanFileForciblyEnable=true
+2023-05-13 08:26:41 INFO main - warmMapedFileEnable=false
+2023-05-13 08:26:41 INFO main - offsetCheckInSlave=false
+2023-05-13 08:26:41 INFO main - debugLockEnable=false
+2023-05-13 08:26:41 INFO main - duplicationEnable=false
+2023-05-13 08:26:41 INFO main - diskFallRecorded=true
+2023-05-13 08:26:41 INFO main - osPageCacheBusyTimeOutMills=1000
+2023-05-13 08:26:41 INFO main - defaultQueryMaxNum=32
+2023-05-13 08:26:41 INFO main - transientStorePoolEnable=false
+2023-05-13 08:26:41 INFO main - transientStorePoolSize=5
+2023-05-13 08:26:41 INFO main - fastFailIfNoBufferInStorePool=false
+2023-05-13 08:26:41 INFO main - enableDLegerCommitLog=false
+2023-05-13 08:26:41 INFO main - dLegerGroup=
+2023-05-13 08:26:41 INFO main - dLegerPeers=
+2023-05-13 08:26:41 INFO main - dLegerSelfId=
+2023-05-13 08:26:46 INFO main - load exist local topic, TopicConfig [topicName=RMQ_SYS_TRANS_HALF_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 08:26:46 INFO main - load exist local topic, TopicConfig [topicName=BenchmarkTest, readQueueNums=1024, writeQueueNums=1024, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 08:26:46 INFO main - load exist local topic, TopicConfig [topicName=OFFSET_MOVED_EVENT, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 08:26:46 INFO main - load exist local topic, TopicConfig [topicName=broker-a, readQueueNums=1, writeQueueNums=1, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 08:26:46 INFO main - load exist local topic, TopicConfig [topicName=TBW102, readQueueNums=8, writeQueueNums=8, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 08:26:46 INFO main - load exist local topic, TopicConfig [topicName=SELF_TEST_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 08:26:46 INFO main - load exist local topic, TopicConfig [topicName=DefaultCluster, readQueueNums=16, writeQueueNums=16, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 08:26:46 INFO main - load /home/rocketmq/store/config/topics.json OK
+2023-05-13 08:26:46 INFO main - load /home/rocketmq/store/config/consumerOffset.json OK
+2023-05-13 08:26:46 INFO main - load /home/rocketmq/store/config/consumerFilter.json OK
+2023-05-13 08:26:47 INFO main - Try to start service thread:AllocateMappedFileService started:false lastThread:null
+2023-05-13 08:26:47 INFO main - load /home/rocketmq/store/config/delayOffset.json OK
+2023-05-13 08:26:56 INFO main - Set user specified name server address: rmqnamesrv:9876
+2023-05-13 08:26:56 WARN main - Load default transaction message hook service: TransactionalMessageServiceImpl
+2023-05-13 08:26:56 WARN main - Load default discard message hook service: DefaultTransactionalMessageCheckListener
+2023-05-13 08:26:56 INFO main - The broker dose not enable acl
+2023-05-13 08:26:56 INFO main - Try to start service thread:ReputMessageService started:false lastThread:null
+2023-05-13 08:26:56 INFO main - Try to start service thread:AcceptSocketService started:false lastThread:null
+2023-05-13 08:26:56 INFO main - Try to start service thread:GroupTransferService started:false lastThread:null
+2023-05-13 08:26:56 INFO main - Try to start service thread:HAClient started:false lastThread:null
+2023-05-13 08:26:56 INFO main - Try to start service thread:FlushConsumeQueueService started:false lastThread:null
+2023-05-13 08:26:56 INFO main - Try to start service thread:FlushRealTimeService started:false lastThread:null
+2023-05-13 08:26:56 INFO main - Try to start service thread:StoreStatsService started:false lastThread:null
+2023-05-13 08:26:57 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2023-05-13 08:26:57 INFO main - Try to start service thread:PullRequestHoldService started:false lastThread:null
+2023-05-13 08:26:57 INFO FileWatchService - FileWatchService service started
+2023-05-13 08:26:57 INFO PullRequestHoldService - PullRequestHoldService service started
+2023-05-13 08:26:57 INFO main - Try to start service thread:TransactionalMessageCheckService started:false lastThread:null
+2023-05-13 08:27:01 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:27:01 INFO main - The broker[broker-a, 192.168.1.10:10911] boot success. serializeType=JSON and name server is rmqnamesrv:9876
+2023-05-13 08:27:06 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 08:27:06 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 08:27:11 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:27:41 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:28:06 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 08:28:06 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 08:28:11 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:28:41 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:29:06 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 08:29:06 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 08:29:11 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:29:41 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:30:06 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 08:30:06 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 08:30:11 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:30:41 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:31:06 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 08:31:06 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 08:31:11 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:31:42 WARN brokerOutApi_thread_3 - registerBroker Exception, rmqnamesrv:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to <rmqnamesrv:9876> failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:392) ~[rocketmq-remoting-4.5.0.jar:4.5.0]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:194) ~[rocketmq-broker-4.5.0.jar:4.5.0]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:61) ~[rocketmq-broker-4.5.0.jar:4.5.0]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:150) ~[rocketmq-broker-4.5.0.jar:4.5.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_232]
+2023-05-13 08:32:05 INFO main - rocketmqHome=/home/rocketmq/rocketmq-4.5.0
+2023-05-13 08:32:05 INFO main - namesrvAddr=rmqnamesrv:9876
+2023-05-13 08:32:05 INFO main - brokerIP1=192.168.1.10
+2023-05-13 08:32:05 INFO main - brokerIP2=172.18.0.8
+2023-05-13 08:32:05 INFO main - brokerName=broker-a
+2023-05-13 08:32:05 INFO main - brokerClusterName=DefaultCluster
+2023-05-13 08:32:05 INFO main - brokerId=0
+2023-05-13 08:32:05 INFO main - brokerPermission=6
+2023-05-13 08:32:05 INFO main - defaultTopicQueueNums=8
+2023-05-13 08:32:05 INFO main - autoCreateTopicEnable=true
+2023-05-13 08:32:05 INFO main - clusterTopicEnable=true
+2023-05-13 08:32:05 INFO main - brokerTopicEnable=true
+2023-05-13 08:32:05 INFO main - autoCreateSubscriptionGroup=true
+2023-05-13 08:32:05 INFO main - messageStorePlugIn=
+2023-05-13 08:32:05 INFO main - msgTraceTopicName=RMQ_SYS_TRACE_TOPIC
+2023-05-13 08:32:05 INFO main - traceTopicEnable=false
+2023-05-13 08:32:05 INFO main - sendMessageThreadPoolNums=1
+2023-05-13 08:32:05 INFO main - pullMessageThreadPoolNums=24
+2023-05-13 08:32:05 INFO main - queryMessageThreadPoolNums=12
+2023-05-13 08:32:05 INFO main - adminBrokerThreadPoolNums=16
+2023-05-13 08:32:05 INFO main - clientManageThreadPoolNums=32
+2023-05-13 08:32:05 INFO main - consumerManageThreadPoolNums=32
+2023-05-13 08:32:05 INFO main - heartbeatThreadPoolNums=4
+2023-05-13 08:32:05 INFO main - endTransactionThreadPoolNums=16
+2023-05-13 08:32:05 INFO main - flushConsumerOffsetInterval=5000
+2023-05-13 08:32:05 INFO main - flushConsumerOffsetHistoryInterval=60000
+2023-05-13 08:32:05 INFO main - rejectTransactionMessage=false
+2023-05-13 08:32:05 INFO main - fetchNamesrvAddrByAddressServer=false
+2023-05-13 08:32:05 INFO main - sendThreadPoolQueueCapacity=10000
+2023-05-13 08:32:05 INFO main - pullThreadPoolQueueCapacity=100000
+2023-05-13 08:32:05 INFO main - queryThreadPoolQueueCapacity=20000
+2023-05-13 08:32:05 INFO main - clientManagerThreadPoolQueueCapacity=1000000
+2023-05-13 08:32:05 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
+2023-05-13 08:32:05 INFO main - heartbeatThreadPoolQueueCapacity=50000
+2023-05-13 08:32:05 INFO main - endTransactionPoolQueueCapacity=100000
+2023-05-13 08:32:05 INFO main - filterServerNums=0
+2023-05-13 08:32:05 INFO main - longPollingEnable=true
+2023-05-13 08:32:05 INFO main - shortPollingTimeMills=1000
+2023-05-13 08:32:05 INFO main - notifyConsumerIdsChangedEnable=true
+2023-05-13 08:32:05 INFO main - highSpeedMode=false
+2023-05-13 08:32:05 INFO main - commercialEnable=true
+2023-05-13 08:32:05 INFO main - commercialTimerCount=1
+2023-05-13 08:32:05 INFO main - commercialTransCount=1
+2023-05-13 08:32:05 INFO main - commercialBigCount=1
+2023-05-13 08:32:05 INFO main - commercialBaseCount=1
+2023-05-13 08:32:05 INFO main - transferMsgByHeap=true
+2023-05-13 08:32:05 INFO main - maxDelayTime=40
+2023-05-13 08:32:05 INFO main - regionId=DefaultRegion
+2023-05-13 08:32:05 INFO main - registerBrokerTimeoutMills=6000
+2023-05-13 08:32:05 INFO main - slaveReadEnable=false
+2023-05-13 08:32:05 INFO main - disableConsumeIfConsumerReadSlowly=false
+2023-05-13 08:32:05 INFO main - consumerFallbehindThreshold=17179869184
+2023-05-13 08:32:05 INFO main - brokerFastFailureEnable=true
+2023-05-13 08:32:05 INFO main - waitTimeMillsInSendQueue=200
+2023-05-13 08:32:05 INFO main - waitTimeMillsInPullQueue=5000
+2023-05-13 08:32:05 INFO main - waitTimeMillsInHeartbeatQueue=31000
+2023-05-13 08:32:05 INFO main - waitTimeMillsInTransactionQueue=3000
+2023-05-13 08:32:05 INFO main - startAcceptSendRequestTimeStamp=0
+2023-05-13 08:32:05 INFO main - traceOn=true
+2023-05-13 08:32:05 INFO main - enableCalcFilterBitMap=false
+2023-05-13 08:32:05 INFO main - expectConsumerNumUseFilter=32
+2023-05-13 08:32:05 INFO main - maxErrorRateOfBloomFilter=20
+2023-05-13 08:32:05 INFO main - filterDataCleanTimeSpan=86400000
+2023-05-13 08:32:05 INFO main - filterSupportRetry=false
+2023-05-13 08:32:05 INFO main - enablePropertyFilter=false
+2023-05-13 08:32:05 INFO main - compressedRegister=false
+2023-05-13 08:32:05 INFO main - forceRegister=true
+2023-05-13 08:32:05 INFO main - registerNameServerPeriod=30000
+2023-05-13 08:32:05 INFO main - transactionTimeOut=6000
+2023-05-13 08:32:05 INFO main - transactionCheckMax=15
+2023-05-13 08:32:05 INFO main - transactionCheckInterval=60000
+2023-05-13 08:32:05 INFO main - aclEnable=false
+2023-05-13 08:32:05 INFO main - listenPort=10911
+2023-05-13 08:32:05 INFO main - serverWorkerThreads=8
+2023-05-13 08:32:05 INFO main - serverCallbackExecutorThreads=0
+2023-05-13 08:32:05 INFO main - serverSelectorThreads=3
+2023-05-13 08:32:05 INFO main - serverOnewaySemaphoreValue=256
+2023-05-13 08:32:05 INFO main - serverAsyncSemaphoreValue=64
+2023-05-13 08:32:05 INFO main - serverChannelMaxIdleTimeSeconds=120
+2023-05-13 08:32:05 INFO main - serverSocketSndBufSize=131072
+2023-05-13 08:32:05 INFO main - serverSocketRcvBufSize=131072
+2023-05-13 08:32:05 INFO main - serverPooledByteBufAllocatorEnable=true
+2023-05-13 08:32:05 INFO main - useEpollNativeSelector=false
+2023-05-13 08:32:05 INFO main - clientWorkerThreads=4
+2023-05-13 08:32:05 INFO main - clientCallbackExecutorThreads=4
+2023-05-13 08:32:05 INFO main - clientOnewaySemaphoreValue=65535
+2023-05-13 08:32:05 INFO main - clientAsyncSemaphoreValue=65535
+2023-05-13 08:32:05 INFO main - connectTimeoutMillis=3000
+2023-05-13 08:32:05 INFO main - channelNotActiveInterval=60000
+2023-05-13 08:32:05 INFO main - clientChannelMaxIdleTimeSeconds=120
+2023-05-13 08:32:05 INFO main - clientSocketSndBufSize=131072
+2023-05-13 08:32:05 INFO main - clientSocketRcvBufSize=131072
+2023-05-13 08:32:05 INFO main - clientPooledByteBufAllocatorEnable=false
+2023-05-13 08:32:05 INFO main - clientCloseSocketIfTimeout=false
+2023-05-13 08:32:05 INFO main - useTLS=false
+2023-05-13 08:32:05 INFO main - storePathRootDir=/home/rocketmq/store
+2023-05-13 08:32:05 INFO main - storePathCommitLog=/home/rocketmq/store/commitlog
+2023-05-13 08:32:05 INFO main - mapedFileSizeCommitLog=1073741824
+2023-05-13 08:32:05 INFO main - mapedFileSizeConsumeQueue=6000000
+2023-05-13 08:32:05 INFO main - enableConsumeQueueExt=false
+2023-05-13 08:32:05 INFO main - mappedFileSizeConsumeQueueExt=50331648
+2023-05-13 08:32:05 INFO main - bitMapLengthConsumeQueueExt=64
+2023-05-13 08:32:05 INFO main - flushIntervalCommitLog=500
+2023-05-13 08:32:05 INFO main - commitIntervalCommitLog=200
+2023-05-13 08:32:05 INFO main - useReentrantLockWhenPutMessage=false
+2023-05-13 08:32:05 INFO main - flushCommitLogTimed=false
+2023-05-13 08:32:05 INFO main - flushIntervalConsumeQueue=1000
+2023-05-13 08:32:05 INFO main - cleanResourceInterval=10000
+2023-05-13 08:32:05 INFO main - deleteCommitLogFilesInterval=100
+2023-05-13 08:32:05 INFO main - deleteConsumeQueueFilesInterval=100
+2023-05-13 08:32:05 INFO main - destroyMapedFileIntervalForcibly=120000
+2023-05-13 08:32:05 INFO main - redeleteHangedFileInterval=120000
+2023-05-13 08:32:05 INFO main - deleteWhen=04
+2023-05-13 08:32:05 INFO main - diskMaxUsedSpaceRatio=75
+2023-05-13 08:32:05 INFO main - fileReservedTime=48
+2023-05-13 08:32:05 INFO main - putMsgIndexHightWater=600000
+2023-05-13 08:32:05 INFO main - maxMessageSize=4194304
+2023-05-13 08:32:05 INFO main - checkCRCOnRecover=true
+2023-05-13 08:32:05 INFO main - flushCommitLogLeastPages=4
+2023-05-13 08:32:05 INFO main - commitCommitLogLeastPages=4
+2023-05-13 08:32:05 INFO main - flushLeastPagesWhenWarmMapedFile=4096
+2023-05-13 08:32:05 INFO main - flushConsumeQueueLeastPages=2
+2023-05-13 08:32:05 INFO main - flushCommitLogThoroughInterval=10000
+2023-05-13 08:32:05 INFO main - commitCommitLogThoroughInterval=200
+2023-05-13 08:32:05 INFO main - flushConsumeQueueThoroughInterval=60000
+2023-05-13 08:32:05 INFO main - maxTransferBytesOnMessageInMemory=262144
+2023-05-13 08:32:05 INFO main - maxTransferCountOnMessageInMemory=32
+2023-05-13 08:32:05 INFO main - maxTransferBytesOnMessageInDisk=65536
+2023-05-13 08:32:05 INFO main - maxTransferCountOnMessageInDisk=8
+2023-05-13 08:32:05 INFO main - accessMessageInMemoryMaxRatio=40
+2023-05-13 08:32:05 INFO main - messageIndexEnable=true
+2023-05-13 08:32:05 INFO main - maxHashSlotNum=5000000
+2023-05-13 08:32:05 INFO main - maxIndexNum=20000000
+2023-05-13 08:32:05 INFO main - maxMsgsNumBatch=64
+2023-05-13 08:32:05 INFO main - messageIndexSafe=false
+2023-05-13 08:32:05 INFO main - haListenPort=10912
+2023-05-13 08:32:05 INFO main - haSendHeartbeatInterval=5000
+2023-05-13 08:32:05 INFO main - haHousekeepingInterval=20000
+2023-05-13 08:32:05 INFO main - haTransferBatchSize=32768
+2023-05-13 08:32:05 INFO main - haMasterAddress=
+2023-05-13 08:32:05 INFO main - haSlaveFallbehindMax=268435456
+2023-05-13 08:32:05 INFO main - brokerRole=ASYNC_MASTER
+2023-05-13 08:32:05 INFO main - flushDiskType=ASYNC_FLUSH
+2023-05-13 08:32:05 INFO main - syncFlushTimeout=5000
+2023-05-13 08:32:05 INFO main - messageDelayLevel=1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h
+2023-05-13 08:32:05 INFO main - flushDelayOffsetInterval=10000
+2023-05-13 08:32:05 INFO main - cleanFileForciblyEnable=true
+2023-05-13 08:32:05 INFO main - warmMapedFileEnable=false
+2023-05-13 08:32:05 INFO main - offsetCheckInSlave=false
+2023-05-13 08:32:05 INFO main - debugLockEnable=false
+2023-05-13 08:32:05 INFO main - duplicationEnable=false
+2023-05-13 08:32:05 INFO main - diskFallRecorded=true
+2023-05-13 08:32:05 INFO main - osPageCacheBusyTimeOutMills=1000
+2023-05-13 08:32:05 INFO main - defaultQueryMaxNum=32
+2023-05-13 08:32:05 INFO main - transientStorePoolEnable=false
+2023-05-13 08:32:05 INFO main - transientStorePoolSize=5
+2023-05-13 08:32:05 INFO main - fastFailIfNoBufferInStorePool=false
+2023-05-13 08:32:05 INFO main - enableDLegerCommitLog=false
+2023-05-13 08:32:05 INFO main - dLegerGroup=
+2023-05-13 08:32:05 INFO main - dLegerPeers=
+2023-05-13 08:32:05 INFO main - dLegerSelfId=
+2023-05-13 08:32:11 INFO main - load exist local topic, TopicConfig [topicName=RMQ_SYS_TRANS_HALF_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 08:32:11 INFO main - load exist local topic, TopicConfig [topicName=BenchmarkTest, readQueueNums=1024, writeQueueNums=1024, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 08:32:11 INFO main - load exist local topic, TopicConfig [topicName=OFFSET_MOVED_EVENT, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 08:32:11 INFO main - load exist local topic, TopicConfig [topicName=broker-a, readQueueNums=1, writeQueueNums=1, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 08:32:11 INFO main - load exist local topic, TopicConfig [topicName=TBW102, readQueueNums=8, writeQueueNums=8, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 08:32:11 INFO main - load exist local topic, TopicConfig [topicName=SELF_TEST_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 08:32:11 INFO main - load exist local topic, TopicConfig [topicName=DefaultCluster, readQueueNums=16, writeQueueNums=16, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 08:32:11 INFO main - load /home/rocketmq/store/config/topics.json OK
+2023-05-13 08:32:11 INFO main - load /home/rocketmq/store/config/consumerOffset.json OK
+2023-05-13 08:32:11 INFO main - load /home/rocketmq/store/config/consumerFilter.json OK
+2023-05-13 08:32:11 INFO main - Try to start service thread:AllocateMappedFileService started:false lastThread:null
+2023-05-13 08:32:11 INFO main - load /home/rocketmq/store/config/delayOffset.json OK
+2023-05-13 08:32:23 INFO main - Set user specified name server address: rmqnamesrv:9876
+2023-05-13 08:32:23 WARN main - Load default transaction message hook service: TransactionalMessageServiceImpl
+2023-05-13 08:32:23 WARN main - Load default discard message hook service: DefaultTransactionalMessageCheckListener
+2023-05-13 08:32:23 INFO main - The broker dose not enable acl
+2023-05-13 08:32:23 INFO main - Try to start service thread:ReputMessageService started:false lastThread:null
+2023-05-13 08:32:23 INFO main - Try to start service thread:AcceptSocketService started:false lastThread:null
+2023-05-13 08:32:23 INFO main - Try to start service thread:GroupTransferService started:false lastThread:null
+2023-05-13 08:32:23 INFO main - Try to start service thread:HAClient started:false lastThread:null
+2023-05-13 08:32:23 INFO main - Try to start service thread:FlushConsumeQueueService started:false lastThread:null
+2023-05-13 08:32:23 INFO main - Try to start service thread:FlushRealTimeService started:false lastThread:null
+2023-05-13 08:32:23 INFO main - Try to start service thread:StoreStatsService started:false lastThread:null
+2023-05-13 08:32:24 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2023-05-13 08:32:24 INFO FileWatchService - FileWatchService service started
+2023-05-13 08:32:25 INFO main - Try to start service thread:PullRequestHoldService started:false lastThread:null
+2023-05-13 08:32:25 INFO PullRequestHoldService - PullRequestHoldService service started
+2023-05-13 08:32:25 INFO main - Try to start service thread:TransactionalMessageCheckService started:false lastThread:null
+2023-05-13 08:32:28 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 08:32:28 INFO main - The broker[broker-a, 192.168.1.10:10911] boot success. serializeType=JSON and name server is rmqnamesrv:9876
+2023-05-13 08:32:33 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 08:32:33 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 08:32:38 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:37:53 INFO main - rocketmqHome=/home/rocketmq/rocketmq-4.5.0
+2023-05-13 09:37:53 INFO main - namesrvAddr=rmqnamesrv:9876
+2023-05-13 09:37:53 INFO main - brokerIP1=192.168.1.10
+2023-05-13 09:37:53 INFO main - brokerIP2=172.18.0.9
+2023-05-13 09:37:53 INFO main - brokerName=broker-a
+2023-05-13 09:37:53 INFO main - brokerClusterName=DefaultCluster
+2023-05-13 09:37:53 INFO main - brokerId=0
+2023-05-13 09:37:53 INFO main - brokerPermission=6
+2023-05-13 09:37:53 INFO main - defaultTopicQueueNums=8
+2023-05-13 09:37:53 INFO main - autoCreateTopicEnable=true
+2023-05-13 09:37:53 INFO main - clusterTopicEnable=true
+2023-05-13 09:37:53 INFO main - brokerTopicEnable=true
+2023-05-13 09:37:53 INFO main - autoCreateSubscriptionGroup=true
+2023-05-13 09:37:53 INFO main - messageStorePlugIn=
+2023-05-13 09:37:53 INFO main - msgTraceTopicName=RMQ_SYS_TRACE_TOPIC
+2023-05-13 09:37:53 INFO main - traceTopicEnable=false
+2023-05-13 09:37:53 INFO main - sendMessageThreadPoolNums=1
+2023-05-13 09:37:53 INFO main - pullMessageThreadPoolNums=24
+2023-05-13 09:37:53 INFO main - queryMessageThreadPoolNums=12
+2023-05-13 09:37:53 INFO main - adminBrokerThreadPoolNums=16
+2023-05-13 09:37:53 INFO main - clientManageThreadPoolNums=32
+2023-05-13 09:37:53 INFO main - consumerManageThreadPoolNums=32
+2023-05-13 09:37:53 INFO main - heartbeatThreadPoolNums=4
+2023-05-13 09:37:53 INFO main - endTransactionThreadPoolNums=16
+2023-05-13 09:37:53 INFO main - flushConsumerOffsetInterval=5000
+2023-05-13 09:37:53 INFO main - flushConsumerOffsetHistoryInterval=60000
+2023-05-13 09:37:53 INFO main - rejectTransactionMessage=false
+2023-05-13 09:37:53 INFO main - fetchNamesrvAddrByAddressServer=false
+2023-05-13 09:37:53 INFO main - sendThreadPoolQueueCapacity=10000
+2023-05-13 09:37:53 INFO main - pullThreadPoolQueueCapacity=100000
+2023-05-13 09:37:53 INFO main - queryThreadPoolQueueCapacity=20000
+2023-05-13 09:37:53 INFO main - clientManagerThreadPoolQueueCapacity=1000000
+2023-05-13 09:37:53 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
+2023-05-13 09:37:53 INFO main - heartbeatThreadPoolQueueCapacity=50000
+2023-05-13 09:37:53 INFO main - endTransactionPoolQueueCapacity=100000
+2023-05-13 09:37:53 INFO main - filterServerNums=0
+2023-05-13 09:37:53 INFO main - longPollingEnable=true
+2023-05-13 09:37:53 INFO main - shortPollingTimeMills=1000
+2023-05-13 09:37:53 INFO main - notifyConsumerIdsChangedEnable=true
+2023-05-13 09:37:53 INFO main - highSpeedMode=false
+2023-05-13 09:37:53 INFO main - commercialEnable=true
+2023-05-13 09:37:53 INFO main - commercialTimerCount=1
+2023-05-13 09:37:53 INFO main - commercialTransCount=1
+2023-05-13 09:37:53 INFO main - commercialBigCount=1
+2023-05-13 09:37:53 INFO main - commercialBaseCount=1
+2023-05-13 09:37:53 INFO main - transferMsgByHeap=true
+2023-05-13 09:37:53 INFO main - maxDelayTime=40
+2023-05-13 09:37:53 INFO main - regionId=DefaultRegion
+2023-05-13 09:37:53 INFO main - registerBrokerTimeoutMills=6000
+2023-05-13 09:37:53 INFO main - slaveReadEnable=false
+2023-05-13 09:37:53 INFO main - disableConsumeIfConsumerReadSlowly=false
+2023-05-13 09:37:53 INFO main - consumerFallbehindThreshold=17179869184
+2023-05-13 09:37:53 INFO main - brokerFastFailureEnable=true
+2023-05-13 09:37:53 INFO main - waitTimeMillsInSendQueue=200
+2023-05-13 09:37:53 INFO main - waitTimeMillsInPullQueue=5000
+2023-05-13 09:37:53 INFO main - waitTimeMillsInHeartbeatQueue=31000
+2023-05-13 09:37:53 INFO main - waitTimeMillsInTransactionQueue=3000
+2023-05-13 09:37:53 INFO main - startAcceptSendRequestTimeStamp=0
+2023-05-13 09:37:53 INFO main - traceOn=true
+2023-05-13 09:37:53 INFO main - enableCalcFilterBitMap=false
+2023-05-13 09:37:53 INFO main - expectConsumerNumUseFilter=32
+2023-05-13 09:37:53 INFO main - maxErrorRateOfBloomFilter=20
+2023-05-13 09:37:53 INFO main - filterDataCleanTimeSpan=86400000
+2023-05-13 09:37:53 INFO main - filterSupportRetry=false
+2023-05-13 09:37:53 INFO main - enablePropertyFilter=false
+2023-05-13 09:37:53 INFO main - compressedRegister=false
+2023-05-13 09:37:53 INFO main - forceRegister=true
+2023-05-13 09:37:53 INFO main - registerNameServerPeriod=30000
+2023-05-13 09:37:53 INFO main - transactionTimeOut=6000
+2023-05-13 09:37:53 INFO main - transactionCheckMax=15
+2023-05-13 09:37:53 INFO main - transactionCheckInterval=60000
+2023-05-13 09:37:53 INFO main - aclEnable=false
+2023-05-13 09:37:53 INFO main - listenPort=10911
+2023-05-13 09:37:53 INFO main - serverWorkerThreads=8
+2023-05-13 09:37:53 INFO main - serverCallbackExecutorThreads=0
+2023-05-13 09:37:53 INFO main - serverSelectorThreads=3
+2023-05-13 09:37:53 INFO main - serverOnewaySemaphoreValue=256
+2023-05-13 09:37:53 INFO main - serverAsyncSemaphoreValue=64
+2023-05-13 09:37:53 INFO main - serverChannelMaxIdleTimeSeconds=120
+2023-05-13 09:37:53 INFO main - serverSocketSndBufSize=131072
+2023-05-13 09:37:53 INFO main - serverSocketRcvBufSize=131072
+2023-05-13 09:37:53 INFO main - serverPooledByteBufAllocatorEnable=true
+2023-05-13 09:37:53 INFO main - useEpollNativeSelector=false
+2023-05-13 09:37:53 INFO main - clientWorkerThreads=4
+2023-05-13 09:37:53 INFO main - clientCallbackExecutorThreads=4
+2023-05-13 09:37:53 INFO main - clientOnewaySemaphoreValue=65535
+2023-05-13 09:37:53 INFO main - clientAsyncSemaphoreValue=65535
+2023-05-13 09:37:53 INFO main - connectTimeoutMillis=3000
+2023-05-13 09:37:53 INFO main - channelNotActiveInterval=60000
+2023-05-13 09:37:53 INFO main - clientChannelMaxIdleTimeSeconds=120
+2023-05-13 09:37:53 INFO main - clientSocketSndBufSize=131072
+2023-05-13 09:37:53 INFO main - clientSocketRcvBufSize=131072
+2023-05-13 09:37:53 INFO main - clientPooledByteBufAllocatorEnable=false
+2023-05-13 09:37:53 INFO main - clientCloseSocketIfTimeout=false
+2023-05-13 09:37:53 INFO main - useTLS=false
+2023-05-13 09:37:53 INFO main - storePathRootDir=/home/rocketmq/store
+2023-05-13 09:37:53 INFO main - storePathCommitLog=/home/rocketmq/store/commitlog
+2023-05-13 09:37:53 INFO main - mapedFileSizeCommitLog=1073741824
+2023-05-13 09:37:53 INFO main - mapedFileSizeConsumeQueue=6000000
+2023-05-13 09:37:53 INFO main - enableConsumeQueueExt=false
+2023-05-13 09:37:53 INFO main - mappedFileSizeConsumeQueueExt=50331648
+2023-05-13 09:37:53 INFO main - bitMapLengthConsumeQueueExt=64
+2023-05-13 09:37:53 INFO main - flushIntervalCommitLog=500
+2023-05-13 09:37:53 INFO main - commitIntervalCommitLog=200
+2023-05-13 09:37:53 INFO main - useReentrantLockWhenPutMessage=false
+2023-05-13 09:37:53 INFO main - flushCommitLogTimed=false
+2023-05-13 09:37:53 INFO main - flushIntervalConsumeQueue=1000
+2023-05-13 09:37:53 INFO main - cleanResourceInterval=10000
+2023-05-13 09:37:53 INFO main - deleteCommitLogFilesInterval=100
+2023-05-13 09:37:53 INFO main - deleteConsumeQueueFilesInterval=100
+2023-05-13 09:37:53 INFO main - destroyMapedFileIntervalForcibly=120000
+2023-05-13 09:37:53 INFO main - redeleteHangedFileInterval=120000
+2023-05-13 09:37:53 INFO main - deleteWhen=04
+2023-05-13 09:37:53 INFO main - diskMaxUsedSpaceRatio=75
+2023-05-13 09:37:53 INFO main - fileReservedTime=48
+2023-05-13 09:37:53 INFO main - putMsgIndexHightWater=600000
+2023-05-13 09:37:53 INFO main - maxMessageSize=4194304
+2023-05-13 09:37:53 INFO main - checkCRCOnRecover=true
+2023-05-13 09:37:53 INFO main - flushCommitLogLeastPages=4
+2023-05-13 09:37:53 INFO main - commitCommitLogLeastPages=4
+2023-05-13 09:37:53 INFO main - flushLeastPagesWhenWarmMapedFile=4096
+2023-05-13 09:37:53 INFO main - flushConsumeQueueLeastPages=2
+2023-05-13 09:37:53 INFO main - flushCommitLogThoroughInterval=10000
+2023-05-13 09:37:53 INFO main - commitCommitLogThoroughInterval=200
+2023-05-13 09:37:53 INFO main - flushConsumeQueueThoroughInterval=60000
+2023-05-13 09:37:53 INFO main - maxTransferBytesOnMessageInMemory=262144
+2023-05-13 09:37:53 INFO main - maxTransferCountOnMessageInMemory=32
+2023-05-13 09:37:53 INFO main - maxTransferBytesOnMessageInDisk=65536
+2023-05-13 09:37:53 INFO main - maxTransferCountOnMessageInDisk=8
+2023-05-13 09:37:53 INFO main - accessMessageInMemoryMaxRatio=40
+2023-05-13 09:37:53 INFO main - messageIndexEnable=true
+2023-05-13 09:37:53 INFO main - maxHashSlotNum=5000000
+2023-05-13 09:37:53 INFO main - maxIndexNum=20000000
+2023-05-13 09:37:53 INFO main - maxMsgsNumBatch=64
+2023-05-13 09:37:53 INFO main - messageIndexSafe=false
+2023-05-13 09:37:53 INFO main - haListenPort=10912
+2023-05-13 09:37:53 INFO main - haSendHeartbeatInterval=5000
+2023-05-13 09:37:53 INFO main - haHousekeepingInterval=20000
+2023-05-13 09:37:53 INFO main - haTransferBatchSize=32768
+2023-05-13 09:37:53 INFO main - haMasterAddress=
+2023-05-13 09:37:53 INFO main - haSlaveFallbehindMax=268435456
+2023-05-13 09:37:53 INFO main - brokerRole=ASYNC_MASTER
+2023-05-13 09:37:53 INFO main - flushDiskType=ASYNC_FLUSH
+2023-05-13 09:37:53 INFO main - syncFlushTimeout=5000
+2023-05-13 09:37:53 INFO main - messageDelayLevel=1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h
+2023-05-13 09:37:53 INFO main - flushDelayOffsetInterval=10000
+2023-05-13 09:37:53 INFO main - cleanFileForciblyEnable=true
+2023-05-13 09:37:53 INFO main - warmMapedFileEnable=false
+2023-05-13 09:37:53 INFO main - offsetCheckInSlave=false
+2023-05-13 09:37:53 INFO main - debugLockEnable=false
+2023-05-13 09:37:53 INFO main - duplicationEnable=false
+2023-05-13 09:37:53 INFO main - diskFallRecorded=true
+2023-05-13 09:37:53 INFO main - osPageCacheBusyTimeOutMills=1000
+2023-05-13 09:37:53 INFO main - defaultQueryMaxNum=32
+2023-05-13 09:37:53 INFO main - transientStorePoolEnable=false
+2023-05-13 09:37:53 INFO main - transientStorePoolSize=5
+2023-05-13 09:37:53 INFO main - fastFailIfNoBufferInStorePool=false
+2023-05-13 09:37:53 INFO main - enableDLegerCommitLog=false
+2023-05-13 09:37:53 INFO main - dLegerGroup=
+2023-05-13 09:37:53 INFO main - dLegerPeers=
+2023-05-13 09:37:53 INFO main - dLegerSelfId=
+2023-05-13 09:37:58 INFO main - load exist local topic, TopicConfig [topicName=RMQ_SYS_TRANS_HALF_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 09:37:58 INFO main - load exist local topic, TopicConfig [topicName=BenchmarkTest, readQueueNums=1024, writeQueueNums=1024, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 09:37:58 INFO main - load exist local topic, TopicConfig [topicName=OFFSET_MOVED_EVENT, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 09:37:58 INFO main - load exist local topic, TopicConfig [topicName=broker-a, readQueueNums=1, writeQueueNums=1, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 09:37:58 INFO main - load exist local topic, TopicConfig [topicName=TBW102, readQueueNums=8, writeQueueNums=8, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 09:37:58 INFO main - load exist local topic, TopicConfig [topicName=SELF_TEST_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 09:37:58 INFO main - load exist local topic, TopicConfig [topicName=DefaultCluster, readQueueNums=16, writeQueueNums=16, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 09:37:58 INFO main - load /home/rocketmq/store/config/topics.json OK
+2023-05-13 09:37:58 INFO main - load /home/rocketmq/store/config/consumerOffset.json OK
+2023-05-13 09:37:58 INFO main - load /home/rocketmq/store/config/consumerFilter.json OK
+2023-05-13 09:37:58 INFO main - Try to start service thread:AllocateMappedFileService started:false lastThread:null
+2023-05-13 09:37:58 INFO main - load /home/rocketmq/store/config/delayOffset.json OK
+2023-05-13 09:38:10 INFO main - Set user specified name server address: rmqnamesrv:9876
+2023-05-13 09:38:10 WARN main - Load default transaction message hook service: TransactionalMessageServiceImpl
+2023-05-13 09:38:10 WARN main - Load default discard message hook service: DefaultTransactionalMessageCheckListener
+2023-05-13 09:38:10 INFO main - The broker dose not enable acl
+2023-05-13 09:38:10 INFO main - Try to start service thread:ReputMessageService started:false lastThread:null
+2023-05-13 09:38:10 INFO main - Try to start service thread:AcceptSocketService started:false lastThread:null
+2023-05-13 09:38:10 INFO main - Try to start service thread:GroupTransferService started:false lastThread:null
+2023-05-13 09:38:10 INFO main - Try to start service thread:HAClient started:false lastThread:null
+2023-05-13 09:38:10 INFO main - Try to start service thread:FlushConsumeQueueService started:false lastThread:null
+2023-05-13 09:38:10 INFO main - Try to start service thread:FlushRealTimeService started:false lastThread:null
+2023-05-13 09:38:10 INFO main - Try to start service thread:StoreStatsService started:false lastThread:null
+2023-05-13 09:38:11 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2023-05-13 09:38:11 INFO main - Try to start service thread:PullRequestHoldService started:false lastThread:null
+2023-05-13 09:38:11 INFO PullRequestHoldService - PullRequestHoldService service started
+2023-05-13 09:38:11 INFO FileWatchService - FileWatchService service started
+2023-05-13 09:38:11 INFO main - Try to start service thread:TransactionalMessageCheckService started:false lastThread:null
+2023-05-13 09:38:15 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:38:15 INFO main - The broker[broker-a, 192.168.1.10:10911] boot success. serializeType=JSON and name server is rmqnamesrv:9876
+2023-05-13 09:38:20 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 09:38:20 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 09:38:25 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:38:55 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:39:20 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 09:39:20 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 09:39:25 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:39:55 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:40:20 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 09:40:20 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 09:40:25 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:40:55 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:41:20 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 09:41:20 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 09:41:25 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:41:55 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:43:39 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 09:43:39 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 09:43:43 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:44:13 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:44:39 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 09:44:39 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 09:44:43 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:45:13 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:45:39 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 09:45:39 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 09:45:43 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:46:13 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:46:39 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 09:46:39 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 09:46:43 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:47:13 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:47:39 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 09:47:39 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 09:47:43 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:48:13 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:48:39 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 09:48:39 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 09:48:43 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:49:13 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:49:39 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 09:49:39 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 09:49:43 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:50:13 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:50:39 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 09:50:39 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 09:50:43 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:51:13 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:51:39 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 09:51:39 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 09:51:43 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:52:13 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:52:39 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 09:52:39 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 09:52:43 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:53:13 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:53:39 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 09:53:39 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 09:53:43 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:54:13 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:54:39 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 09:54:39 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 09:54:43 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:55:13 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:55:39 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 09:55:39 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 09:55:43 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:56:13 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:56:39 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 09:56:39 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 09:56:43 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:57:48 INFO main - rocketmqHome=/home/rocketmq/rocketmq-4.5.0
+2023-05-13 09:57:48 INFO main - namesrvAddr=rmqnamesrv:9876
+2023-05-13 09:57:48 INFO main - brokerIP1=192.168.1.10
+2023-05-13 09:57:48 INFO main - brokerIP2=172.18.0.8
+2023-05-13 09:57:48 INFO main - brokerName=broker-a
+2023-05-13 09:57:48 INFO main - brokerClusterName=DefaultCluster
+2023-05-13 09:57:48 INFO main - brokerId=0
+2023-05-13 09:57:48 INFO main - brokerPermission=6
+2023-05-13 09:57:48 INFO main - defaultTopicQueueNums=8
+2023-05-13 09:57:48 INFO main - autoCreateTopicEnable=true
+2023-05-13 09:57:48 INFO main - clusterTopicEnable=true
+2023-05-13 09:57:48 INFO main - brokerTopicEnable=true
+2023-05-13 09:57:48 INFO main - autoCreateSubscriptionGroup=true
+2023-05-13 09:57:48 INFO main - messageStorePlugIn=
+2023-05-13 09:57:48 INFO main - msgTraceTopicName=RMQ_SYS_TRACE_TOPIC
+2023-05-13 09:57:48 INFO main - traceTopicEnable=false
+2023-05-13 09:57:48 INFO main - sendMessageThreadPoolNums=1
+2023-05-13 09:57:48 INFO main - pullMessageThreadPoolNums=24
+2023-05-13 09:57:48 INFO main - queryMessageThreadPoolNums=12
+2023-05-13 09:57:48 INFO main - adminBrokerThreadPoolNums=16
+2023-05-13 09:57:48 INFO main - clientManageThreadPoolNums=32
+2023-05-13 09:57:48 INFO main - consumerManageThreadPoolNums=32
+2023-05-13 09:57:48 INFO main - heartbeatThreadPoolNums=4
+2023-05-13 09:57:48 INFO main - endTransactionThreadPoolNums=16
+2023-05-13 09:57:48 INFO main - flushConsumerOffsetInterval=5000
+2023-05-13 09:57:48 INFO main - flushConsumerOffsetHistoryInterval=60000
+2023-05-13 09:57:48 INFO main - rejectTransactionMessage=false
+2023-05-13 09:57:48 INFO main - fetchNamesrvAddrByAddressServer=false
+2023-05-13 09:57:48 INFO main - sendThreadPoolQueueCapacity=10000
+2023-05-13 09:57:48 INFO main - pullThreadPoolQueueCapacity=100000
+2023-05-13 09:57:48 INFO main - queryThreadPoolQueueCapacity=20000
+2023-05-13 09:57:48 INFO main - clientManagerThreadPoolQueueCapacity=1000000
+2023-05-13 09:57:48 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
+2023-05-13 09:57:49 INFO main - heartbeatThreadPoolQueueCapacity=50000
+2023-05-13 09:57:49 INFO main - endTransactionPoolQueueCapacity=100000
+2023-05-13 09:57:49 INFO main - filterServerNums=0
+2023-05-13 09:57:49 INFO main - longPollingEnable=true
+2023-05-13 09:57:49 INFO main - shortPollingTimeMills=1000
+2023-05-13 09:57:49 INFO main - notifyConsumerIdsChangedEnable=true
+2023-05-13 09:57:49 INFO main - highSpeedMode=false
+2023-05-13 09:57:49 INFO main - commercialEnable=true
+2023-05-13 09:57:49 INFO main - commercialTimerCount=1
+2023-05-13 09:57:49 INFO main - commercialTransCount=1
+2023-05-13 09:57:49 INFO main - commercialBigCount=1
+2023-05-13 09:57:49 INFO main - commercialBaseCount=1
+2023-05-13 09:57:49 INFO main - transferMsgByHeap=true
+2023-05-13 09:57:49 INFO main - maxDelayTime=40
+2023-05-13 09:57:49 INFO main - regionId=DefaultRegion
+2023-05-13 09:57:49 INFO main - registerBrokerTimeoutMills=6000
+2023-05-13 09:57:49 INFO main - slaveReadEnable=false
+2023-05-13 09:57:49 INFO main - disableConsumeIfConsumerReadSlowly=false
+2023-05-13 09:57:49 INFO main - consumerFallbehindThreshold=17179869184
+2023-05-13 09:57:49 INFO main - brokerFastFailureEnable=true
+2023-05-13 09:57:49 INFO main - waitTimeMillsInSendQueue=200
+2023-05-13 09:57:49 INFO main - waitTimeMillsInPullQueue=5000
+2023-05-13 09:57:49 INFO main - waitTimeMillsInHeartbeatQueue=31000
+2023-05-13 09:57:49 INFO main - waitTimeMillsInTransactionQueue=3000
+2023-05-13 09:57:49 INFO main - startAcceptSendRequestTimeStamp=0
+2023-05-13 09:57:49 INFO main - traceOn=true
+2023-05-13 09:57:49 INFO main - enableCalcFilterBitMap=false
+2023-05-13 09:57:49 INFO main - expectConsumerNumUseFilter=32
+2023-05-13 09:57:49 INFO main - maxErrorRateOfBloomFilter=20
+2023-05-13 09:57:49 INFO main - filterDataCleanTimeSpan=86400000
+2023-05-13 09:57:49 INFO main - filterSupportRetry=false
+2023-05-13 09:57:49 INFO main - enablePropertyFilter=false
+2023-05-13 09:57:49 INFO main - compressedRegister=false
+2023-05-13 09:57:49 INFO main - forceRegister=true
+2023-05-13 09:57:49 INFO main - registerNameServerPeriod=30000
+2023-05-13 09:57:49 INFO main - transactionTimeOut=6000
+2023-05-13 09:57:49 INFO main - transactionCheckMax=15
+2023-05-13 09:57:49 INFO main - transactionCheckInterval=60000
+2023-05-13 09:57:49 INFO main - aclEnable=false
+2023-05-13 09:57:49 INFO main - listenPort=10911
+2023-05-13 09:57:49 INFO main - serverWorkerThreads=8
+2023-05-13 09:57:49 INFO main - serverCallbackExecutorThreads=0
+2023-05-13 09:57:49 INFO main - serverSelectorThreads=3
+2023-05-13 09:57:49 INFO main - serverOnewaySemaphoreValue=256
+2023-05-13 09:57:49 INFO main - serverAsyncSemaphoreValue=64
+2023-05-13 09:57:49 INFO main - serverChannelMaxIdleTimeSeconds=120
+2023-05-13 09:57:49 INFO main - serverSocketSndBufSize=131072
+2023-05-13 09:57:49 INFO main - serverSocketRcvBufSize=131072
+2023-05-13 09:57:49 INFO main - serverPooledByteBufAllocatorEnable=true
+2023-05-13 09:57:49 INFO main - useEpollNativeSelector=false
+2023-05-13 09:57:49 INFO main - clientWorkerThreads=4
+2023-05-13 09:57:49 INFO main - clientCallbackExecutorThreads=4
+2023-05-13 09:57:49 INFO main - clientOnewaySemaphoreValue=65535
+2023-05-13 09:57:49 INFO main - clientAsyncSemaphoreValue=65535
+2023-05-13 09:57:49 INFO main - connectTimeoutMillis=3000
+2023-05-13 09:57:49 INFO main - channelNotActiveInterval=60000
+2023-05-13 09:57:49 INFO main - clientChannelMaxIdleTimeSeconds=120
+2023-05-13 09:57:49 INFO main - clientSocketSndBufSize=131072
+2023-05-13 09:57:49 INFO main - clientSocketRcvBufSize=131072
+2023-05-13 09:57:49 INFO main - clientPooledByteBufAllocatorEnable=false
+2023-05-13 09:57:49 INFO main - clientCloseSocketIfTimeout=false
+2023-05-13 09:57:49 INFO main - useTLS=false
+2023-05-13 09:57:49 INFO main - storePathRootDir=/home/rocketmq/store
+2023-05-13 09:57:49 INFO main - storePathCommitLog=/home/rocketmq/store/commitlog
+2023-05-13 09:57:49 INFO main - mapedFileSizeCommitLog=1073741824
+2023-05-13 09:57:49 INFO main - mapedFileSizeConsumeQueue=6000000
+2023-05-13 09:57:49 INFO main - enableConsumeQueueExt=false
+2023-05-13 09:57:49 INFO main - mappedFileSizeConsumeQueueExt=50331648
+2023-05-13 09:57:49 INFO main - bitMapLengthConsumeQueueExt=64
+2023-05-13 09:57:49 INFO main - flushIntervalCommitLog=500
+2023-05-13 09:57:49 INFO main - commitIntervalCommitLog=200
+2023-05-13 09:57:49 INFO main - useReentrantLockWhenPutMessage=false
+2023-05-13 09:57:49 INFO main - flushCommitLogTimed=false
+2023-05-13 09:57:49 INFO main - flushIntervalConsumeQueue=1000
+2023-05-13 09:57:49 INFO main - cleanResourceInterval=10000
+2023-05-13 09:57:49 INFO main - deleteCommitLogFilesInterval=100
+2023-05-13 09:57:49 INFO main - deleteConsumeQueueFilesInterval=100
+2023-05-13 09:57:49 INFO main - destroyMapedFileIntervalForcibly=120000
+2023-05-13 09:57:49 INFO main - redeleteHangedFileInterval=120000
+2023-05-13 09:57:49 INFO main - deleteWhen=04
+2023-05-13 09:57:49 INFO main - diskMaxUsedSpaceRatio=75
+2023-05-13 09:57:49 INFO main - fileReservedTime=48
+2023-05-13 09:57:49 INFO main - putMsgIndexHightWater=600000
+2023-05-13 09:57:49 INFO main - maxMessageSize=4194304
+2023-05-13 09:57:49 INFO main - checkCRCOnRecover=true
+2023-05-13 09:57:49 INFO main - flushCommitLogLeastPages=4
+2023-05-13 09:57:49 INFO main - commitCommitLogLeastPages=4
+2023-05-13 09:57:49 INFO main - flushLeastPagesWhenWarmMapedFile=4096
+2023-05-13 09:57:49 INFO main - flushConsumeQueueLeastPages=2
+2023-05-13 09:57:49 INFO main - flushCommitLogThoroughInterval=10000
+2023-05-13 09:57:49 INFO main - commitCommitLogThoroughInterval=200
+2023-05-13 09:57:49 INFO main - flushConsumeQueueThoroughInterval=60000
+2023-05-13 09:57:49 INFO main - maxTransferBytesOnMessageInMemory=262144
+2023-05-13 09:57:49 INFO main - maxTransferCountOnMessageInMemory=32
+2023-05-13 09:57:49 INFO main - maxTransferBytesOnMessageInDisk=65536
+2023-05-13 09:57:49 INFO main - maxTransferCountOnMessageInDisk=8
+2023-05-13 09:57:49 INFO main - accessMessageInMemoryMaxRatio=40
+2023-05-13 09:57:49 INFO main - messageIndexEnable=true
+2023-05-13 09:57:49 INFO main - maxHashSlotNum=5000000
+2023-05-13 09:57:49 INFO main - maxIndexNum=20000000
+2023-05-13 09:57:49 INFO main - maxMsgsNumBatch=64
+2023-05-13 09:57:49 INFO main - messageIndexSafe=false
+2023-05-13 09:57:49 INFO main - haListenPort=10912
+2023-05-13 09:57:49 INFO main - haSendHeartbeatInterval=5000
+2023-05-13 09:57:49 INFO main - haHousekeepingInterval=20000
+2023-05-13 09:57:49 INFO main - haTransferBatchSize=32768
+2023-05-13 09:57:49 INFO main - haMasterAddress=
+2023-05-13 09:57:49 INFO main - haSlaveFallbehindMax=268435456
+2023-05-13 09:57:49 INFO main - brokerRole=ASYNC_MASTER
+2023-05-13 09:57:49 INFO main - flushDiskType=ASYNC_FLUSH
+2023-05-13 09:57:49 INFO main - syncFlushTimeout=5000
+2023-05-13 09:57:49 INFO main - messageDelayLevel=1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h
+2023-05-13 09:57:49 INFO main - flushDelayOffsetInterval=10000
+2023-05-13 09:57:49 INFO main - cleanFileForciblyEnable=true
+2023-05-13 09:57:49 INFO main - warmMapedFileEnable=false
+2023-05-13 09:57:49 INFO main - offsetCheckInSlave=false
+2023-05-13 09:57:49 INFO main - debugLockEnable=false
+2023-05-13 09:57:49 INFO main - duplicationEnable=false
+2023-05-13 09:57:49 INFO main - diskFallRecorded=true
+2023-05-13 09:57:49 INFO main - osPageCacheBusyTimeOutMills=1000
+2023-05-13 09:57:49 INFO main - defaultQueryMaxNum=32
+2023-05-13 09:57:49 INFO main - transientStorePoolEnable=false
+2023-05-13 09:57:49 INFO main - transientStorePoolSize=5
+2023-05-13 09:57:49 INFO main - fastFailIfNoBufferInStorePool=false
+2023-05-13 09:57:49 INFO main - enableDLegerCommitLog=false
+2023-05-13 09:57:49 INFO main - dLegerGroup=
+2023-05-13 09:57:49 INFO main - dLegerPeers=
+2023-05-13 09:57:49 INFO main - dLegerSelfId=
+2023-05-13 09:57:54 INFO main - load exist local topic, TopicConfig [topicName=RMQ_SYS_TRANS_HALF_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 09:57:54 INFO main - load exist local topic, TopicConfig [topicName=BenchmarkTest, readQueueNums=1024, writeQueueNums=1024, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 09:57:54 INFO main - load exist local topic, TopicConfig [topicName=OFFSET_MOVED_EVENT, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 09:57:54 INFO main - load exist local topic, TopicConfig [topicName=broker-a, readQueueNums=1, writeQueueNums=1, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 09:57:54 INFO main - load exist local topic, TopicConfig [topicName=TBW102, readQueueNums=8, writeQueueNums=8, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 09:57:54 INFO main - load exist local topic, TopicConfig [topicName=SELF_TEST_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 09:57:54 INFO main - load exist local topic, TopicConfig [topicName=DefaultCluster, readQueueNums=16, writeQueueNums=16, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 09:57:54 INFO main - load /home/rocketmq/store/config/topics.json OK
+2023-05-13 09:57:54 INFO main - load /home/rocketmq/store/config/consumerOffset.json OK
+2023-05-13 09:57:54 INFO main - load /home/rocketmq/store/config/consumerFilter.json OK
+2023-05-13 09:57:54 INFO main - Try to start service thread:AllocateMappedFileService started:false lastThread:null
+2023-05-13 09:57:54 INFO main - load /home/rocketmq/store/config/delayOffset.json OK
+2023-05-13 09:58:05 INFO main - Set user specified name server address: rmqnamesrv:9876
+2023-05-13 09:58:05 WARN main - Load default transaction message hook service: TransactionalMessageServiceImpl
+2023-05-13 09:58:05 WARN main - Load default discard message hook service: DefaultTransactionalMessageCheckListener
+2023-05-13 09:58:05 INFO main - The broker dose not enable acl
+2023-05-13 09:58:05 INFO main - Try to start service thread:ReputMessageService started:false lastThread:null
+2023-05-13 09:58:05 INFO main - Try to start service thread:AcceptSocketService started:false lastThread:null
+2023-05-13 09:58:05 INFO main - Try to start service thread:GroupTransferService started:false lastThread:null
+2023-05-13 09:58:05 INFO main - Try to start service thread:HAClient started:false lastThread:null
+2023-05-13 09:58:05 INFO main - Try to start service thread:FlushConsumeQueueService started:false lastThread:null
+2023-05-13 09:58:05 INFO main - Try to start service thread:FlushRealTimeService started:false lastThread:null
+2023-05-13 09:58:05 INFO main - Try to start service thread:StoreStatsService started:false lastThread:null
+2023-05-13 09:58:06 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2023-05-13 09:58:06 INFO FileWatchService - FileWatchService service started
+2023-05-13 09:58:06 INFO main - Try to start service thread:PullRequestHoldService started:false lastThread:null
+2023-05-13 09:58:06 INFO PullRequestHoldService - PullRequestHoldService service started
+2023-05-13 09:58:06 INFO main - Try to start service thread:TransactionalMessageCheckService started:false lastThread:null
+2023-05-13 09:58:10 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:58:10 INFO main - The broker[broker-a, 192.168.1.10:10911] boot success. serializeType=JSON and name server is rmqnamesrv:9876
+2023-05-13 09:58:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 09:58:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 09:58:20 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:58:50 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:59:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 09:59:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 09:59:20 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 09:59:50 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:00:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:00:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:00:20 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:00:50 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:01:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:01:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:01:20 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:01:50 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:02:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:02:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:02:20 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:05:53 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:06:18 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:06:18 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:06:23 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:06:53 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:07:18 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:07:18 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:07:23 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:07:53 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:08:18 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:08:18 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:08:23 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:08:53 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:09:18 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:09:18 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:09:23 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:09:53 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:10:18 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:10:18 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:10:23 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:11:07 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:11:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:11:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:11:37 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:12:21 INFO main - rocketmqHome=/home/rocketmq/rocketmq-4.5.0
+2023-05-13 10:12:21 INFO main - namesrvAddr=rmqnamesrv:9876
+2023-05-13 10:12:21 INFO main - brokerIP1=192.168.1.10
+2023-05-13 10:12:21 INFO main - brokerIP2=172.18.0.9
+2023-05-13 10:12:21 INFO main - brokerName=broker-a
+2023-05-13 10:12:21 INFO main - brokerClusterName=DefaultCluster
+2023-05-13 10:12:21 INFO main - brokerId=0
+2023-05-13 10:12:21 INFO main - brokerPermission=6
+2023-05-13 10:12:21 INFO main - defaultTopicQueueNums=8
+2023-05-13 10:12:21 INFO main - autoCreateTopicEnable=true
+2023-05-13 10:12:21 INFO main - clusterTopicEnable=true
+2023-05-13 10:12:21 INFO main - brokerTopicEnable=true
+2023-05-13 10:12:21 INFO main - autoCreateSubscriptionGroup=true
+2023-05-13 10:12:21 INFO main - messageStorePlugIn=
+2023-05-13 10:12:21 INFO main - msgTraceTopicName=RMQ_SYS_TRACE_TOPIC
+2023-05-13 10:12:21 INFO main - traceTopicEnable=false
+2023-05-13 10:12:21 INFO main - sendMessageThreadPoolNums=1
+2023-05-13 10:12:21 INFO main - pullMessageThreadPoolNums=24
+2023-05-13 10:12:21 INFO main - queryMessageThreadPoolNums=12
+2023-05-13 10:12:21 INFO main - adminBrokerThreadPoolNums=16
+2023-05-13 10:12:21 INFO main - clientManageThreadPoolNums=32
+2023-05-13 10:12:21 INFO main - consumerManageThreadPoolNums=32
+2023-05-13 10:12:21 INFO main - heartbeatThreadPoolNums=4
+2023-05-13 10:12:21 INFO main - endTransactionThreadPoolNums=16
+2023-05-13 10:12:21 INFO main - flushConsumerOffsetInterval=5000
+2023-05-13 10:12:21 INFO main - flushConsumerOffsetHistoryInterval=60000
+2023-05-13 10:12:21 INFO main - rejectTransactionMessage=false
+2023-05-13 10:12:21 INFO main - fetchNamesrvAddrByAddressServer=false
+2023-05-13 10:12:21 INFO main - sendThreadPoolQueueCapacity=10000
+2023-05-13 10:12:21 INFO main - pullThreadPoolQueueCapacity=100000
+2023-05-13 10:12:21 INFO main - queryThreadPoolQueueCapacity=20000
+2023-05-13 10:12:21 INFO main - clientManagerThreadPoolQueueCapacity=1000000
+2023-05-13 10:12:22 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
+2023-05-13 10:12:22 INFO main - heartbeatThreadPoolQueueCapacity=50000
+2023-05-13 10:12:22 INFO main - endTransactionPoolQueueCapacity=100000
+2023-05-13 10:12:22 INFO main - filterServerNums=0
+2023-05-13 10:12:22 INFO main - longPollingEnable=true
+2023-05-13 10:12:22 INFO main - shortPollingTimeMills=1000
+2023-05-13 10:12:22 INFO main - notifyConsumerIdsChangedEnable=true
+2023-05-13 10:12:22 INFO main - highSpeedMode=false
+2023-05-13 10:12:22 INFO main - commercialEnable=true
+2023-05-13 10:12:22 INFO main - commercialTimerCount=1
+2023-05-13 10:12:22 INFO main - commercialTransCount=1
+2023-05-13 10:12:22 INFO main - commercialBigCount=1
+2023-05-13 10:12:22 INFO main - commercialBaseCount=1
+2023-05-13 10:12:22 INFO main - transferMsgByHeap=true
+2023-05-13 10:12:22 INFO main - maxDelayTime=40
+2023-05-13 10:12:22 INFO main - regionId=DefaultRegion
+2023-05-13 10:12:22 INFO main - registerBrokerTimeoutMills=6000
+2023-05-13 10:12:22 INFO main - slaveReadEnable=false
+2023-05-13 10:12:22 INFO main - disableConsumeIfConsumerReadSlowly=false
+2023-05-13 10:12:22 INFO main - consumerFallbehindThreshold=17179869184
+2023-05-13 10:12:22 INFO main - brokerFastFailureEnable=true
+2023-05-13 10:12:22 INFO main - waitTimeMillsInSendQueue=200
+2023-05-13 10:12:22 INFO main - waitTimeMillsInPullQueue=5000
+2023-05-13 10:12:22 INFO main - waitTimeMillsInHeartbeatQueue=31000
+2023-05-13 10:12:22 INFO main - waitTimeMillsInTransactionQueue=3000
+2023-05-13 10:12:22 INFO main - startAcceptSendRequestTimeStamp=0
+2023-05-13 10:12:22 INFO main - traceOn=true
+2023-05-13 10:12:22 INFO main - enableCalcFilterBitMap=false
+2023-05-13 10:12:22 INFO main - expectConsumerNumUseFilter=32
+2023-05-13 10:12:22 INFO main - maxErrorRateOfBloomFilter=20
+2023-05-13 10:12:22 INFO main - filterDataCleanTimeSpan=86400000
+2023-05-13 10:12:22 INFO main - filterSupportRetry=false
+2023-05-13 10:12:22 INFO main - enablePropertyFilter=false
+2023-05-13 10:12:22 INFO main - compressedRegister=false
+2023-05-13 10:12:22 INFO main - forceRegister=true
+2023-05-13 10:12:22 INFO main - registerNameServerPeriod=30000
+2023-05-13 10:12:22 INFO main - transactionTimeOut=6000
+2023-05-13 10:12:22 INFO main - transactionCheckMax=15
+2023-05-13 10:12:22 INFO main - transactionCheckInterval=60000
+2023-05-13 10:12:22 INFO main - aclEnable=false
+2023-05-13 10:12:22 INFO main - listenPort=10911
+2023-05-13 10:12:22 INFO main - serverWorkerThreads=8
+2023-05-13 10:12:22 INFO main - serverCallbackExecutorThreads=0
+2023-05-13 10:12:22 INFO main - serverSelectorThreads=3
+2023-05-13 10:12:22 INFO main - serverOnewaySemaphoreValue=256
+2023-05-13 10:12:22 INFO main - serverAsyncSemaphoreValue=64
+2023-05-13 10:12:22 INFO main - serverChannelMaxIdleTimeSeconds=120
+2023-05-13 10:12:22 INFO main - serverSocketSndBufSize=131072
+2023-05-13 10:12:22 INFO main - serverSocketRcvBufSize=131072
+2023-05-13 10:12:22 INFO main - serverPooledByteBufAllocatorEnable=true
+2023-05-13 10:12:22 INFO main - useEpollNativeSelector=false
+2023-05-13 10:12:22 INFO main - clientWorkerThreads=4
+2023-05-13 10:12:22 INFO main - clientCallbackExecutorThreads=4
+2023-05-13 10:12:22 INFO main - clientOnewaySemaphoreValue=65535
+2023-05-13 10:12:22 INFO main - clientAsyncSemaphoreValue=65535
+2023-05-13 10:12:22 INFO main - connectTimeoutMillis=3000
+2023-05-13 10:12:22 INFO main - channelNotActiveInterval=60000
+2023-05-13 10:12:22 INFO main - clientChannelMaxIdleTimeSeconds=120
+2023-05-13 10:12:22 INFO main - clientSocketSndBufSize=131072
+2023-05-13 10:12:22 INFO main - clientSocketRcvBufSize=131072
+2023-05-13 10:12:22 INFO main - clientPooledByteBufAllocatorEnable=false
+2023-05-13 10:12:22 INFO main - clientCloseSocketIfTimeout=false
+2023-05-13 10:12:22 INFO main - useTLS=false
+2023-05-13 10:12:22 INFO main - storePathRootDir=/home/rocketmq/store
+2023-05-13 10:12:22 INFO main - storePathCommitLog=/home/rocketmq/store/commitlog
+2023-05-13 10:12:22 INFO main - mapedFileSizeCommitLog=1073741824
+2023-05-13 10:12:22 INFO main - mapedFileSizeConsumeQueue=6000000
+2023-05-13 10:12:22 INFO main - enableConsumeQueueExt=false
+2023-05-13 10:12:22 INFO main - mappedFileSizeConsumeQueueExt=50331648
+2023-05-13 10:12:22 INFO main - bitMapLengthConsumeQueueExt=64
+2023-05-13 10:12:22 INFO main - flushIntervalCommitLog=500
+2023-05-13 10:12:22 INFO main - commitIntervalCommitLog=200
+2023-05-13 10:12:22 INFO main - useReentrantLockWhenPutMessage=false
+2023-05-13 10:12:22 INFO main - flushCommitLogTimed=false
+2023-05-13 10:12:22 INFO main - flushIntervalConsumeQueue=1000
+2023-05-13 10:12:22 INFO main - cleanResourceInterval=10000
+2023-05-13 10:12:22 INFO main - deleteCommitLogFilesInterval=100
+2023-05-13 10:12:22 INFO main - deleteConsumeQueueFilesInterval=100
+2023-05-13 10:12:22 INFO main - destroyMapedFileIntervalForcibly=120000
+2023-05-13 10:12:22 INFO main - redeleteHangedFileInterval=120000
+2023-05-13 10:12:22 INFO main - deleteWhen=04
+2023-05-13 10:12:22 INFO main - diskMaxUsedSpaceRatio=75
+2023-05-13 10:12:22 INFO main - fileReservedTime=48
+2023-05-13 10:12:22 INFO main - putMsgIndexHightWater=600000
+2023-05-13 10:12:22 INFO main - maxMessageSize=4194304
+2023-05-13 10:12:22 INFO main - checkCRCOnRecover=true
+2023-05-13 10:12:22 INFO main - flushCommitLogLeastPages=4
+2023-05-13 10:12:22 INFO main - commitCommitLogLeastPages=4
+2023-05-13 10:12:22 INFO main - flushLeastPagesWhenWarmMapedFile=4096
+2023-05-13 10:12:22 INFO main - flushConsumeQueueLeastPages=2
+2023-05-13 10:12:22 INFO main - flushCommitLogThoroughInterval=10000
+2023-05-13 10:12:22 INFO main - commitCommitLogThoroughInterval=200
+2023-05-13 10:12:22 INFO main - flushConsumeQueueThoroughInterval=60000
+2023-05-13 10:12:22 INFO main - maxTransferBytesOnMessageInMemory=262144
+2023-05-13 10:12:22 INFO main - maxTransferCountOnMessageInMemory=32
+2023-05-13 10:12:22 INFO main - maxTransferBytesOnMessageInDisk=65536
+2023-05-13 10:12:22 INFO main - maxTransferCountOnMessageInDisk=8
+2023-05-13 10:12:22 INFO main - accessMessageInMemoryMaxRatio=40
+2023-05-13 10:12:22 INFO main - messageIndexEnable=true
+2023-05-13 10:12:22 INFO main - maxHashSlotNum=5000000
+2023-05-13 10:12:22 INFO main - maxIndexNum=20000000
+2023-05-13 10:12:22 INFO main - maxMsgsNumBatch=64
+2023-05-13 10:12:22 INFO main - messageIndexSafe=false
+2023-05-13 10:12:22 INFO main - haListenPort=10912
+2023-05-13 10:12:22 INFO main - haSendHeartbeatInterval=5000
+2023-05-13 10:12:22 INFO main - haHousekeepingInterval=20000
+2023-05-13 10:12:22 INFO main - haTransferBatchSize=32768
+2023-05-13 10:12:22 INFO main - haMasterAddress=
+2023-05-13 10:12:22 INFO main - haSlaveFallbehindMax=268435456
+2023-05-13 10:12:22 INFO main - brokerRole=ASYNC_MASTER
+2023-05-13 10:12:22 INFO main - flushDiskType=ASYNC_FLUSH
+2023-05-13 10:12:22 INFO main - syncFlushTimeout=5000
+2023-05-13 10:12:22 INFO main - messageDelayLevel=1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h
+2023-05-13 10:12:22 INFO main - flushDelayOffsetInterval=10000
+2023-05-13 10:12:22 INFO main - cleanFileForciblyEnable=true
+2023-05-13 10:12:22 INFO main - warmMapedFileEnable=false
+2023-05-13 10:12:22 INFO main - offsetCheckInSlave=false
+2023-05-13 10:12:22 INFO main - debugLockEnable=false
+2023-05-13 10:12:22 INFO main - duplicationEnable=false
+2023-05-13 10:12:22 INFO main - diskFallRecorded=true
+2023-05-13 10:12:22 INFO main - osPageCacheBusyTimeOutMills=1000
+2023-05-13 10:12:22 INFO main - defaultQueryMaxNum=32
+2023-05-13 10:12:22 INFO main - transientStorePoolEnable=false
+2023-05-13 10:12:22 INFO main - transientStorePoolSize=5
+2023-05-13 10:12:22 INFO main - fastFailIfNoBufferInStorePool=false
+2023-05-13 10:12:22 INFO main - enableDLegerCommitLog=false
+2023-05-13 10:12:22 INFO main - dLegerGroup=
+2023-05-13 10:12:22 INFO main - dLegerPeers=
+2023-05-13 10:12:22 INFO main - dLegerSelfId=
+2023-05-13 10:12:28 INFO main - load exist local topic, TopicConfig [topicName=RMQ_SYS_TRANS_HALF_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 10:12:28 INFO main - load exist local topic, TopicConfig [topicName=BenchmarkTest, readQueueNums=1024, writeQueueNums=1024, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 10:12:28 INFO main - load exist local topic, TopicConfig [topicName=OFFSET_MOVED_EVENT, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 10:12:28 INFO main - load exist local topic, TopicConfig [topicName=broker-a, readQueueNums=1, writeQueueNums=1, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 10:12:28 INFO main - load exist local topic, TopicConfig [topicName=TBW102, readQueueNums=8, writeQueueNums=8, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 10:12:28 INFO main - load exist local topic, TopicConfig [topicName=SELF_TEST_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 10:12:28 INFO main - load exist local topic, TopicConfig [topicName=DefaultCluster, readQueueNums=16, writeQueueNums=16, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 10:12:28 INFO main - load /home/rocketmq/store/config/topics.json OK
+2023-05-13 10:12:28 INFO main - load /home/rocketmq/store/config/consumerOffset.json OK
+2023-05-13 10:12:28 INFO main - load /home/rocketmq/store/config/consumerFilter.json OK
+2023-05-13 10:12:28 INFO main - Try to start service thread:AllocateMappedFileService started:false lastThread:null
+2023-05-13 10:12:28 INFO main - load /home/rocketmq/store/config/delayOffset.json OK
+2023-05-13 10:12:39 INFO main - Set user specified name server address: rmqnamesrv:9876
+2023-05-13 10:12:39 WARN main - Load default transaction message hook service: TransactionalMessageServiceImpl
+2023-05-13 10:12:39 WARN main - Load default discard message hook service: DefaultTransactionalMessageCheckListener
+2023-05-13 10:12:39 INFO main - The broker dose not enable acl
+2023-05-13 10:12:39 INFO main - Try to start service thread:ReputMessageService started:false lastThread:null
+2023-05-13 10:12:39 INFO main - Try to start service thread:AcceptSocketService started:false lastThread:null
+2023-05-13 10:12:39 INFO main - Try to start service thread:GroupTransferService started:false lastThread:null
+2023-05-13 10:12:39 INFO main - Try to start service thread:HAClient started:false lastThread:null
+2023-05-13 10:12:39 INFO main - Try to start service thread:FlushConsumeQueueService started:false lastThread:null
+2023-05-13 10:12:39 INFO main - Try to start service thread:FlushRealTimeService started:false lastThread:null
+2023-05-13 10:12:39 INFO main - Try to start service thread:StoreStatsService started:false lastThread:null
+2023-05-13 10:12:39 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2023-05-13 10:12:39 INFO FileWatchService - FileWatchService service started
+2023-05-13 10:12:39 INFO main - Try to start service thread:PullRequestHoldService started:false lastThread:null
+2023-05-13 10:12:39 INFO PullRequestHoldService - PullRequestHoldService service started
+2023-05-13 10:12:39 INFO main - Try to start service thread:TransactionalMessageCheckService started:false lastThread:null
+2023-05-13 10:12:41 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:12:41 INFO main - The broker[broker-a, 192.168.1.10:10911] boot success. serializeType=JSON and name server is rmqnamesrv:9876
+2023-05-13 10:12:49 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:12:49 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:12:52 WARN brokerOutApi_thread_2 - registerBroker Exception, rmqnamesrv:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to <rmqnamesrv:9876> failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:392) ~[rocketmq-remoting-4.5.0.jar:4.5.0]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:194) ~[rocketmq-broker-4.5.0.jar:4.5.0]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:61) ~[rocketmq-broker-4.5.0.jar:4.5.0]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:150) ~[rocketmq-broker-4.5.0.jar:4.5.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_232]
+2023-05-13 10:13:20 INFO main - rocketmqHome=/home/rocketmq/rocketmq-4.5.0
+2023-05-13 10:13:20 INFO main - namesrvAddr=rmqnamesrv:9876
+2023-05-13 10:13:20 INFO main - brokerIP1=192.168.1.10
+2023-05-13 10:13:20 INFO main - brokerIP2=172.18.0.11
+2023-05-13 10:13:20 INFO main - brokerName=broker-a
+2023-05-13 10:13:20 INFO main - brokerClusterName=DefaultCluster
+2023-05-13 10:13:20 INFO main - brokerId=0
+2023-05-13 10:13:20 INFO main - brokerPermission=6
+2023-05-13 10:13:20 INFO main - defaultTopicQueueNums=8
+2023-05-13 10:13:20 INFO main - autoCreateTopicEnable=true
+2023-05-13 10:13:20 INFO main - clusterTopicEnable=true
+2023-05-13 10:13:20 INFO main - brokerTopicEnable=true
+2023-05-13 10:13:20 INFO main - autoCreateSubscriptionGroup=true
+2023-05-13 10:13:20 INFO main - messageStorePlugIn=
+2023-05-13 10:13:20 INFO main - msgTraceTopicName=RMQ_SYS_TRACE_TOPIC
+2023-05-13 10:13:20 INFO main - traceTopicEnable=false
+2023-05-13 10:13:20 INFO main - sendMessageThreadPoolNums=1
+2023-05-13 10:13:20 INFO main - pullMessageThreadPoolNums=24
+2023-05-13 10:13:20 INFO main - queryMessageThreadPoolNums=12
+2023-05-13 10:13:20 INFO main - adminBrokerThreadPoolNums=16
+2023-05-13 10:13:20 INFO main - clientManageThreadPoolNums=32
+2023-05-13 10:13:20 INFO main - consumerManageThreadPoolNums=32
+2023-05-13 10:13:20 INFO main - heartbeatThreadPoolNums=4
+2023-05-13 10:13:20 INFO main - endTransactionThreadPoolNums=16
+2023-05-13 10:13:20 INFO main - flushConsumerOffsetInterval=5000
+2023-05-13 10:13:20 INFO main - flushConsumerOffsetHistoryInterval=60000
+2023-05-13 10:13:20 INFO main - rejectTransactionMessage=false
+2023-05-13 10:13:20 INFO main - fetchNamesrvAddrByAddressServer=false
+2023-05-13 10:13:20 INFO main - sendThreadPoolQueueCapacity=10000
+2023-05-13 10:13:20 INFO main - pullThreadPoolQueueCapacity=100000
+2023-05-13 10:13:20 INFO main - queryThreadPoolQueueCapacity=20000
+2023-05-13 10:13:20 INFO main - clientManagerThreadPoolQueueCapacity=1000000
+2023-05-13 10:13:20 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
+2023-05-13 10:13:20 INFO main - heartbeatThreadPoolQueueCapacity=50000
+2023-05-13 10:13:20 INFO main - endTransactionPoolQueueCapacity=100000
+2023-05-13 10:13:20 INFO main - filterServerNums=0
+2023-05-13 10:13:20 INFO main - longPollingEnable=true
+2023-05-13 10:13:20 INFO main - shortPollingTimeMills=1000
+2023-05-13 10:13:20 INFO main - notifyConsumerIdsChangedEnable=true
+2023-05-13 10:13:20 INFO main - highSpeedMode=false
+2023-05-13 10:13:20 INFO main - commercialEnable=true
+2023-05-13 10:13:20 INFO main - commercialTimerCount=1
+2023-05-13 10:13:20 INFO main - commercialTransCount=1
+2023-05-13 10:13:20 INFO main - commercialBigCount=1
+2023-05-13 10:13:20 INFO main - commercialBaseCount=1
+2023-05-13 10:13:20 INFO main - transferMsgByHeap=true
+2023-05-13 10:13:20 INFO main - maxDelayTime=40
+2023-05-13 10:13:20 INFO main - regionId=DefaultRegion
+2023-05-13 10:13:20 INFO main - registerBrokerTimeoutMills=6000
+2023-05-13 10:13:20 INFO main - slaveReadEnable=false
+2023-05-13 10:13:20 INFO main - disableConsumeIfConsumerReadSlowly=false
+2023-05-13 10:13:20 INFO main - consumerFallbehindThreshold=17179869184
+2023-05-13 10:13:20 INFO main - brokerFastFailureEnable=true
+2023-05-13 10:13:20 INFO main - waitTimeMillsInSendQueue=200
+2023-05-13 10:13:20 INFO main - waitTimeMillsInPullQueue=5000
+2023-05-13 10:13:20 INFO main - waitTimeMillsInHeartbeatQueue=31000
+2023-05-13 10:13:20 INFO main - waitTimeMillsInTransactionQueue=3000
+2023-05-13 10:13:20 INFO main - startAcceptSendRequestTimeStamp=0
+2023-05-13 10:13:20 INFO main - traceOn=true
+2023-05-13 10:13:20 INFO main - enableCalcFilterBitMap=false
+2023-05-13 10:13:20 INFO main - expectConsumerNumUseFilter=32
+2023-05-13 10:13:20 INFO main - maxErrorRateOfBloomFilter=20
+2023-05-13 10:13:20 INFO main - filterDataCleanTimeSpan=86400000
+2023-05-13 10:13:20 INFO main - filterSupportRetry=false
+2023-05-13 10:13:20 INFO main - enablePropertyFilter=false
+2023-05-13 10:13:20 INFO main - compressedRegister=false
+2023-05-13 10:13:20 INFO main - forceRegister=true
+2023-05-13 10:13:20 INFO main - registerNameServerPeriod=30000
+2023-05-13 10:13:20 INFO main - transactionTimeOut=6000
+2023-05-13 10:13:20 INFO main - transactionCheckMax=15
+2023-05-13 10:13:20 INFO main - transactionCheckInterval=60000
+2023-05-13 10:13:20 INFO main - aclEnable=false
+2023-05-13 10:13:20 INFO main - listenPort=10911
+2023-05-13 10:13:20 INFO main - serverWorkerThreads=8
+2023-05-13 10:13:20 INFO main - serverCallbackExecutorThreads=0
+2023-05-13 10:13:20 INFO main - serverSelectorThreads=3
+2023-05-13 10:13:20 INFO main - serverOnewaySemaphoreValue=256
+2023-05-13 10:13:20 INFO main - serverAsyncSemaphoreValue=64
+2023-05-13 10:13:20 INFO main - serverChannelMaxIdleTimeSeconds=120
+2023-05-13 10:13:20 INFO main - serverSocketSndBufSize=131072
+2023-05-13 10:13:20 INFO main - serverSocketRcvBufSize=131072
+2023-05-13 10:13:20 INFO main - serverPooledByteBufAllocatorEnable=true
+2023-05-13 10:13:20 INFO main - useEpollNativeSelector=false
+2023-05-13 10:13:20 INFO main - clientWorkerThreads=4
+2023-05-13 10:13:20 INFO main - clientCallbackExecutorThreads=4
+2023-05-13 10:13:20 INFO main - clientOnewaySemaphoreValue=65535
+2023-05-13 10:13:20 INFO main - clientAsyncSemaphoreValue=65535
+2023-05-13 10:13:20 INFO main - connectTimeoutMillis=3000
+2023-05-13 10:13:20 INFO main - channelNotActiveInterval=60000
+2023-05-13 10:13:20 INFO main - clientChannelMaxIdleTimeSeconds=120
+2023-05-13 10:13:20 INFO main - clientSocketSndBufSize=131072
+2023-05-13 10:13:20 INFO main - clientSocketRcvBufSize=131072
+2023-05-13 10:13:20 INFO main - clientPooledByteBufAllocatorEnable=false
+2023-05-13 10:13:20 INFO main - clientCloseSocketIfTimeout=false
+2023-05-13 10:13:20 INFO main - useTLS=false
+2023-05-13 10:13:20 INFO main - storePathRootDir=/home/rocketmq/store
+2023-05-13 10:13:20 INFO main - storePathCommitLog=/home/rocketmq/store/commitlog
+2023-05-13 10:13:20 INFO main - mapedFileSizeCommitLog=1073741824
+2023-05-13 10:13:20 INFO main - mapedFileSizeConsumeQueue=6000000
+2023-05-13 10:13:20 INFO main - enableConsumeQueueExt=false
+2023-05-13 10:13:20 INFO main - mappedFileSizeConsumeQueueExt=50331648
+2023-05-13 10:13:20 INFO main - bitMapLengthConsumeQueueExt=64
+2023-05-13 10:13:20 INFO main - flushIntervalCommitLog=500
+2023-05-13 10:13:20 INFO main - commitIntervalCommitLog=200
+2023-05-13 10:13:20 INFO main - useReentrantLockWhenPutMessage=false
+2023-05-13 10:13:20 INFO main - flushCommitLogTimed=false
+2023-05-13 10:13:20 INFO main - flushIntervalConsumeQueue=1000
+2023-05-13 10:13:20 INFO main - cleanResourceInterval=10000
+2023-05-13 10:13:20 INFO main - deleteCommitLogFilesInterval=100
+2023-05-13 10:13:20 INFO main - deleteConsumeQueueFilesInterval=100
+2023-05-13 10:13:20 INFO main - destroyMapedFileIntervalForcibly=120000
+2023-05-13 10:13:20 INFO main - redeleteHangedFileInterval=120000
+2023-05-13 10:13:20 INFO main - deleteWhen=04
+2023-05-13 10:13:20 INFO main - diskMaxUsedSpaceRatio=75
+2023-05-13 10:13:20 INFO main - fileReservedTime=48
+2023-05-13 10:13:20 INFO main - putMsgIndexHightWater=600000
+2023-05-13 10:13:20 INFO main - maxMessageSize=4194304
+2023-05-13 10:13:20 INFO main - checkCRCOnRecover=true
+2023-05-13 10:13:20 INFO main - flushCommitLogLeastPages=4
+2023-05-13 10:13:20 INFO main - commitCommitLogLeastPages=4
+2023-05-13 10:13:20 INFO main - flushLeastPagesWhenWarmMapedFile=4096
+2023-05-13 10:13:20 INFO main - flushConsumeQueueLeastPages=2
+2023-05-13 10:13:20 INFO main - flushCommitLogThoroughInterval=10000
+2023-05-13 10:13:20 INFO main - commitCommitLogThoroughInterval=200
+2023-05-13 10:13:20 INFO main - flushConsumeQueueThoroughInterval=60000
+2023-05-13 10:13:20 INFO main - maxTransferBytesOnMessageInMemory=262144
+2023-05-13 10:13:20 INFO main - maxTransferCountOnMessageInMemory=32
+2023-05-13 10:13:20 INFO main - maxTransferBytesOnMessageInDisk=65536
+2023-05-13 10:13:20 INFO main - maxTransferCountOnMessageInDisk=8
+2023-05-13 10:13:20 INFO main - accessMessageInMemoryMaxRatio=40
+2023-05-13 10:13:20 INFO main - messageIndexEnable=true
+2023-05-13 10:13:20 INFO main - maxHashSlotNum=5000000
+2023-05-13 10:13:20 INFO main - maxIndexNum=20000000
+2023-05-13 10:13:20 INFO main - maxMsgsNumBatch=64
+2023-05-13 10:13:20 INFO main - messageIndexSafe=false
+2023-05-13 10:13:20 INFO main - haListenPort=10912
+2023-05-13 10:13:20 INFO main - haSendHeartbeatInterval=5000
+2023-05-13 10:13:20 INFO main - haHousekeepingInterval=20000
+2023-05-13 10:13:20 INFO main - haTransferBatchSize=32768
+2023-05-13 10:13:20 INFO main - haMasterAddress=
+2023-05-13 10:13:20 INFO main - haSlaveFallbehindMax=268435456
+2023-05-13 10:13:20 INFO main - brokerRole=ASYNC_MASTER
+2023-05-13 10:13:20 INFO main - flushDiskType=ASYNC_FLUSH
+2023-05-13 10:13:20 INFO main - syncFlushTimeout=5000
+2023-05-13 10:13:20 INFO main - messageDelayLevel=1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h
+2023-05-13 10:13:20 INFO main - flushDelayOffsetInterval=10000
+2023-05-13 10:13:20 INFO main - cleanFileForciblyEnable=true
+2023-05-13 10:13:20 INFO main - warmMapedFileEnable=false
+2023-05-13 10:13:20 INFO main - offsetCheckInSlave=false
+2023-05-13 10:13:20 INFO main - debugLockEnable=false
+2023-05-13 10:13:20 INFO main - duplicationEnable=false
+2023-05-13 10:13:20 INFO main - diskFallRecorded=true
+2023-05-13 10:13:20 INFO main - osPageCacheBusyTimeOutMills=1000
+2023-05-13 10:13:20 INFO main - defaultQueryMaxNum=32
+2023-05-13 10:13:20 INFO main - transientStorePoolEnable=false
+2023-05-13 10:13:20 INFO main - transientStorePoolSize=5
+2023-05-13 10:13:20 INFO main - fastFailIfNoBufferInStorePool=false
+2023-05-13 10:13:20 INFO main - enableDLegerCommitLog=false
+2023-05-13 10:13:20 INFO main - dLegerGroup=
+2023-05-13 10:13:20 INFO main - dLegerPeers=
+2023-05-13 10:13:20 INFO main - dLegerSelfId=
+2023-05-13 10:13:26 INFO main - load exist local topic, TopicConfig [topicName=RMQ_SYS_TRANS_HALF_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 10:13:26 INFO main - load exist local topic, TopicConfig [topicName=BenchmarkTest, readQueueNums=1024, writeQueueNums=1024, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 10:13:26 INFO main - load exist local topic, TopicConfig [topicName=OFFSET_MOVED_EVENT, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 10:13:26 INFO main - load exist local topic, TopicConfig [topicName=broker-a, readQueueNums=1, writeQueueNums=1, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 10:13:26 INFO main - load exist local topic, TopicConfig [topicName=TBW102, readQueueNums=8, writeQueueNums=8, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 10:13:26 INFO main - load exist local topic, TopicConfig [topicName=SELF_TEST_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 10:13:26 INFO main - load exist local topic, TopicConfig [topicName=DefaultCluster, readQueueNums=16, writeQueueNums=16, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 10:13:26 INFO main - load /home/rocketmq/store/config/topics.json OK
+2023-05-13 10:13:26 INFO main - load /home/rocketmq/store/config/consumerOffset.json OK
+2023-05-13 10:13:26 INFO main - load /home/rocketmq/store/config/consumerFilter.json OK
+2023-05-13 10:13:26 INFO main - Try to start service thread:AllocateMappedFileService started:false lastThread:null
+2023-05-13 10:13:26 INFO main - load /home/rocketmq/store/config/delayOffset.json OK
+2023-05-13 10:13:37 INFO main - Set user specified name server address: rmqnamesrv:9876
+2023-05-13 10:13:37 WARN main - Load default transaction message hook service: TransactionalMessageServiceImpl
+2023-05-13 10:13:37 WARN main - Load default discard message hook service: DefaultTransactionalMessageCheckListener
+2023-05-13 10:13:37 INFO main - The broker dose not enable acl
+2023-05-13 10:13:37 INFO main - Try to start service thread:ReputMessageService started:false lastThread:null
+2023-05-13 10:13:37 INFO main - Try to start service thread:AcceptSocketService started:false lastThread:null
+2023-05-13 10:13:37 INFO main - Try to start service thread:GroupTransferService started:false lastThread:null
+2023-05-13 10:13:37 INFO main - Try to start service thread:HAClient started:false lastThread:null
+2023-05-13 10:13:37 INFO main - Try to start service thread:FlushConsumeQueueService started:false lastThread:null
+2023-05-13 10:13:37 INFO main - Try to start service thread:FlushRealTimeService started:false lastThread:null
+2023-05-13 10:13:37 INFO main - Try to start service thread:StoreStatsService started:false lastThread:null
+2023-05-13 10:13:38 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2023-05-13 10:13:38 INFO main - Try to start service thread:PullRequestHoldService started:false lastThread:null
+2023-05-13 10:13:38 INFO FileWatchService - FileWatchService service started
+2023-05-13 10:13:38 INFO PullRequestHoldService - PullRequestHoldService service started
+2023-05-13 10:13:38 INFO main - Try to start service thread:TransactionalMessageCheckService started:false lastThread:null
+2023-05-13 10:13:42 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:13:42 INFO main - The broker[broker-a, 192.168.1.10:10911] boot success. serializeType=JSON and name server is rmqnamesrv:9876
+2023-05-13 10:13:47 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:13:47 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:13:52 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:14:22 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:14:47 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:14:47 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:14:52 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:15:22 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:15:47 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:15:47 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:15:52 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:34:10 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:37:34 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:37:34 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:37:39 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:38:09 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:38:34 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:38:34 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:38:39 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:39:09 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:39:34 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:39:34 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:39:39 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:40:09 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:40:34 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:40:34 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:40:39 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:41:09 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:41:34 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:41:34 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:41:39 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:42:09 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:42:34 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:42:34 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:42:39 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:43:09 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:43:34 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:43:34 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:43:39 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:44:09 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:44:34 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:44:34 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:44:39 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:45:09 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:45:34 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:45:34 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:45:39 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:46:09 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:46:34 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:46:34 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:46:39 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:49:28 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:49:54 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:49:54 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:49:58 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:50:28 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:50:54 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:50:54 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:50:58 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:51:28 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:51:54 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:51:54 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:51:58 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:52:28 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:56:57 INFO main - rocketmqHome=/home/rocketmq/rocketmq-4.5.0
+2023-05-13 10:56:57 INFO main - namesrvAddr=rmqnamesrv:9876
+2023-05-13 10:56:57 INFO main - brokerIP1=192.168.1.10
+2023-05-13 10:56:57 INFO main - brokerIP2=172.18.0.8
+2023-05-13 10:56:57 INFO main - brokerName=broker-a
+2023-05-13 10:56:57 INFO main - brokerClusterName=DefaultCluster
+2023-05-13 10:56:57 INFO main - brokerId=0
+2023-05-13 10:56:57 INFO main - brokerPermission=6
+2023-05-13 10:56:57 INFO main - defaultTopicQueueNums=8
+2023-05-13 10:56:57 INFO main - autoCreateTopicEnable=true
+2023-05-13 10:56:57 INFO main - clusterTopicEnable=true
+2023-05-13 10:56:57 INFO main - brokerTopicEnable=true
+2023-05-13 10:56:57 INFO main - autoCreateSubscriptionGroup=true
+2023-05-13 10:56:57 INFO main - messageStorePlugIn=
+2023-05-13 10:56:58 INFO main - msgTraceTopicName=RMQ_SYS_TRACE_TOPIC
+2023-05-13 10:56:58 INFO main - traceTopicEnable=false
+2023-05-13 10:56:58 INFO main - sendMessageThreadPoolNums=1
+2023-05-13 10:56:58 INFO main - pullMessageThreadPoolNums=24
+2023-05-13 10:56:58 INFO main - queryMessageThreadPoolNums=12
+2023-05-13 10:56:58 INFO main - adminBrokerThreadPoolNums=16
+2023-05-13 10:56:58 INFO main - clientManageThreadPoolNums=32
+2023-05-13 10:56:58 INFO main - consumerManageThreadPoolNums=32
+2023-05-13 10:56:58 INFO main - heartbeatThreadPoolNums=4
+2023-05-13 10:56:58 INFO main - endTransactionThreadPoolNums=16
+2023-05-13 10:56:58 INFO main - flushConsumerOffsetInterval=5000
+2023-05-13 10:56:58 INFO main - flushConsumerOffsetHistoryInterval=60000
+2023-05-13 10:56:58 INFO main - rejectTransactionMessage=false
+2023-05-13 10:56:58 INFO main - fetchNamesrvAddrByAddressServer=false
+2023-05-13 10:56:58 INFO main - sendThreadPoolQueueCapacity=10000
+2023-05-13 10:56:58 INFO main - pullThreadPoolQueueCapacity=100000
+2023-05-13 10:56:58 INFO main - queryThreadPoolQueueCapacity=20000
+2023-05-13 10:56:58 INFO main - clientManagerThreadPoolQueueCapacity=1000000
+2023-05-13 10:56:58 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
+2023-05-13 10:56:58 INFO main - heartbeatThreadPoolQueueCapacity=50000
+2023-05-13 10:56:58 INFO main - endTransactionPoolQueueCapacity=100000
+2023-05-13 10:56:58 INFO main - filterServerNums=0
+2023-05-13 10:56:58 INFO main - longPollingEnable=true
+2023-05-13 10:56:58 INFO main - shortPollingTimeMills=1000
+2023-05-13 10:56:58 INFO main - notifyConsumerIdsChangedEnable=true
+2023-05-13 10:56:58 INFO main - highSpeedMode=false
+2023-05-13 10:56:58 INFO main - commercialEnable=true
+2023-05-13 10:56:58 INFO main - commercialTimerCount=1
+2023-05-13 10:56:58 INFO main - commercialTransCount=1
+2023-05-13 10:56:58 INFO main - commercialBigCount=1
+2023-05-13 10:56:58 INFO main - commercialBaseCount=1
+2023-05-13 10:56:58 INFO main - transferMsgByHeap=true
+2023-05-13 10:56:58 INFO main - maxDelayTime=40
+2023-05-13 10:56:58 INFO main - regionId=DefaultRegion
+2023-05-13 10:56:58 INFO main - registerBrokerTimeoutMills=6000
+2023-05-13 10:56:58 INFO main - slaveReadEnable=false
+2023-05-13 10:56:58 INFO main - disableConsumeIfConsumerReadSlowly=false
+2023-05-13 10:56:58 INFO main - consumerFallbehindThreshold=17179869184
+2023-05-13 10:56:58 INFO main - brokerFastFailureEnable=true
+2023-05-13 10:56:58 INFO main - waitTimeMillsInSendQueue=200
+2023-05-13 10:56:58 INFO main - waitTimeMillsInPullQueue=5000
+2023-05-13 10:56:58 INFO main - waitTimeMillsInHeartbeatQueue=31000
+2023-05-13 10:56:58 INFO main - waitTimeMillsInTransactionQueue=3000
+2023-05-13 10:56:58 INFO main - startAcceptSendRequestTimeStamp=0
+2023-05-13 10:56:58 INFO main - traceOn=true
+2023-05-13 10:56:58 INFO main - enableCalcFilterBitMap=false
+2023-05-13 10:56:58 INFO main - expectConsumerNumUseFilter=32
+2023-05-13 10:56:58 INFO main - maxErrorRateOfBloomFilter=20
+2023-05-13 10:56:58 INFO main - filterDataCleanTimeSpan=86400000
+2023-05-13 10:56:58 INFO main - filterSupportRetry=false
+2023-05-13 10:56:58 INFO main - enablePropertyFilter=false
+2023-05-13 10:56:58 INFO main - compressedRegister=false
+2023-05-13 10:56:58 INFO main - forceRegister=true
+2023-05-13 10:56:58 INFO main - registerNameServerPeriod=30000
+2023-05-13 10:56:58 INFO main - transactionTimeOut=6000
+2023-05-13 10:56:58 INFO main - transactionCheckMax=15
+2023-05-13 10:56:58 INFO main - transactionCheckInterval=60000
+2023-05-13 10:56:58 INFO main - aclEnable=false
+2023-05-13 10:56:58 INFO main - listenPort=10911
+2023-05-13 10:56:58 INFO main - serverWorkerThreads=8
+2023-05-13 10:56:58 INFO main - serverCallbackExecutorThreads=0
+2023-05-13 10:56:58 INFO main - serverSelectorThreads=3
+2023-05-13 10:56:58 INFO main - serverOnewaySemaphoreValue=256
+2023-05-13 10:56:58 INFO main - serverAsyncSemaphoreValue=64
+2023-05-13 10:56:58 INFO main - serverChannelMaxIdleTimeSeconds=120
+2023-05-13 10:56:58 INFO main - serverSocketSndBufSize=131072
+2023-05-13 10:56:58 INFO main - serverSocketRcvBufSize=131072
+2023-05-13 10:56:58 INFO main - serverPooledByteBufAllocatorEnable=true
+2023-05-13 10:56:58 INFO main - useEpollNativeSelector=false
+2023-05-13 10:56:58 INFO main - clientWorkerThreads=4
+2023-05-13 10:56:58 INFO main - clientCallbackExecutorThreads=4
+2023-05-13 10:56:58 INFO main - clientOnewaySemaphoreValue=65535
+2023-05-13 10:56:58 INFO main - clientAsyncSemaphoreValue=65535
+2023-05-13 10:56:58 INFO main - connectTimeoutMillis=3000
+2023-05-13 10:56:58 INFO main - channelNotActiveInterval=60000
+2023-05-13 10:56:58 INFO main - clientChannelMaxIdleTimeSeconds=120
+2023-05-13 10:56:58 INFO main - clientSocketSndBufSize=131072
+2023-05-13 10:56:58 INFO main - clientSocketRcvBufSize=131072
+2023-05-13 10:56:58 INFO main - clientPooledByteBufAllocatorEnable=false
+2023-05-13 10:56:58 INFO main - clientCloseSocketIfTimeout=false
+2023-05-13 10:56:58 INFO main - useTLS=false
+2023-05-13 10:56:58 INFO main - storePathRootDir=/home/rocketmq/store
+2023-05-13 10:56:58 INFO main - storePathCommitLog=/home/rocketmq/store/commitlog
+2023-05-13 10:56:58 INFO main - mapedFileSizeCommitLog=1073741824
+2023-05-13 10:56:58 INFO main - mapedFileSizeConsumeQueue=6000000
+2023-05-13 10:56:58 INFO main - enableConsumeQueueExt=false
+2023-05-13 10:56:58 INFO main - mappedFileSizeConsumeQueueExt=50331648
+2023-05-13 10:56:58 INFO main - bitMapLengthConsumeQueueExt=64
+2023-05-13 10:56:58 INFO main - flushIntervalCommitLog=500
+2023-05-13 10:56:58 INFO main - commitIntervalCommitLog=200
+2023-05-13 10:56:58 INFO main - useReentrantLockWhenPutMessage=false
+2023-05-13 10:56:58 INFO main - flushCommitLogTimed=false
+2023-05-13 10:56:58 INFO main - flushIntervalConsumeQueue=1000
+2023-05-13 10:56:58 INFO main - cleanResourceInterval=10000
+2023-05-13 10:56:58 INFO main - deleteCommitLogFilesInterval=100
+2023-05-13 10:56:58 INFO main - deleteConsumeQueueFilesInterval=100
+2023-05-13 10:56:58 INFO main - destroyMapedFileIntervalForcibly=120000
+2023-05-13 10:56:58 INFO main - redeleteHangedFileInterval=120000
+2023-05-13 10:56:58 INFO main - deleteWhen=04
+2023-05-13 10:56:58 INFO main - diskMaxUsedSpaceRatio=75
+2023-05-13 10:56:58 INFO main - fileReservedTime=48
+2023-05-13 10:56:58 INFO main - putMsgIndexHightWater=600000
+2023-05-13 10:56:58 INFO main - maxMessageSize=4194304
+2023-05-13 10:56:58 INFO main - checkCRCOnRecover=true
+2023-05-13 10:56:58 INFO main - flushCommitLogLeastPages=4
+2023-05-13 10:56:58 INFO main - commitCommitLogLeastPages=4
+2023-05-13 10:56:58 INFO main - flushLeastPagesWhenWarmMapedFile=4096
+2023-05-13 10:56:58 INFO main - flushConsumeQueueLeastPages=2
+2023-05-13 10:56:58 INFO main - flushCommitLogThoroughInterval=10000
+2023-05-13 10:56:58 INFO main - commitCommitLogThoroughInterval=200
+2023-05-13 10:56:58 INFO main - flushConsumeQueueThoroughInterval=60000
+2023-05-13 10:56:58 INFO main - maxTransferBytesOnMessageInMemory=262144
+2023-05-13 10:56:58 INFO main - maxTransferCountOnMessageInMemory=32
+2023-05-13 10:56:58 INFO main - maxTransferBytesOnMessageInDisk=65536
+2023-05-13 10:56:58 INFO main - maxTransferCountOnMessageInDisk=8
+2023-05-13 10:56:58 INFO main - accessMessageInMemoryMaxRatio=40
+2023-05-13 10:56:58 INFO main - messageIndexEnable=true
+2023-05-13 10:56:58 INFO main - maxHashSlotNum=5000000
+2023-05-13 10:56:58 INFO main - maxIndexNum=20000000
+2023-05-13 10:56:58 INFO main - maxMsgsNumBatch=64
+2023-05-13 10:56:58 INFO main - messageIndexSafe=false
+2023-05-13 10:56:58 INFO main - haListenPort=10912
+2023-05-13 10:56:58 INFO main - haSendHeartbeatInterval=5000
+2023-05-13 10:56:58 INFO main - haHousekeepingInterval=20000
+2023-05-13 10:56:58 INFO main - haTransferBatchSize=32768
+2023-05-13 10:56:58 INFO main - haMasterAddress=
+2023-05-13 10:56:58 INFO main - haSlaveFallbehindMax=268435456
+2023-05-13 10:56:58 INFO main - brokerRole=ASYNC_MASTER
+2023-05-13 10:56:58 INFO main - flushDiskType=ASYNC_FLUSH
+2023-05-13 10:56:58 INFO main - syncFlushTimeout=5000
+2023-05-13 10:56:58 INFO main - messageDelayLevel=1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h
+2023-05-13 10:56:58 INFO main - flushDelayOffsetInterval=10000
+2023-05-13 10:56:58 INFO main - cleanFileForciblyEnable=true
+2023-05-13 10:56:58 INFO main - warmMapedFileEnable=false
+2023-05-13 10:56:58 INFO main - offsetCheckInSlave=false
+2023-05-13 10:56:58 INFO main - debugLockEnable=false
+2023-05-13 10:56:58 INFO main - duplicationEnable=false
+2023-05-13 10:56:58 INFO main - diskFallRecorded=true
+2023-05-13 10:56:58 INFO main - osPageCacheBusyTimeOutMills=1000
+2023-05-13 10:56:58 INFO main - defaultQueryMaxNum=32
+2023-05-13 10:56:58 INFO main - transientStorePoolEnable=false
+2023-05-13 10:56:58 INFO main - transientStorePoolSize=5
+2023-05-13 10:56:58 INFO main - fastFailIfNoBufferInStorePool=false
+2023-05-13 10:56:58 INFO main - enableDLegerCommitLog=false
+2023-05-13 10:56:58 INFO main - dLegerGroup=
+2023-05-13 10:56:58 INFO main - dLegerPeers=
+2023-05-13 10:56:58 INFO main - dLegerSelfId=
+2023-05-13 10:57:03 INFO main - load exist local topic, TopicConfig [topicName=RMQ_SYS_TRANS_HALF_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 10:57:03 INFO main - load exist local topic, TopicConfig [topicName=BenchmarkTest, readQueueNums=1024, writeQueueNums=1024, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 10:57:03 INFO main - load exist local topic, TopicConfig [topicName=OFFSET_MOVED_EVENT, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 10:57:03 INFO main - load exist local topic, TopicConfig [topicName=broker-a, readQueueNums=1, writeQueueNums=1, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 10:57:03 INFO main - load exist local topic, TopicConfig [topicName=TBW102, readQueueNums=8, writeQueueNums=8, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 10:57:03 INFO main - load exist local topic, TopicConfig [topicName=SELF_TEST_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 10:57:03 INFO main - load exist local topic, TopicConfig [topicName=DefaultCluster, readQueueNums=16, writeQueueNums=16, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 10:57:03 INFO main - load /home/rocketmq/store/config/topics.json OK
+2023-05-13 10:57:03 INFO main - load /home/rocketmq/store/config/consumerOffset.json OK
+2023-05-13 10:57:03 INFO main - load /home/rocketmq/store/config/consumerFilter.json OK
+2023-05-13 10:57:03 INFO main - Try to start service thread:AllocateMappedFileService started:false lastThread:null
+2023-05-13 10:57:04 INFO main - load /home/rocketmq/store/config/delayOffset.json OK
+2023-05-13 10:57:17 INFO main - Set user specified name server address: rmqnamesrv:9876
+2023-05-13 10:57:17 WARN main - Load default transaction message hook service: TransactionalMessageServiceImpl
+2023-05-13 10:57:17 WARN main - Load default discard message hook service: DefaultTransactionalMessageCheckListener
+2023-05-13 10:57:17 INFO main - The broker dose not enable acl
+2023-05-13 10:57:17 INFO main - Try to start service thread:ReputMessageService started:false lastThread:null
+2023-05-13 10:57:17 INFO main - Try to start service thread:AcceptSocketService started:false lastThread:null
+2023-05-13 10:57:17 INFO main - Try to start service thread:GroupTransferService started:false lastThread:null
+2023-05-13 10:57:17 INFO main - Try to start service thread:HAClient started:false lastThread:null
+2023-05-13 10:57:17 INFO main - Try to start service thread:FlushConsumeQueueService started:false lastThread:null
+2023-05-13 10:57:17 INFO main - Try to start service thread:FlushRealTimeService started:false lastThread:null
+2023-05-13 10:57:17 INFO main - Try to start service thread:StoreStatsService started:false lastThread:null
+2023-05-13 10:57:18 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2023-05-13 10:57:18 INFO FileWatchService - FileWatchService service started
+2023-05-13 10:57:18 INFO main - Try to start service thread:PullRequestHoldService started:false lastThread:null
+2023-05-13 10:57:18 INFO PullRequestHoldService - PullRequestHoldService service started
+2023-05-13 10:57:18 INFO main - Try to start service thread:TransactionalMessageCheckService started:false lastThread:null
+2023-05-13 10:57:22 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:57:22 INFO main - The broker[broker-a, 192.168.1.10:10911] boot success. serializeType=JSON and name server is rmqnamesrv:9876
+2023-05-13 10:57:27 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:57:27 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:57:32 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:58:02 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:58:27 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:58:27 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:58:32 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:59:02 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 10:59:27 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 10:59:27 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 10:59:32 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:00:02 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:00:27 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 11:00:27 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 11:00:32 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:01:02 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:01:27 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 11:01:27 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 11:01:32 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:02:02 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:02:27 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 11:02:27 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 11:02:32 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:03:02 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:03:27 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 11:03:27 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 11:03:32 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:04:02 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:04:27 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 11:04:27 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 11:04:32 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:05:02 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:05:27 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 11:05:27 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 11:05:32 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:06:02 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:06:27 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 11:06:27 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 11:06:32 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:07:02 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:07:27 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 11:07:27 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 11:07:32 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:08:02 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:08:27 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 11:08:27 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 11:08:32 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:09:02 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:09:27 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 11:09:27 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 11:09:32 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:10:02 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:10:27 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 11:10:27 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 11:10:32 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:11:02 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:11:27 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 11:11:27 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 11:11:55 INFO main - rocketmqHome=/home/rocketmq/rocketmq-4.5.0
+2023-05-13 11:11:56 INFO main - namesrvAddr=rmqnamesrv:9876
+2023-05-13 11:11:56 INFO main - brokerIP1=192.168.1.10
+2023-05-13 11:11:56 INFO main - brokerIP2=172.18.0.9
+2023-05-13 11:11:56 INFO main - brokerName=broker-a
+2023-05-13 11:11:56 INFO main - brokerClusterName=DefaultCluster
+2023-05-13 11:11:56 INFO main - brokerId=0
+2023-05-13 11:11:56 INFO main - brokerPermission=6
+2023-05-13 11:11:56 INFO main - defaultTopicQueueNums=8
+2023-05-13 11:11:56 INFO main - autoCreateTopicEnable=true
+2023-05-13 11:11:56 INFO main - clusterTopicEnable=true
+2023-05-13 11:11:56 INFO main - brokerTopicEnable=true
+2023-05-13 11:11:56 INFO main - autoCreateSubscriptionGroup=true
+2023-05-13 11:11:56 INFO main - messageStorePlugIn=
+2023-05-13 11:11:56 INFO main - msgTraceTopicName=RMQ_SYS_TRACE_TOPIC
+2023-05-13 11:11:56 INFO main - traceTopicEnable=false
+2023-05-13 11:11:56 INFO main - sendMessageThreadPoolNums=1
+2023-05-13 11:11:56 INFO main - pullMessageThreadPoolNums=24
+2023-05-13 11:11:56 INFO main - queryMessageThreadPoolNums=12
+2023-05-13 11:11:56 INFO main - adminBrokerThreadPoolNums=16
+2023-05-13 11:11:56 INFO main - clientManageThreadPoolNums=32
+2023-05-13 11:11:56 INFO main - consumerManageThreadPoolNums=32
+2023-05-13 11:11:56 INFO main - heartbeatThreadPoolNums=4
+2023-05-13 11:11:56 INFO main - endTransactionThreadPoolNums=16
+2023-05-13 11:11:56 INFO main - flushConsumerOffsetInterval=5000
+2023-05-13 11:11:56 INFO main - flushConsumerOffsetHistoryInterval=60000
+2023-05-13 11:11:56 INFO main - rejectTransactionMessage=false
+2023-05-13 11:11:56 INFO main - fetchNamesrvAddrByAddressServer=false
+2023-05-13 11:11:56 INFO main - sendThreadPoolQueueCapacity=10000
+2023-05-13 11:11:56 INFO main - pullThreadPoolQueueCapacity=100000
+2023-05-13 11:11:56 INFO main - queryThreadPoolQueueCapacity=20000
+2023-05-13 11:11:56 INFO main - clientManagerThreadPoolQueueCapacity=1000000
+2023-05-13 11:11:56 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
+2023-05-13 11:11:56 INFO main - heartbeatThreadPoolQueueCapacity=50000
+2023-05-13 11:11:56 INFO main - endTransactionPoolQueueCapacity=100000
+2023-05-13 11:11:56 INFO main - filterServerNums=0
+2023-05-13 11:11:56 INFO main - longPollingEnable=true
+2023-05-13 11:11:56 INFO main - shortPollingTimeMills=1000
+2023-05-13 11:11:56 INFO main - notifyConsumerIdsChangedEnable=true
+2023-05-13 11:11:56 INFO main - highSpeedMode=false
+2023-05-13 11:11:56 INFO main - commercialEnable=true
+2023-05-13 11:11:56 INFO main - commercialTimerCount=1
+2023-05-13 11:11:56 INFO main - commercialTransCount=1
+2023-05-13 11:11:56 INFO main - commercialBigCount=1
+2023-05-13 11:11:56 INFO main - commercialBaseCount=1
+2023-05-13 11:11:56 INFO main - transferMsgByHeap=true
+2023-05-13 11:11:56 INFO main - maxDelayTime=40
+2023-05-13 11:11:56 INFO main - regionId=DefaultRegion
+2023-05-13 11:11:56 INFO main - registerBrokerTimeoutMills=6000
+2023-05-13 11:11:56 INFO main - slaveReadEnable=false
+2023-05-13 11:11:56 INFO main - disableConsumeIfConsumerReadSlowly=false
+2023-05-13 11:11:56 INFO main - consumerFallbehindThreshold=17179869184
+2023-05-13 11:11:56 INFO main - brokerFastFailureEnable=true
+2023-05-13 11:11:56 INFO main - waitTimeMillsInSendQueue=200
+2023-05-13 11:11:56 INFO main - waitTimeMillsInPullQueue=5000
+2023-05-13 11:11:56 INFO main - waitTimeMillsInHeartbeatQueue=31000
+2023-05-13 11:11:56 INFO main - waitTimeMillsInTransactionQueue=3000
+2023-05-13 11:11:56 INFO main - startAcceptSendRequestTimeStamp=0
+2023-05-13 11:11:56 INFO main - traceOn=true
+2023-05-13 11:11:56 INFO main - enableCalcFilterBitMap=false
+2023-05-13 11:11:56 INFO main - expectConsumerNumUseFilter=32
+2023-05-13 11:11:56 INFO main - maxErrorRateOfBloomFilter=20
+2023-05-13 11:11:56 INFO main - filterDataCleanTimeSpan=86400000
+2023-05-13 11:11:56 INFO main - filterSupportRetry=false
+2023-05-13 11:11:56 INFO main - enablePropertyFilter=false
+2023-05-13 11:11:56 INFO main - compressedRegister=false
+2023-05-13 11:11:56 INFO main - forceRegister=true
+2023-05-13 11:11:56 INFO main - registerNameServerPeriod=30000
+2023-05-13 11:11:56 INFO main - transactionTimeOut=6000
+2023-05-13 11:11:56 INFO main - transactionCheckMax=15
+2023-05-13 11:11:56 INFO main - transactionCheckInterval=60000
+2023-05-13 11:11:56 INFO main - aclEnable=false
+2023-05-13 11:11:56 INFO main - listenPort=10911
+2023-05-13 11:11:56 INFO main - serverWorkerThreads=8
+2023-05-13 11:11:56 INFO main - serverCallbackExecutorThreads=0
+2023-05-13 11:11:56 INFO main - serverSelectorThreads=3
+2023-05-13 11:11:56 INFO main - serverOnewaySemaphoreValue=256
+2023-05-13 11:11:56 INFO main - serverAsyncSemaphoreValue=64
+2023-05-13 11:11:56 INFO main - serverChannelMaxIdleTimeSeconds=120
+2023-05-13 11:11:56 INFO main - serverSocketSndBufSize=131072
+2023-05-13 11:11:56 INFO main - serverSocketRcvBufSize=131072
+2023-05-13 11:11:56 INFO main - serverPooledByteBufAllocatorEnable=true
+2023-05-13 11:11:56 INFO main - useEpollNativeSelector=false
+2023-05-13 11:11:56 INFO main - clientWorkerThreads=4
+2023-05-13 11:11:56 INFO main - clientCallbackExecutorThreads=4
+2023-05-13 11:11:56 INFO main - clientOnewaySemaphoreValue=65535
+2023-05-13 11:11:56 INFO main - clientAsyncSemaphoreValue=65535
+2023-05-13 11:11:56 INFO main - connectTimeoutMillis=3000
+2023-05-13 11:11:56 INFO main - channelNotActiveInterval=60000
+2023-05-13 11:11:56 INFO main - clientChannelMaxIdleTimeSeconds=120
+2023-05-13 11:11:56 INFO main - clientSocketSndBufSize=131072
+2023-05-13 11:11:56 INFO main - clientSocketRcvBufSize=131072
+2023-05-13 11:11:56 INFO main - clientPooledByteBufAllocatorEnable=false
+2023-05-13 11:11:56 INFO main - clientCloseSocketIfTimeout=false
+2023-05-13 11:11:56 INFO main - useTLS=false
+2023-05-13 11:11:56 INFO main - storePathRootDir=/home/rocketmq/store
+2023-05-13 11:11:56 INFO main - storePathCommitLog=/home/rocketmq/store/commitlog
+2023-05-13 11:11:56 INFO main - mapedFileSizeCommitLog=1073741824
+2023-05-13 11:11:56 INFO main - mapedFileSizeConsumeQueue=6000000
+2023-05-13 11:11:56 INFO main - enableConsumeQueueExt=false
+2023-05-13 11:11:56 INFO main - mappedFileSizeConsumeQueueExt=50331648
+2023-05-13 11:11:56 INFO main - bitMapLengthConsumeQueueExt=64
+2023-05-13 11:11:56 INFO main - flushIntervalCommitLog=500
+2023-05-13 11:11:56 INFO main - commitIntervalCommitLog=200
+2023-05-13 11:11:56 INFO main - useReentrantLockWhenPutMessage=false
+2023-05-13 11:11:56 INFO main - flushCommitLogTimed=false
+2023-05-13 11:11:56 INFO main - flushIntervalConsumeQueue=1000
+2023-05-13 11:11:56 INFO main - cleanResourceInterval=10000
+2023-05-13 11:11:56 INFO main - deleteCommitLogFilesInterval=100
+2023-05-13 11:11:56 INFO main - deleteConsumeQueueFilesInterval=100
+2023-05-13 11:11:56 INFO main - destroyMapedFileIntervalForcibly=120000
+2023-05-13 11:11:56 INFO main - redeleteHangedFileInterval=120000
+2023-05-13 11:11:56 INFO main - deleteWhen=04
+2023-05-13 11:11:56 INFO main - diskMaxUsedSpaceRatio=75
+2023-05-13 11:11:56 INFO main - fileReservedTime=48
+2023-05-13 11:11:56 INFO main - putMsgIndexHightWater=600000
+2023-05-13 11:11:56 INFO main - maxMessageSize=4194304
+2023-05-13 11:11:56 INFO main - checkCRCOnRecover=true
+2023-05-13 11:11:56 INFO main - flushCommitLogLeastPages=4
+2023-05-13 11:11:56 INFO main - commitCommitLogLeastPages=4
+2023-05-13 11:11:56 INFO main - flushLeastPagesWhenWarmMapedFile=4096
+2023-05-13 11:11:56 INFO main - flushConsumeQueueLeastPages=2
+2023-05-13 11:11:56 INFO main - flushCommitLogThoroughInterval=10000
+2023-05-13 11:11:56 INFO main - commitCommitLogThoroughInterval=200
+2023-05-13 11:11:56 INFO main - flushConsumeQueueThoroughInterval=60000
+2023-05-13 11:11:56 INFO main - maxTransferBytesOnMessageInMemory=262144
+2023-05-13 11:11:56 INFO main - maxTransferCountOnMessageInMemory=32
+2023-05-13 11:11:56 INFO main - maxTransferBytesOnMessageInDisk=65536
+2023-05-13 11:11:56 INFO main - maxTransferCountOnMessageInDisk=8
+2023-05-13 11:11:56 INFO main - accessMessageInMemoryMaxRatio=40
+2023-05-13 11:11:56 INFO main - messageIndexEnable=true
+2023-05-13 11:11:56 INFO main - maxHashSlotNum=5000000
+2023-05-13 11:11:56 INFO main - maxIndexNum=20000000
+2023-05-13 11:11:56 INFO main - maxMsgsNumBatch=64
+2023-05-13 11:11:56 INFO main - messageIndexSafe=false
+2023-05-13 11:11:56 INFO main - haListenPort=10912
+2023-05-13 11:11:56 INFO main - haSendHeartbeatInterval=5000
+2023-05-13 11:11:56 INFO main - haHousekeepingInterval=20000
+2023-05-13 11:11:56 INFO main - haTransferBatchSize=32768
+2023-05-13 11:11:56 INFO main - haMasterAddress=
+2023-05-13 11:11:56 INFO main - haSlaveFallbehindMax=268435456
+2023-05-13 11:11:56 INFO main - brokerRole=ASYNC_MASTER
+2023-05-13 11:11:56 INFO main - flushDiskType=ASYNC_FLUSH
+2023-05-13 11:11:56 INFO main - syncFlushTimeout=5000
+2023-05-13 11:11:56 INFO main - messageDelayLevel=1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h
+2023-05-13 11:11:56 INFO main - flushDelayOffsetInterval=10000
+2023-05-13 11:11:56 INFO main - cleanFileForciblyEnable=true
+2023-05-13 11:11:56 INFO main - warmMapedFileEnable=false
+2023-05-13 11:11:56 INFO main - offsetCheckInSlave=false
+2023-05-13 11:11:56 INFO main - debugLockEnable=false
+2023-05-13 11:11:56 INFO main - duplicationEnable=false
+2023-05-13 11:11:56 INFO main - diskFallRecorded=true
+2023-05-13 11:11:56 INFO main - osPageCacheBusyTimeOutMills=1000
+2023-05-13 11:11:56 INFO main - defaultQueryMaxNum=32
+2023-05-13 11:11:56 INFO main - transientStorePoolEnable=false
+2023-05-13 11:11:56 INFO main - transientStorePoolSize=5
+2023-05-13 11:11:56 INFO main - fastFailIfNoBufferInStorePool=false
+2023-05-13 11:11:56 INFO main - enableDLegerCommitLog=false
+2023-05-13 11:11:56 INFO main - dLegerGroup=
+2023-05-13 11:11:56 INFO main - dLegerPeers=
+2023-05-13 11:11:56 INFO main - dLegerSelfId=
+2023-05-13 11:12:02 INFO main - load exist local topic, TopicConfig [topicName=RMQ_SYS_TRANS_HALF_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 11:12:02 INFO main - load exist local topic, TopicConfig [topicName=BenchmarkTest, readQueueNums=1024, writeQueueNums=1024, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 11:12:02 INFO main - load exist local topic, TopicConfig [topicName=OFFSET_MOVED_EVENT, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 11:12:02 INFO main - load exist local topic, TopicConfig [topicName=broker-a, readQueueNums=1, writeQueueNums=1, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 11:12:02 INFO main - load exist local topic, TopicConfig [topicName=TBW102, readQueueNums=8, writeQueueNums=8, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 11:12:02 INFO main - load exist local topic, TopicConfig [topicName=SELF_TEST_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 11:12:02 INFO main - load exist local topic, TopicConfig [topicName=DefaultCluster, readQueueNums=16, writeQueueNums=16, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 11:12:02 INFO main - load /home/rocketmq/store/config/topics.json OK
+2023-05-13 11:12:02 INFO main - load /home/rocketmq/store/config/consumerOffset.json OK
+2023-05-13 11:12:02 INFO main - load /home/rocketmq/store/config/consumerFilter.json OK
+2023-05-13 11:12:02 INFO main - Try to start service thread:AllocateMappedFileService started:false lastThread:null
+2023-05-13 11:12:03 INFO main - load /home/rocketmq/store/config/delayOffset.json OK
+2023-05-13 11:12:13 INFO main - Set user specified name server address: rmqnamesrv:9876
+2023-05-13 11:12:13 WARN main - Load default transaction message hook service: TransactionalMessageServiceImpl
+2023-05-13 11:12:13 WARN main - Load default discard message hook service: DefaultTransactionalMessageCheckListener
+2023-05-13 11:12:13 INFO main - The broker dose not enable acl
+2023-05-13 11:12:13 INFO main - Try to start service thread:ReputMessageService started:false lastThread:null
+2023-05-13 11:12:13 INFO main - Try to start service thread:AcceptSocketService started:false lastThread:null
+2023-05-13 11:12:13 INFO main - Try to start service thread:GroupTransferService started:false lastThread:null
+2023-05-13 11:12:13 INFO main - Try to start service thread:HAClient started:false lastThread:null
+2023-05-13 11:12:13 INFO main - Try to start service thread:FlushConsumeQueueService started:false lastThread:null
+2023-05-13 11:12:13 INFO main - Try to start service thread:FlushRealTimeService started:false lastThread:null
+2023-05-13 11:12:13 INFO main - Try to start service thread:StoreStatsService started:false lastThread:null
+2023-05-13 11:12:14 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2023-05-13 11:12:14 INFO FileWatchService - FileWatchService service started
+2023-05-13 11:12:14 INFO main - Try to start service thread:PullRequestHoldService started:false lastThread:null
+2023-05-13 11:12:14 INFO PullRequestHoldService - PullRequestHoldService service started
+2023-05-13 11:12:14 INFO main - Try to start service thread:TransactionalMessageCheckService started:false lastThread:null
+2023-05-13 11:12:17 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:12:17 INFO main - The broker[broker-a, 192.168.1.10:10911] boot success. serializeType=JSON and name server is rmqnamesrv:9876
+2023-05-13 11:12:23 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 11:12:23 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 11:12:27 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:12:57 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:13:23 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 11:13:23 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 11:13:27 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:13:57 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:14:23 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 11:14:23 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 11:14:27 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:14:57 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:15:23 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 11:15:23 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 11:15:27 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:15:57 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:16:23 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 11:16:23 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 11:16:27 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:16:57 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:17:22 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 11:17:23 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 11:17:27 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:17:57 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:18:23 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 11:18:23 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 11:18:27 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:18:57 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:19:22 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 11:19:23 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 11:19:27 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:19:57 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:20:22 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 11:20:23 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 11:20:27 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:20:57 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:21:22 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 11:21:23 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 11:21:27 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:21:57 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:22:22 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 11:22:22 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 11:22:27 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:22:57 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:23:42 INFO main - rocketmqHome=/home/rocketmq/rocketmq-4.5.0
+2023-05-13 11:23:42 INFO main - namesrvAddr=rmqnamesrv:9876
+2023-05-13 11:23:42 INFO main - brokerIP1=192.168.1.10
+2023-05-13 11:23:42 INFO main - brokerIP2=172.18.0.11
+2023-05-13 11:23:42 INFO main - brokerName=broker-a
+2023-05-13 11:23:42 INFO main - brokerClusterName=DefaultCluster
+2023-05-13 11:23:42 INFO main - brokerId=0
+2023-05-13 11:23:42 INFO main - brokerPermission=6
+2023-05-13 11:23:42 INFO main - defaultTopicQueueNums=8
+2023-05-13 11:23:42 INFO main - autoCreateTopicEnable=true
+2023-05-13 11:23:42 INFO main - clusterTopicEnable=true
+2023-05-13 11:23:42 INFO main - brokerTopicEnable=true
+2023-05-13 11:23:42 INFO main - autoCreateSubscriptionGroup=true
+2023-05-13 11:23:42 INFO main - messageStorePlugIn=
+2023-05-13 11:23:42 INFO main - msgTraceTopicName=RMQ_SYS_TRACE_TOPIC
+2023-05-13 11:23:42 INFO main - traceTopicEnable=false
+2023-05-13 11:23:42 INFO main - sendMessageThreadPoolNums=1
+2023-05-13 11:23:42 INFO main - pullMessageThreadPoolNums=24
+2023-05-13 11:23:42 INFO main - queryMessageThreadPoolNums=12
+2023-05-13 11:23:42 INFO main - adminBrokerThreadPoolNums=16
+2023-05-13 11:23:42 INFO main - clientManageThreadPoolNums=32
+2023-05-13 11:23:42 INFO main - consumerManageThreadPoolNums=32
+2023-05-13 11:23:42 INFO main - heartbeatThreadPoolNums=4
+2023-05-13 11:23:42 INFO main - endTransactionThreadPoolNums=16
+2023-05-13 11:23:42 INFO main - flushConsumerOffsetInterval=5000
+2023-05-13 11:23:42 INFO main - flushConsumerOffsetHistoryInterval=60000
+2023-05-13 11:23:42 INFO main - rejectTransactionMessage=false
+2023-05-13 11:23:42 INFO main - fetchNamesrvAddrByAddressServer=false
+2023-05-13 11:23:42 INFO main - sendThreadPoolQueueCapacity=10000
+2023-05-13 11:23:42 INFO main - pullThreadPoolQueueCapacity=100000
+2023-05-13 11:23:42 INFO main - queryThreadPoolQueueCapacity=20000
+2023-05-13 11:23:42 INFO main - clientManagerThreadPoolQueueCapacity=1000000
+2023-05-13 11:23:42 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
+2023-05-13 11:23:42 INFO main - heartbeatThreadPoolQueueCapacity=50000
+2023-05-13 11:23:42 INFO main - endTransactionPoolQueueCapacity=100000
+2023-05-13 11:23:42 INFO main - filterServerNums=0
+2023-05-13 11:23:42 INFO main - longPollingEnable=true
+2023-05-13 11:23:42 INFO main - shortPollingTimeMills=1000
+2023-05-13 11:23:42 INFO main - notifyConsumerIdsChangedEnable=true
+2023-05-13 11:23:42 INFO main - highSpeedMode=false
+2023-05-13 11:23:42 INFO main - commercialEnable=true
+2023-05-13 11:23:42 INFO main - commercialTimerCount=1
+2023-05-13 11:23:42 INFO main - commercialTransCount=1
+2023-05-13 11:23:42 INFO main - commercialBigCount=1
+2023-05-13 11:23:42 INFO main - commercialBaseCount=1
+2023-05-13 11:23:42 INFO main - transferMsgByHeap=true
+2023-05-13 11:23:42 INFO main - maxDelayTime=40
+2023-05-13 11:23:42 INFO main - regionId=DefaultRegion
+2023-05-13 11:23:42 INFO main - registerBrokerTimeoutMills=6000
+2023-05-13 11:23:42 INFO main - slaveReadEnable=false
+2023-05-13 11:23:42 INFO main - disableConsumeIfConsumerReadSlowly=false
+2023-05-13 11:23:42 INFO main - consumerFallbehindThreshold=17179869184
+2023-05-13 11:23:42 INFO main - brokerFastFailureEnable=true
+2023-05-13 11:23:42 INFO main - waitTimeMillsInSendQueue=200
+2023-05-13 11:23:42 INFO main - waitTimeMillsInPullQueue=5000
+2023-05-13 11:23:42 INFO main - waitTimeMillsInHeartbeatQueue=31000
+2023-05-13 11:23:42 INFO main - waitTimeMillsInTransactionQueue=3000
+2023-05-13 11:23:42 INFO main - startAcceptSendRequestTimeStamp=0
+2023-05-13 11:23:42 INFO main - traceOn=true
+2023-05-13 11:23:42 INFO main - enableCalcFilterBitMap=false
+2023-05-13 11:23:42 INFO main - expectConsumerNumUseFilter=32
+2023-05-13 11:23:42 INFO main - maxErrorRateOfBloomFilter=20
+2023-05-13 11:23:42 INFO main - filterDataCleanTimeSpan=86400000
+2023-05-13 11:23:42 INFO main - filterSupportRetry=false
+2023-05-13 11:23:42 INFO main - enablePropertyFilter=false
+2023-05-13 11:23:42 INFO main - compressedRegister=false
+2023-05-13 11:23:42 INFO main - forceRegister=true
+2023-05-13 11:23:42 INFO main - registerNameServerPeriod=30000
+2023-05-13 11:23:42 INFO main - transactionTimeOut=6000
+2023-05-13 11:23:42 INFO main - transactionCheckMax=15
+2023-05-13 11:23:42 INFO main - transactionCheckInterval=60000
+2023-05-13 11:23:42 INFO main - aclEnable=false
+2023-05-13 11:23:42 INFO main - listenPort=10911
+2023-05-13 11:23:42 INFO main - serverWorkerThreads=8
+2023-05-13 11:23:42 INFO main - serverCallbackExecutorThreads=0
+2023-05-13 11:23:42 INFO main - serverSelectorThreads=3
+2023-05-13 11:23:42 INFO main - serverOnewaySemaphoreValue=256
+2023-05-13 11:23:42 INFO main - serverAsyncSemaphoreValue=64
+2023-05-13 11:23:42 INFO main - serverChannelMaxIdleTimeSeconds=120
+2023-05-13 11:23:42 INFO main - serverSocketSndBufSize=131072
+2023-05-13 11:23:42 INFO main - serverSocketRcvBufSize=131072
+2023-05-13 11:23:42 INFO main - serverPooledByteBufAllocatorEnable=true
+2023-05-13 11:23:42 INFO main - useEpollNativeSelector=false
+2023-05-13 11:23:42 INFO main - clientWorkerThreads=4
+2023-05-13 11:23:42 INFO main - clientCallbackExecutorThreads=4
+2023-05-13 11:23:42 INFO main - clientOnewaySemaphoreValue=65535
+2023-05-13 11:23:42 INFO main - clientAsyncSemaphoreValue=65535
+2023-05-13 11:23:42 INFO main - connectTimeoutMillis=3000
+2023-05-13 11:23:42 INFO main - channelNotActiveInterval=60000
+2023-05-13 11:23:42 INFO main - clientChannelMaxIdleTimeSeconds=120
+2023-05-13 11:23:42 INFO main - clientSocketSndBufSize=131072
+2023-05-13 11:23:42 INFO main - clientSocketRcvBufSize=131072
+2023-05-13 11:23:42 INFO main - clientPooledByteBufAllocatorEnable=false
+2023-05-13 11:23:42 INFO main - clientCloseSocketIfTimeout=false
+2023-05-13 11:23:42 INFO main - useTLS=false
+2023-05-13 11:23:42 INFO main - storePathRootDir=/home/rocketmq/store
+2023-05-13 11:23:42 INFO main - storePathCommitLog=/home/rocketmq/store/commitlog
+2023-05-13 11:23:42 INFO main - mapedFileSizeCommitLog=1073741824
+2023-05-13 11:23:42 INFO main - mapedFileSizeConsumeQueue=6000000
+2023-05-13 11:23:42 INFO main - enableConsumeQueueExt=false
+2023-05-13 11:23:42 INFO main - mappedFileSizeConsumeQueueExt=50331648
+2023-05-13 11:23:42 INFO main - bitMapLengthConsumeQueueExt=64
+2023-05-13 11:23:42 INFO main - flushIntervalCommitLog=500
+2023-05-13 11:23:42 INFO main - commitIntervalCommitLog=200
+2023-05-13 11:23:42 INFO main - useReentrantLockWhenPutMessage=false
+2023-05-13 11:23:42 INFO main - flushCommitLogTimed=false
+2023-05-13 11:23:42 INFO main - flushIntervalConsumeQueue=1000
+2023-05-13 11:23:42 INFO main - cleanResourceInterval=10000
+2023-05-13 11:23:42 INFO main - deleteCommitLogFilesInterval=100
+2023-05-13 11:23:42 INFO main - deleteConsumeQueueFilesInterval=100
+2023-05-13 11:23:42 INFO main - destroyMapedFileIntervalForcibly=120000
+2023-05-13 11:23:42 INFO main - redeleteHangedFileInterval=120000
+2023-05-13 11:23:42 INFO main - deleteWhen=04
+2023-05-13 11:23:42 INFO main - diskMaxUsedSpaceRatio=75
+2023-05-13 11:23:42 INFO main - fileReservedTime=48
+2023-05-13 11:23:42 INFO main - putMsgIndexHightWater=600000
+2023-05-13 11:23:42 INFO main - maxMessageSize=4194304
+2023-05-13 11:23:42 INFO main - checkCRCOnRecover=true
+2023-05-13 11:23:42 INFO main - flushCommitLogLeastPages=4
+2023-05-13 11:23:42 INFO main - commitCommitLogLeastPages=4
+2023-05-13 11:23:42 INFO main - flushLeastPagesWhenWarmMapedFile=4096
+2023-05-13 11:23:42 INFO main - flushConsumeQueueLeastPages=2
+2023-05-13 11:23:42 INFO main - flushCommitLogThoroughInterval=10000
+2023-05-13 11:23:42 INFO main - commitCommitLogThoroughInterval=200
+2023-05-13 11:23:42 INFO main - flushConsumeQueueThoroughInterval=60000
+2023-05-13 11:23:42 INFO main - maxTransferBytesOnMessageInMemory=262144
+2023-05-13 11:23:42 INFO main - maxTransferCountOnMessageInMemory=32
+2023-05-13 11:23:42 INFO main - maxTransferBytesOnMessageInDisk=65536
+2023-05-13 11:23:42 INFO main - maxTransferCountOnMessageInDisk=8
+2023-05-13 11:23:42 INFO main - accessMessageInMemoryMaxRatio=40
+2023-05-13 11:23:42 INFO main - messageIndexEnable=true
+2023-05-13 11:23:42 INFO main - maxHashSlotNum=5000000
+2023-05-13 11:23:42 INFO main - maxIndexNum=20000000
+2023-05-13 11:23:42 INFO main - maxMsgsNumBatch=64
+2023-05-13 11:23:42 INFO main - messageIndexSafe=false
+2023-05-13 11:23:42 INFO main - haListenPort=10912
+2023-05-13 11:23:42 INFO main - haSendHeartbeatInterval=5000
+2023-05-13 11:23:42 INFO main - haHousekeepingInterval=20000
+2023-05-13 11:23:42 INFO main - haTransferBatchSize=32768
+2023-05-13 11:23:42 INFO main - haMasterAddress=
+2023-05-13 11:23:42 INFO main - haSlaveFallbehindMax=268435456
+2023-05-13 11:23:42 INFO main - brokerRole=ASYNC_MASTER
+2023-05-13 11:23:42 INFO main - flushDiskType=ASYNC_FLUSH
+2023-05-13 11:23:42 INFO main - syncFlushTimeout=5000
+2023-05-13 11:23:42 INFO main - messageDelayLevel=1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h
+2023-05-13 11:23:42 INFO main - flushDelayOffsetInterval=10000
+2023-05-13 11:23:42 INFO main - cleanFileForciblyEnable=true
+2023-05-13 11:23:42 INFO main - warmMapedFileEnable=false
+2023-05-13 11:23:42 INFO main - offsetCheckInSlave=false
+2023-05-13 11:23:42 INFO main - debugLockEnable=false
+2023-05-13 11:23:42 INFO main - duplicationEnable=false
+2023-05-13 11:23:42 INFO main - diskFallRecorded=true
+2023-05-13 11:23:42 INFO main - osPageCacheBusyTimeOutMills=1000
+2023-05-13 11:23:42 INFO main - defaultQueryMaxNum=32
+2023-05-13 11:23:42 INFO main - transientStorePoolEnable=false
+2023-05-13 11:23:42 INFO main - transientStorePoolSize=5
+2023-05-13 11:23:42 INFO main - fastFailIfNoBufferInStorePool=false
+2023-05-13 11:23:42 INFO main - enableDLegerCommitLog=false
+2023-05-13 11:23:42 INFO main - dLegerGroup=
+2023-05-13 11:23:42 INFO main - dLegerPeers=
+2023-05-13 11:23:42 INFO main - dLegerSelfId=
+2023-05-13 11:23:49 INFO main - load exist local topic, TopicConfig [topicName=RMQ_SYS_TRANS_HALF_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 11:23:49 INFO main - load exist local topic, TopicConfig [topicName=BenchmarkTest, readQueueNums=1024, writeQueueNums=1024, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 11:23:49 INFO main - load exist local topic, TopicConfig [topicName=OFFSET_MOVED_EVENT, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 11:23:49 INFO main - load exist local topic, TopicConfig [topicName=broker-a, readQueueNums=1, writeQueueNums=1, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 11:23:49 INFO main - load exist local topic, TopicConfig [topicName=TBW102, readQueueNums=8, writeQueueNums=8, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 11:23:49 INFO main - load exist local topic, TopicConfig [topicName=SELF_TEST_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 11:23:49 INFO main - load exist local topic, TopicConfig [topicName=DefaultCluster, readQueueNums=16, writeQueueNums=16, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-05-13 11:23:49 INFO main - load /home/rocketmq/store/config/topics.json OK
+2023-05-13 11:23:49 INFO main - load /home/rocketmq/store/config/consumerOffset.json OK
+2023-05-13 11:23:49 INFO main - load /home/rocketmq/store/config/consumerFilter.json OK
+2023-05-13 11:23:49 INFO main - Try to start service thread:AllocateMappedFileService started:false lastThread:null
+2023-05-13 11:23:49 INFO main - load /home/rocketmq/store/config/delayOffset.json OK
+2023-05-13 11:24:01 INFO main - Set user specified name server address: rmqnamesrv:9876
+2023-05-13 11:24:01 WARN main - Load default transaction message hook service: TransactionalMessageServiceImpl
+2023-05-13 11:24:01 WARN main - Load default discard message hook service: DefaultTransactionalMessageCheckListener
+2023-05-13 11:24:01 INFO main - The broker dose not enable acl
+2023-05-13 11:24:01 INFO main - Try to start service thread:ReputMessageService started:false lastThread:null
+2023-05-13 11:24:02 INFO main - Try to start service thread:AcceptSocketService started:false lastThread:null
+2023-05-13 11:24:02 INFO main - Try to start service thread:GroupTransferService started:false lastThread:null
+2023-05-13 11:24:02 INFO main - Try to start service thread:HAClient started:false lastThread:null
+2023-05-13 11:24:02 INFO main - Try to start service thread:FlushConsumeQueueService started:false lastThread:null
+2023-05-13 11:24:02 INFO main - Try to start service thread:FlushRealTimeService started:false lastThread:null
+2023-05-13 11:24:02 INFO main - Try to start service thread:StoreStatsService started:false lastThread:null
+2023-05-13 11:24:03 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2023-05-13 11:24:03 INFO FileWatchService - FileWatchService service started
+2023-05-13 11:24:03 INFO main - Try to start service thread:PullRequestHoldService started:false lastThread:null
+2023-05-13 11:24:03 INFO PullRequestHoldService - PullRequestHoldService service started
+2023-05-13 11:24:03 INFO main - Try to start service thread:TransactionalMessageCheckService started:false lastThread:null
+2023-05-13 11:24:06 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:24:06 INFO main - The broker[broker-a, 192.168.1.10:10911] boot success. serializeType=JSON and name server is rmqnamesrv:9876
+2023-05-13 11:24:11 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 11:24:11 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 11:24:16 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:24:46 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:25:11 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 11:25:11 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 11:25:16 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:25:46 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:26:11 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 11:26:11 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 11:26:16 INFO brokerOutApi_thread_2 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:26:46 INFO brokerOutApi_thread_3 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:27:11 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 11:27:11 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-05-13 11:27:16 INFO brokerOutApi_thread_4 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:27:46 INFO brokerOutApi_thread_1 - register broker[0]to name server rmqnamesrv:9876 OK
+2023-05-13 11:28:11 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-05-13 11:28:11 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes

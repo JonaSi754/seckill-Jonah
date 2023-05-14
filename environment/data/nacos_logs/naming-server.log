@@ -1,0 +1,104 @@
+2023-05-13 09:57:55,049 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2023-05-13 09:57:55,050 WARN Using naming.distro config to replace core.distro config
+
+2023-05-13 09:57:55,606 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-05-13 09:57:55,642 INFO listen for service meta change
+
+2023-05-13 09:57:55,655 INFO upgrade.state file is not exist
+
+2023-05-13 10:12:28,856 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2023-05-13 10:12:28,856 WARN Using naming.distro config to replace core.distro config
+
+2023-05-13 10:12:29,421 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-05-13 10:12:29,423 INFO listen for service meta change
+
+2023-05-13 10:12:29,434 INFO upgrade.state file is not exist
+
+2023-05-13 10:13:26,236 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2023-05-13 10:13:26,263 WARN Using naming.distro config to replace core.distro config
+
+2023-05-13 10:13:26,773 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-05-13 10:13:26,775 INFO listen for service meta change
+
+2023-05-13 10:13:26,785 INFO upgrade.state file is not exist
+
+2023-05-13 10:40:02,234 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2023-05-13 10:40:02,234 WARN Using naming.distro config to replace core.distro config
+
+2023-05-13 10:40:02,317 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-05-13 10:40:02,330 INFO listen for service meta change
+
+2023-05-13 10:42:37,836 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2023-05-13 10:42:37,836 WARN Using naming.distro config to replace core.distro config
+
+2023-05-13 10:42:37,936 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-05-13 10:42:37,938 INFO listen for service meta change
+
+2023-05-13 10:54:55,211 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2023-05-13 10:54:55,211 WARN Using naming.distro config to replace core.distro config
+
+2023-05-13 10:54:55,296 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-05-13 10:54:55,303 INFO listen for service meta change
+
+2023-05-13 11:11:59,422 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2023-05-13 11:11:59,422 WARN Using naming.distro config to replace core.distro config
+
+2023-05-13 11:12:00,061 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-05-13 11:12:00,072 INFO listen for service meta change
+
+2023-05-13 11:12:00,076 INFO upgrade.state file is not exist
+
+2023-05-13 11:20:29,242 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2023-05-13 11:20:29,242 WARN Using naming.distro config to replace core.distro config
+
+2023-05-13 11:20:29,329 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-05-13 11:20:29,336 INFO listen for service meta change
+
+2023-05-13 11:21:57,454 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2023-05-13 11:21:57,455 WARN Using naming.distro config to replace core.distro config
+
+2023-05-13 11:21:57,541 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-05-13 11:21:57,542 INFO listen for service meta change
+
+2023-05-13 11:23:49,174 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2023-05-13 11:23:49,179 WARN Using naming.distro config to replace core.distro config
+
+2023-05-13 11:23:49,553 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-05-13 11:23:49,568 INFO listen for service meta change
+
+2023-05-13 11:23:49,588 INFO upgrade.state file is not exist
+
+2023-05-13 11:23:55,159 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2023-05-13 11:23:55,162 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2023-05-13 11:23:55,164 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2023-05-13 11:23:55,165 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2023-05-13 11:23:58,755 INFO Load instance extension handler []
+
+2023-05-13 11:28:04,916 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2023-05-13 11:28:04,954 WARN [NamingServerHttpClientManager] Destruction of the end
+

@@ -1,0 +1,686 @@
+2023-05-13 08:10:20 INFO main - rocketmqHome=/home/rocketmq/rocketmq-4.5.0
+2023-05-13 08:10:20 INFO main - kvConfigPath=/home/rocketmq/namesrv/kvConfig.json
+2023-05-13 08:10:20 INFO main - configStorePath=/home/rocketmq/namesrv/namesrv.properties
+2023-05-13 08:10:20 INFO main - productEnvName=center
+2023-05-13 08:10:20 INFO main - clusterTest=false
+2023-05-13 08:10:20 INFO main - orderMessageEnable=false
+2023-05-13 08:10:20 INFO main - listenPort=9876
+2023-05-13 08:10:20 INFO main - serverWorkerThreads=8
+2023-05-13 08:10:20 INFO main - serverCallbackExecutorThreads=0
+2023-05-13 08:10:20 INFO main - serverSelectorThreads=3
+2023-05-13 08:10:20 INFO main - serverOnewaySemaphoreValue=256
+2023-05-13 08:10:20 INFO main - serverAsyncSemaphoreValue=64
+2023-05-13 08:10:20 INFO main - serverChannelMaxIdleTimeSeconds=120
+2023-05-13 08:10:20 INFO main - serverSocketSndBufSize=65535
+2023-05-13 08:10:20 INFO main - serverSocketRcvBufSize=65535
+2023-05-13 08:10:20 INFO main - serverPooledByteBufAllocatorEnable=true
+2023-05-13 08:10:20 INFO main - useEpollNativeSelector=false
+2023-05-13 08:10:25 INFO main - Server is running in TLS permissive mode
+2023-05-13 08:10:25 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 08:10:25 INFO main - Log the final used tls related configuration
+2023-05-13 08:10:25 INFO main - tls.test.mode.enable = true
+2023-05-13 08:10:25 INFO main - tls.server.need.client.auth = none
+2023-05-13 08:10:25 INFO main - tls.server.keyPath = null
+2023-05-13 08:10:25 INFO main - tls.server.keyPassword = null
+2023-05-13 08:10:25 INFO main - tls.server.certPath = null
+2023-05-13 08:10:25 INFO main - tls.server.authClient = false
+2023-05-13 08:10:25 INFO main - tls.server.trustCertPath = null
+2023-05-13 08:10:25 INFO main - tls.client.keyPath = null
+2023-05-13 08:10:25 INFO main - tls.client.keyPassword = null
+2023-05-13 08:10:25 INFO main - tls.client.certPath = null
+2023-05-13 08:10:25 INFO main - tls.client.authServer = false
+2023-05-13 08:10:25 INFO main - tls.client.trustCertPath = null
+2023-05-13 08:10:37 INFO main - Using OpenSSL provider
+2023-05-13 08:10:41 INFO main - SSLContext created for server
+2023-05-13 08:10:42 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2023-05-13 08:10:42 INFO FileWatchService - FileWatchService service started
+2023-05-13 08:10:42 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 08:10:42 INFO main - The Name Server boot success. serializeType=JSON
+2023-05-13 08:10:49 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.18.0.9:48386
+2023-05-13 08:10:49 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.18.0.9:48386]
+2023-05-13 08:10:50 INFO RemotingExecutorThread_1 - new topic registered, BenchmarkTest QueueData [brokerName=broker-a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2023-05-13 08:10:50 INFO RemotingExecutorThread_1 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 08:10:50 INFO RemotingExecutorThread_1 - new topic registered, broker-a QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2023-05-13 08:10:50 INFO RemotingExecutorThread_1 - new topic registered, TBW102 QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2023-05-13 08:10:50 INFO RemotingExecutorThread_1 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 08:10:50 INFO RemotingExecutorThread_1 - new topic registered, DefaultCluster QueueData [brokerName=broker-a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2023-05-13 08:10:50 INFO RemotingExecutorThread_1 - new broker registered, 192.168.1.10:10911 HAServer: 172.18.0.9:10912
+2023-05-13 08:11:41 INFO NSScheduledThread1 - --------------------------------------------------------
+2023-05-13 08:11:41 INFO NSScheduledThread1 - configTable SIZE: 0
+2023-05-13 08:11:46 INFO RemotingExecutorThread_4 - new topic registered, RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 08:21:41 INFO NSScheduledThread1 - --------------------------------------------------------
+2023-05-13 08:21:41 INFO NSScheduledThread1 - configTable SIZE: 0
+2023-05-13 08:26:36 INFO main - rocketmqHome=/home/rocketmq/rocketmq-4.5.0
+2023-05-13 08:26:36 INFO main - kvConfigPath=/home/rocketmq/namesrv/kvConfig.json
+2023-05-13 08:26:36 INFO main - configStorePath=/home/rocketmq/namesrv/namesrv.properties
+2023-05-13 08:26:36 INFO main - productEnvName=center
+2023-05-13 08:26:36 INFO main - clusterTest=false
+2023-05-13 08:26:36 INFO main - orderMessageEnable=false
+2023-05-13 08:26:36 INFO main - listenPort=9876
+2023-05-13 08:26:36 INFO main - serverWorkerThreads=8
+2023-05-13 08:26:36 INFO main - serverCallbackExecutorThreads=0
+2023-05-13 08:26:36 INFO main - serverSelectorThreads=3
+2023-05-13 08:26:36 INFO main - serverOnewaySemaphoreValue=256
+2023-05-13 08:26:36 INFO main - serverAsyncSemaphoreValue=64
+2023-05-13 08:26:36 INFO main - serverChannelMaxIdleTimeSeconds=120
+2023-05-13 08:26:36 INFO main - serverSocketSndBufSize=65535
+2023-05-13 08:26:36 INFO main - serverSocketRcvBufSize=65535
+2023-05-13 08:26:36 INFO main - serverPooledByteBufAllocatorEnable=true
+2023-05-13 08:26:36 INFO main - useEpollNativeSelector=false
+2023-05-13 08:26:42 INFO main - Server is running in TLS permissive mode
+2023-05-13 08:26:42 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 08:26:42 INFO main - Log the final used tls related configuration
+2023-05-13 08:26:42 INFO main - tls.test.mode.enable = true
+2023-05-13 08:26:42 INFO main - tls.server.need.client.auth = none
+2023-05-13 08:26:42 INFO main - tls.server.keyPath = null
+2023-05-13 08:26:42 INFO main - tls.server.keyPassword = null
+2023-05-13 08:26:42 INFO main - tls.server.certPath = null
+2023-05-13 08:26:42 INFO main - tls.server.authClient = false
+2023-05-13 08:26:42 INFO main - tls.server.trustCertPath = null
+2023-05-13 08:26:42 INFO main - tls.client.keyPath = null
+2023-05-13 08:26:42 INFO main - tls.client.keyPassword = null
+2023-05-13 08:26:42 INFO main - tls.client.certPath = null
+2023-05-13 08:26:42 INFO main - tls.client.authServer = false
+2023-05-13 08:26:42 INFO main - tls.client.trustCertPath = null
+2023-05-13 08:26:47 INFO main - Using OpenSSL provider
+2023-05-13 08:26:51 INFO main - SSLContext created for server
+2023-05-13 08:26:51 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2023-05-13 08:26:51 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 08:26:51 INFO FileWatchService - FileWatchService service started
+2023-05-13 08:26:51 INFO main - The Name Server boot success. serializeType=JSON
+2023-05-13 08:26:59 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.18.0.8:47916
+2023-05-13 08:26:59 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.18.0.8:47916]
+2023-05-13 08:27:00 INFO RemotingExecutorThread_1 - new topic registered, RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 08:27:00 INFO RemotingExecutorThread_1 - new topic registered, BenchmarkTest QueueData [brokerName=broker-a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2023-05-13 08:27:00 INFO RemotingExecutorThread_1 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 08:27:00 INFO RemotingExecutorThread_1 - new topic registered, broker-a QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2023-05-13 08:27:00 INFO RemotingExecutorThread_1 - new topic registered, TBW102 QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2023-05-13 08:27:00 INFO RemotingExecutorThread_1 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 08:27:00 INFO RemotingExecutorThread_1 - new topic registered, DefaultCluster QueueData [brokerName=broker-a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2023-05-13 08:27:00 INFO RemotingExecutorThread_1 - new broker registered, 192.168.1.10:10911 HAServer: 172.18.0.8:10912
+2023-05-13 08:27:51 INFO NSScheduledThread1 - --------------------------------------------------------
+2023-05-13 08:27:51 INFO NSScheduledThread1 - configTable SIZE: 0
+2023-05-13 08:32:01 INFO main - rocketmqHome=/home/rocketmq/rocketmq-4.5.0
+2023-05-13 08:32:01 INFO main - kvConfigPath=/home/rocketmq/namesrv/kvConfig.json
+2023-05-13 08:32:01 INFO main - configStorePath=/home/rocketmq/namesrv/namesrv.properties
+2023-05-13 08:32:01 INFO main - productEnvName=center
+2023-05-13 08:32:01 INFO main - clusterTest=false
+2023-05-13 08:32:01 INFO main - orderMessageEnable=false
+2023-05-13 08:32:01 INFO main - listenPort=9876
+2023-05-13 08:32:01 INFO main - serverWorkerThreads=8
+2023-05-13 08:32:01 INFO main - serverCallbackExecutorThreads=0
+2023-05-13 08:32:01 INFO main - serverSelectorThreads=3
+2023-05-13 08:32:01 INFO main - serverOnewaySemaphoreValue=256
+2023-05-13 08:32:01 INFO main - serverAsyncSemaphoreValue=64
+2023-05-13 08:32:01 INFO main - serverChannelMaxIdleTimeSeconds=120
+2023-05-13 08:32:01 INFO main - serverSocketSndBufSize=65535
+2023-05-13 08:32:01 INFO main - serverSocketRcvBufSize=65535
+2023-05-13 08:32:01 INFO main - serverPooledByteBufAllocatorEnable=true
+2023-05-13 08:32:01 INFO main - useEpollNativeSelector=false
+2023-05-13 08:32:05 INFO main - Server is running in TLS permissive mode
+2023-05-13 08:32:05 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 08:32:05 INFO main - Log the final used tls related configuration
+2023-05-13 08:32:05 INFO main - tls.test.mode.enable = true
+2023-05-13 08:32:05 INFO main - tls.server.need.client.auth = none
+2023-05-13 08:32:05 INFO main - tls.server.keyPath = null
+2023-05-13 08:32:05 INFO main - tls.server.keyPassword = null
+2023-05-13 08:32:05 INFO main - tls.server.certPath = null
+2023-05-13 08:32:05 INFO main - tls.server.authClient = false
+2023-05-13 08:32:05 INFO main - tls.server.trustCertPath = null
+2023-05-13 08:32:05 INFO main - tls.client.keyPath = null
+2023-05-13 08:32:05 INFO main - tls.client.keyPassword = null
+2023-05-13 08:32:05 INFO main - tls.client.certPath = null
+2023-05-13 08:32:05 INFO main - tls.client.authServer = false
+2023-05-13 08:32:05 INFO main - tls.client.trustCertPath = null
+2023-05-13 08:32:13 INFO main - Using OpenSSL provider
+2023-05-13 08:32:18 INFO main - SSLContext created for server
+2023-05-13 08:32:19 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 08:32:19 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2023-05-13 08:32:19 INFO FileWatchService - FileWatchService service started
+2023-05-13 08:32:19 INFO main - The Name Server boot success. serializeType=JSON
+2023-05-13 08:32:26 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.18.0.8:39058
+2023-05-13 08:32:26 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.18.0.8:39058]
+2023-05-13 08:32:28 INFO RemotingExecutorThread_1 - new topic registered, RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 08:32:28 INFO RemotingExecutorThread_1 - new topic registered, BenchmarkTest QueueData [brokerName=broker-a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2023-05-13 08:32:28 INFO RemotingExecutorThread_1 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 08:32:28 INFO RemotingExecutorThread_1 - new topic registered, broker-a QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2023-05-13 08:32:28 INFO RemotingExecutorThread_1 - new topic registered, TBW102 QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2023-05-13 08:32:28 INFO RemotingExecutorThread_1 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 08:32:28 INFO RemotingExecutorThread_1 - new topic registered, DefaultCluster QueueData [brokerName=broker-a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2023-05-13 08:32:28 INFO RemotingExecutorThread_1 - new broker registered, 192.168.1.10:10911 HAServer: 172.18.0.8:10912
+2023-05-13 08:32:53 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.18.0.8:39058]
+2023-05-13 08:32:53 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.18.0.8:39058]
+2023-05-13 08:32:53 INFO NettyEventExecutor - the broker's channel destroyed, 192.168.1.10:10911, clean it's data structure at once
+2023-05-13 08:32:53 INFO NettyEventExecutor - remove brokerAddr[0, 192.168.1.10:10911] from brokerAddrTable, because channel destroyed
+2023-05-13 08:32:53 INFO NettyEventExecutor - remove brokerName[broker-a] from brokerAddrTable, because channel destroyed
+2023-05-13 08:32:53 INFO NettyEventExecutor - remove brokerName[broker-a], clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed
+2023-05-13 08:32:53 INFO NettyEventExecutor - remove the clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed and no broker in this cluster
+2023-05-13 08:32:53 INFO NettyEventExecutor - remove topic[RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 08:32:53 INFO NettyEventExecutor - remove topic[RMQ_SYS_TRANS_HALF_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 08:32:53 INFO NettyEventExecutor - remove topic[broker-a QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 08:32:53 INFO NettyEventExecutor - remove topic[broker-a] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 08:32:53 INFO NettyEventExecutor - remove topic[SELF_TEST_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 08:32:53 INFO NettyEventExecutor - remove topic[SELF_TEST_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 08:32:53 INFO NettyEventExecutor - remove topic[TBW102 QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 08:32:53 INFO NettyEventExecutor - remove topic[TBW102] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 08:32:53 INFO NettyEventExecutor - remove topic[BenchmarkTest QueueData [brokerName=broker-a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 08:32:53 INFO NettyEventExecutor - remove topic[BenchmarkTest] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 08:32:53 INFO NettyEventExecutor - remove topic[DefaultCluster QueueData [brokerName=broker-a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 08:32:53 INFO NettyEventExecutor - remove topic[DefaultCluster] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 08:32:53 INFO NettyEventExecutor - remove topic[OFFSET_MOVED_EVENT QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 08:32:53 INFO NettyEventExecutor - remove topic[OFFSET_MOVED_EVENT] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 09:37:47 INFO main - rocketmqHome=/home/rocketmq/rocketmq-4.5.0
+2023-05-13 09:37:47 INFO main - kvConfigPath=/home/rocketmq/namesrv/kvConfig.json
+2023-05-13 09:37:47 INFO main - configStorePath=/home/rocketmq/namesrv/namesrv.properties
+2023-05-13 09:37:47 INFO main - productEnvName=center
+2023-05-13 09:37:47 INFO main - clusterTest=false
+2023-05-13 09:37:47 INFO main - orderMessageEnable=false
+2023-05-13 09:37:47 INFO main - listenPort=9876
+2023-05-13 09:37:47 INFO main - serverWorkerThreads=8
+2023-05-13 09:37:47 INFO main - serverCallbackExecutorThreads=0
+2023-05-13 09:37:47 INFO main - serverSelectorThreads=3
+2023-05-13 09:37:47 INFO main - serverOnewaySemaphoreValue=256
+2023-05-13 09:37:47 INFO main - serverAsyncSemaphoreValue=64
+2023-05-13 09:37:47 INFO main - serverChannelMaxIdleTimeSeconds=120
+2023-05-13 09:37:47 INFO main - serverSocketSndBufSize=65535
+2023-05-13 09:37:47 INFO main - serverSocketRcvBufSize=65535
+2023-05-13 09:37:47 INFO main - serverPooledByteBufAllocatorEnable=true
+2023-05-13 09:37:47 INFO main - useEpollNativeSelector=false
+2023-05-13 09:37:51 INFO main - Server is running in TLS permissive mode
+2023-05-13 09:37:51 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 09:37:51 INFO main - Log the final used tls related configuration
+2023-05-13 09:37:51 INFO main - tls.test.mode.enable = true
+2023-05-13 09:37:51 INFO main - tls.server.need.client.auth = none
+2023-05-13 09:37:51 INFO main - tls.server.keyPath = null
+2023-05-13 09:37:51 INFO main - tls.server.keyPassword = null
+2023-05-13 09:37:51 INFO main - tls.server.certPath = null
+2023-05-13 09:37:51 INFO main - tls.server.authClient = false
+2023-05-13 09:37:51 INFO main - tls.server.trustCertPath = null
+2023-05-13 09:37:51 INFO main - tls.client.keyPath = null
+2023-05-13 09:37:51 INFO main - tls.client.keyPassword = null
+2023-05-13 09:37:51 INFO main - tls.client.certPath = null
+2023-05-13 09:37:51 INFO main - tls.client.authServer = false
+2023-05-13 09:37:51 INFO main - tls.client.trustCertPath = null
+2023-05-13 09:38:00 INFO main - Using OpenSSL provider
+2023-05-13 09:38:03 INFO main - SSLContext created for server
+2023-05-13 09:38:04 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2023-05-13 09:38:04 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 09:38:04 INFO FileWatchService - FileWatchService service started
+2023-05-13 09:38:04 INFO main - The Name Server boot success. serializeType=JSON
+2023-05-13 09:38:13 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.18.0.9:55138
+2023-05-13 09:38:13 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.18.0.9:55138]
+2023-05-13 09:38:14 INFO RemotingExecutorThread_1 - new topic registered, RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 09:38:14 INFO RemotingExecutorThread_1 - new topic registered, BenchmarkTest QueueData [brokerName=broker-a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2023-05-13 09:38:14 INFO RemotingExecutorThread_1 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 09:38:14 INFO RemotingExecutorThread_1 - new topic registered, broker-a QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2023-05-13 09:38:14 INFO RemotingExecutorThread_1 - new topic registered, TBW102 QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2023-05-13 09:38:14 INFO RemotingExecutorThread_1 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 09:38:14 INFO RemotingExecutorThread_1 - new topic registered, DefaultCluster QueueData [brokerName=broker-a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2023-05-13 09:38:14 INFO RemotingExecutorThread_1 - new broker registered, 192.168.1.10:10911 HAServer: 172.18.0.9:10912
+2023-05-13 09:39:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2023-05-13 09:39:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2023-05-13 09:50:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2023-05-13 09:50:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2023-05-13 09:56:56 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.18.0.9:55138]
+2023-05-13 09:56:56 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.18.0.9:55138]
+2023-05-13 09:56:56 INFO NettyEventExecutor - the broker's channel destroyed, 192.168.1.10:10911, clean it's data structure at once
+2023-05-13 09:56:56 INFO NettyEventExecutor - remove brokerAddr[0, 192.168.1.10:10911] from brokerAddrTable, because channel destroyed
+2023-05-13 09:56:56 INFO NettyEventExecutor - remove brokerName[broker-a] from brokerAddrTable, because channel destroyed
+2023-05-13 09:56:56 INFO NettyEventExecutor - remove brokerName[broker-a], clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed
+2023-05-13 09:56:56 INFO NettyEventExecutor - remove the clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed and no broker in this cluster
+2023-05-13 09:56:56 INFO NettyEventExecutor - remove topic[RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 09:56:56 INFO NettyEventExecutor - remove topic[RMQ_SYS_TRANS_HALF_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 09:56:56 INFO NettyEventExecutor - remove topic[broker-a QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 09:56:56 INFO NettyEventExecutor - remove topic[broker-a] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 09:56:56 INFO NettyEventExecutor - remove topic[SELF_TEST_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 09:56:56 INFO NettyEventExecutor - remove topic[SELF_TEST_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 09:56:56 INFO NettyEventExecutor - remove topic[TBW102 QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 09:56:56 INFO NettyEventExecutor - remove topic[TBW102] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 09:56:56 INFO NettyEventExecutor - remove topic[BenchmarkTest QueueData [brokerName=broker-a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 09:56:56 INFO NettyEventExecutor - remove topic[BenchmarkTest] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 09:56:56 INFO NettyEventExecutor - remove topic[DefaultCluster QueueData [brokerName=broker-a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 09:56:56 INFO NettyEventExecutor - remove topic[DefaultCluster] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 09:56:56 INFO NettyEventExecutor - remove topic[OFFSET_MOVED_EVENT QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 09:56:56 INFO NettyEventExecutor - remove topic[OFFSET_MOVED_EVENT] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 09:57:43 INFO main - rocketmqHome=/home/rocketmq/rocketmq-4.5.0
+2023-05-13 09:57:43 INFO main - kvConfigPath=/home/rocketmq/namesrv/kvConfig.json
+2023-05-13 09:57:43 INFO main - configStorePath=/home/rocketmq/namesrv/namesrv.properties
+2023-05-13 09:57:43 INFO main - productEnvName=center
+2023-05-13 09:57:43 INFO main - clusterTest=false
+2023-05-13 09:57:43 INFO main - orderMessageEnable=false
+2023-05-13 09:57:43 INFO main - listenPort=9876
+2023-05-13 09:57:43 INFO main - serverWorkerThreads=8
+2023-05-13 09:57:43 INFO main - serverCallbackExecutorThreads=0
+2023-05-13 09:57:43 INFO main - serverSelectorThreads=3
+2023-05-13 09:57:43 INFO main - serverOnewaySemaphoreValue=256
+2023-05-13 09:57:43 INFO main - serverAsyncSemaphoreValue=64
+2023-05-13 09:57:43 INFO main - serverChannelMaxIdleTimeSeconds=120
+2023-05-13 09:57:43 INFO main - serverSocketSndBufSize=65535
+2023-05-13 09:57:43 INFO main - serverSocketRcvBufSize=65535
+2023-05-13 09:57:43 INFO main - serverPooledByteBufAllocatorEnable=true
+2023-05-13 09:57:43 INFO main - useEpollNativeSelector=false
+2023-05-13 09:57:48 INFO main - Server is running in TLS permissive mode
+2023-05-13 09:57:48 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 09:57:48 INFO main - Log the final used tls related configuration
+2023-05-13 09:57:48 INFO main - tls.test.mode.enable = true
+2023-05-13 09:57:48 INFO main - tls.server.need.client.auth = none
+2023-05-13 09:57:48 INFO main - tls.server.keyPath = null
+2023-05-13 09:57:48 INFO main - tls.server.keyPassword = null
+2023-05-13 09:57:48 INFO main - tls.server.certPath = null
+2023-05-13 09:57:48 INFO main - tls.server.authClient = false
+2023-05-13 09:57:48 INFO main - tls.server.trustCertPath = null
+2023-05-13 09:57:48 INFO main - tls.client.keyPath = null
+2023-05-13 09:57:48 INFO main - tls.client.keyPassword = null
+2023-05-13 09:57:48 INFO main - tls.client.certPath = null
+2023-05-13 09:57:48 INFO main - tls.client.authServer = false
+2023-05-13 09:57:48 INFO main - tls.client.trustCertPath = null
+2023-05-13 09:57:55 INFO main - Using OpenSSL provider
+2023-05-13 09:58:00 INFO main - SSLContext created for server
+2023-05-13 09:58:01 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 09:58:01 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2023-05-13 09:58:01 INFO FileWatchService - FileWatchService service started
+2023-05-13 09:58:01 INFO main - The Name Server boot success. serializeType=JSON
+2023-05-13 09:58:08 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.18.0.8:47920
+2023-05-13 09:58:08 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.18.0.8:47920]
+2023-05-13 09:58:09 INFO RemotingExecutorThread_1 - new topic registered, RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 09:58:09 INFO RemotingExecutorThread_1 - new topic registered, BenchmarkTest QueueData [brokerName=broker-a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2023-05-13 09:58:09 INFO RemotingExecutorThread_1 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 09:58:09 INFO RemotingExecutorThread_1 - new topic registered, broker-a QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2023-05-13 09:58:09 INFO RemotingExecutorThread_1 - new topic registered, TBW102 QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2023-05-13 09:58:09 INFO RemotingExecutorThread_1 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 09:58:09 INFO RemotingExecutorThread_1 - new topic registered, DefaultCluster QueueData [brokerName=broker-a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2023-05-13 09:58:09 INFO RemotingExecutorThread_1 - new broker registered, 192.168.1.10:10911 HAServer: 172.18.0.8:10912
+2023-05-13 09:59:00 INFO NSScheduledThread1 - --------------------------------------------------------
+2023-05-13 09:59:00 INFO NSScheduledThread1 - configTable SIZE: 0
+2023-05-13 10:12:15 INFO main - rocketmqHome=/home/rocketmq/rocketmq-4.5.0
+2023-05-13 10:12:15 INFO main - kvConfigPath=/home/rocketmq/namesrv/kvConfig.json
+2023-05-13 10:12:15 INFO main - configStorePath=/home/rocketmq/namesrv/namesrv.properties
+2023-05-13 10:12:15 INFO main - productEnvName=center
+2023-05-13 10:12:16 INFO main - clusterTest=false
+2023-05-13 10:12:16 INFO main - orderMessageEnable=false
+2023-05-13 10:12:16 INFO main - listenPort=9876
+2023-05-13 10:12:16 INFO main - serverWorkerThreads=8
+2023-05-13 10:12:16 INFO main - serverCallbackExecutorThreads=0
+2023-05-13 10:12:16 INFO main - serverSelectorThreads=3
+2023-05-13 10:12:16 INFO main - serverOnewaySemaphoreValue=256
+2023-05-13 10:12:16 INFO main - serverAsyncSemaphoreValue=64
+2023-05-13 10:12:16 INFO main - serverChannelMaxIdleTimeSeconds=120
+2023-05-13 10:12:16 INFO main - serverSocketSndBufSize=65535
+2023-05-13 10:12:16 INFO main - serverSocketRcvBufSize=65535
+2023-05-13 10:12:16 INFO main - serverPooledByteBufAllocatorEnable=true
+2023-05-13 10:12:16 INFO main - useEpollNativeSelector=false
+2023-05-13 10:12:20 INFO main - Server is running in TLS permissive mode
+2023-05-13 10:12:20 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 10:12:20 INFO main - Log the final used tls related configuration
+2023-05-13 10:12:20 INFO main - tls.test.mode.enable = true
+2023-05-13 10:12:20 INFO main - tls.server.need.client.auth = none
+2023-05-13 10:12:20 INFO main - tls.server.keyPath = null
+2023-05-13 10:12:20 INFO main - tls.server.keyPassword = null
+2023-05-13 10:12:20 INFO main - tls.server.certPath = null
+2023-05-13 10:12:20 INFO main - tls.server.authClient = false
+2023-05-13 10:12:20 INFO main - tls.server.trustCertPath = null
+2023-05-13 10:12:20 INFO main - tls.client.keyPath = null
+2023-05-13 10:12:20 INFO main - tls.client.keyPassword = null
+2023-05-13 10:12:20 INFO main - tls.client.certPath = null
+2023-05-13 10:12:20 INFO main - tls.client.authServer = false
+2023-05-13 10:12:20 INFO main - tls.client.trustCertPath = null
+2023-05-13 10:12:29 INFO main - Using OpenSSL provider
+2023-05-13 10:12:34 INFO main - SSLContext created for server
+2023-05-13 10:12:35 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 10:12:35 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2023-05-13 10:12:35 INFO FileWatchService - FileWatchService service started
+2023-05-13 10:12:35 INFO main - The Name Server boot success. serializeType=JSON
+2023-05-13 10:12:40 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.18.0.9:49188
+2023-05-13 10:12:40 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.18.0.9:49188]
+2023-05-13 10:12:40 INFO RemotingExecutorThread_1 - new topic registered, RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 10:12:40 INFO RemotingExecutorThread_1 - new topic registered, BenchmarkTest QueueData [brokerName=broker-a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2023-05-13 10:12:40 INFO RemotingExecutorThread_1 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 10:12:40 INFO RemotingExecutorThread_1 - new topic registered, broker-a QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2023-05-13 10:12:40 INFO RemotingExecutorThread_1 - new topic registered, TBW102 QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2023-05-13 10:12:40 INFO RemotingExecutorThread_1 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 10:12:40 INFO RemotingExecutorThread_1 - new topic registered, DefaultCluster QueueData [brokerName=broker-a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2023-05-13 10:12:40 INFO RemotingExecutorThread_1 - new broker registered, 192.168.1.10:10911 HAServer: 172.18.0.9:10912
+2023-05-13 10:13:15 INFO main - rocketmqHome=/home/rocketmq/rocketmq-4.5.0
+2023-05-13 10:13:15 INFO main - kvConfigPath=/home/rocketmq/namesrv/kvConfig.json
+2023-05-13 10:13:15 INFO main - configStorePath=/home/rocketmq/namesrv/namesrv.properties
+2023-05-13 10:13:15 INFO main - productEnvName=center
+2023-05-13 10:13:15 INFO main - clusterTest=false
+2023-05-13 10:13:15 INFO main - orderMessageEnable=false
+2023-05-13 10:13:15 INFO main - listenPort=9876
+2023-05-13 10:13:15 INFO main - serverWorkerThreads=8
+2023-05-13 10:13:15 INFO main - serverCallbackExecutorThreads=0
+2023-05-13 10:13:15 INFO main - serverSelectorThreads=3
+2023-05-13 10:13:15 INFO main - serverOnewaySemaphoreValue=256
+2023-05-13 10:13:15 INFO main - serverAsyncSemaphoreValue=64
+2023-05-13 10:13:15 INFO main - serverChannelMaxIdleTimeSeconds=120
+2023-05-13 10:13:15 INFO main - serverSocketSndBufSize=65535
+2023-05-13 10:13:15 INFO main - serverSocketRcvBufSize=65535
+2023-05-13 10:13:15 INFO main - serverPooledByteBufAllocatorEnable=true
+2023-05-13 10:13:15 INFO main - useEpollNativeSelector=false
+2023-05-13 10:13:20 INFO main - Server is running in TLS permissive mode
+2023-05-13 10:13:20 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 10:13:20 INFO main - Log the final used tls related configuration
+2023-05-13 10:13:20 INFO main - tls.test.mode.enable = true
+2023-05-13 10:13:20 INFO main - tls.server.need.client.auth = none
+2023-05-13 10:13:20 INFO main - tls.server.keyPath = null
+2023-05-13 10:13:20 INFO main - tls.server.keyPassword = null
+2023-05-13 10:13:20 INFO main - tls.server.certPath = null
+2023-05-13 10:13:20 INFO main - tls.server.authClient = false
+2023-05-13 10:13:20 INFO main - tls.server.trustCertPath = null
+2023-05-13 10:13:20 INFO main - tls.client.keyPath = null
+2023-05-13 10:13:20 INFO main - tls.client.keyPassword = null
+2023-05-13 10:13:20 INFO main - tls.client.certPath = null
+2023-05-13 10:13:20 INFO main - tls.client.authServer = false
+2023-05-13 10:13:20 INFO main - tls.client.trustCertPath = null
+2023-05-13 10:13:27 INFO main - Using OpenSSL provider
+2023-05-13 10:13:32 INFO main - SSLContext created for server
+2023-05-13 10:13:33 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 10:13:33 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2023-05-13 10:13:33 INFO main - The Name Server boot success. serializeType=JSON
+2023-05-13 10:13:33 INFO FileWatchService - FileWatchService service started
+2023-05-13 10:13:40 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.18.0.11:46468
+2023-05-13 10:13:40 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.18.0.11:46468]
+2023-05-13 10:13:41 INFO RemotingExecutorThread_1 - new topic registered, RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 10:13:41 INFO RemotingExecutorThread_1 - new topic registered, BenchmarkTest QueueData [brokerName=broker-a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2023-05-13 10:13:41 INFO RemotingExecutorThread_1 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 10:13:41 INFO RemotingExecutorThread_1 - new topic registered, broker-a QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2023-05-13 10:13:41 INFO RemotingExecutorThread_1 - new topic registered, TBW102 QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2023-05-13 10:13:41 INFO RemotingExecutorThread_1 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 10:13:41 INFO RemotingExecutorThread_1 - new topic registered, DefaultCluster QueueData [brokerName=broker-a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2023-05-13 10:13:41 INFO RemotingExecutorThread_1 - new broker registered, 192.168.1.10:10911 HAServer: 172.18.0.11:10912
+2023-05-13 10:14:32 INFO NSScheduledThread1 - --------------------------------------------------------
+2023-05-13 10:14:32 INFO NSScheduledThread1 - configTable SIZE: 0
+2023-05-13 10:33:55 WARN NSScheduledThread1 - The broker channel expired, 192.168.1.10:10911 120000ms
+2023-05-13 10:33:55 INFO NSScheduledThread1 - remove brokerAddr[0, 192.168.1.10:10911] from brokerAddrTable, because channel destroyed
+2023-05-13 10:33:55 INFO NSScheduledThread1 - remove brokerName[broker-a] from brokerAddrTable, because channel destroyed
+2023-05-13 10:33:55 INFO NSScheduledThread1 - remove brokerName[broker-a], clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed
+2023-05-13 10:33:55 INFO NSScheduledThread1 - remove the clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed and no broker in this cluster
+2023-05-13 10:33:55 INFO NSScheduledThread1 - remove topic[RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 10:33:55 INFO NSScheduledThread1 - remove topic[RMQ_SYS_TRANS_HALF_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 10:33:55 INFO NSScheduledThread1 - remove topic[broker-a QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 10:33:55 INFO NSScheduledThread1 - remove topic[broker-a] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 10:33:55 INFO NSScheduledThread1 - remove topic[SELF_TEST_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 10:33:55 INFO NSScheduledThread1 - remove topic[SELF_TEST_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 10:33:55 INFO NSScheduledThread1 - remove topic[TBW102 QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 10:33:55 INFO NSScheduledThread1 - remove topic[TBW102] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 10:33:55 INFO NSScheduledThread1 - remove topic[BenchmarkTest QueueData [brokerName=broker-a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 10:33:55 INFO NSScheduledThread1 - remove topic[BenchmarkTest] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 10:33:55 INFO NSScheduledThread1 - remove topic[DefaultCluster QueueData [brokerName=broker-a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 10:33:55 INFO NSScheduledThread1 - remove topic[DefaultCluster] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 10:33:55 INFO NSScheduledThread1 - remove topic[OFFSET_MOVED_EVENT QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 10:33:55 INFO NSScheduledThread1 - remove topic[OFFSET_MOVED_EVENT] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 10:33:55 INFO NettyServerNIOSelector_3_1 - closeChannel: close the connection to remote address[172.18.0.11:46468] result: true
+2023-05-13 10:33:55 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.18.0.11:46468]
+2023-05-13 10:33:55 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.18.0.11:46468]
+2023-05-13 10:34:10 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.18.0.11:35704
+2023-05-13 10:34:10 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.18.0.11:35704]
+2023-05-13 10:34:10 INFO RemotingExecutorThread_7 - new topic registered, RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 10:34:10 INFO RemotingExecutorThread_7 - new topic registered, BenchmarkTest QueueData [brokerName=broker-a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2023-05-13 10:34:10 INFO RemotingExecutorThread_7 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 10:34:10 INFO RemotingExecutorThread_7 - new topic registered, broker-a QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2023-05-13 10:34:10 INFO RemotingExecutorThread_7 - new topic registered, TBW102 QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2023-05-13 10:34:10 INFO RemotingExecutorThread_7 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 10:34:10 INFO RemotingExecutorThread_7 - new topic registered, DefaultCluster QueueData [brokerName=broker-a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2023-05-13 10:34:10 INFO RemotingExecutorThread_7 - new broker registered, 192.168.1.10:10911 HAServer: 172.18.0.11:10912
+2023-05-13 10:37:24 WARN NSScheduledThread1 - The broker channel expired, 192.168.1.10:10911 120000ms
+2023-05-13 10:37:24 INFO NSScheduledThread1 - remove brokerAddr[0, 192.168.1.10:10911] from brokerAddrTable, because channel destroyed
+2023-05-13 10:37:24 INFO NSScheduledThread1 - remove brokerName[broker-a] from brokerAddrTable, because channel destroyed
+2023-05-13 10:37:24 INFO NSScheduledThread1 - remove brokerName[broker-a], clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed
+2023-05-13 10:37:24 INFO NSScheduledThread1 - remove the clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed and no broker in this cluster
+2023-05-13 10:37:24 INFO NettyServerNIOSelector_3_2 - closeChannel: close the connection to remote address[172.18.0.11:35704] result: true
+2023-05-13 10:37:24 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.18.0.11:35704]
+2023-05-13 10:37:24 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.18.0.11:35704]
+2023-05-13 10:37:24 INFO NSScheduledThread1 - remove topic[RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 10:37:24 INFO NSScheduledThread1 - remove topic[RMQ_SYS_TRANS_HALF_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 10:37:24 INFO NSScheduledThread1 - remove topic[broker-a QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 10:37:24 INFO NSScheduledThread1 - remove topic[broker-a] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 10:37:24 INFO NSScheduledThread1 - remove topic[SELF_TEST_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 10:37:24 INFO NSScheduledThread1 - remove topic[SELF_TEST_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 10:37:24 INFO NSScheduledThread1 - remove topic[TBW102 QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 10:37:24 INFO NSScheduledThread1 - remove topic[TBW102] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 10:37:24 INFO NSScheduledThread1 - remove topic[BenchmarkTest QueueData [brokerName=broker-a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 10:37:24 INFO NSScheduledThread1 - remove topic[BenchmarkTest] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 10:37:24 INFO NSScheduledThread1 - remove topic[DefaultCluster QueueData [brokerName=broker-a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 10:37:24 INFO NSScheduledThread1 - remove topic[DefaultCluster] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 10:37:24 INFO NSScheduledThread1 - remove topic[OFFSET_MOVED_EVENT QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 10:37:24 INFO NSScheduledThread1 - remove topic[OFFSET_MOVED_EVENT] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 10:37:39 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.18.0.11:51886
+2023-05-13 10:37:39 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.18.0.11:51886]
+2023-05-13 10:37:39 INFO RemotingExecutorThread_8 - new topic registered, RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 10:37:39 INFO RemotingExecutorThread_8 - new topic registered, BenchmarkTest QueueData [brokerName=broker-a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2023-05-13 10:37:39 INFO RemotingExecutorThread_8 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 10:37:39 INFO RemotingExecutorThread_8 - new topic registered, broker-a QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2023-05-13 10:37:39 INFO RemotingExecutorThread_8 - new topic registered, TBW102 QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2023-05-13 10:37:39 INFO RemotingExecutorThread_8 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 10:37:39 INFO RemotingExecutorThread_8 - new topic registered, DefaultCluster QueueData [brokerName=broker-a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2023-05-13 10:37:39 INFO RemotingExecutorThread_8 - new broker registered, 192.168.1.10:10911 HAServer: 172.18.0.11:10912
+2023-05-13 10:45:19 INFO NSScheduledThread1 - --------------------------------------------------------
+2023-05-13 10:45:19 INFO NSScheduledThread1 - configTable SIZE: 0
+2023-05-13 10:49:13 WARN NSScheduledThread1 - The broker channel expired, 192.168.1.10:10911 120000ms
+2023-05-13 10:49:13 INFO NSScheduledThread1 - remove brokerAddr[0, 192.168.1.10:10911] from brokerAddrTable, because channel destroyed
+2023-05-13 10:49:13 INFO NSScheduledThread1 - remove brokerName[broker-a] from brokerAddrTable, because channel destroyed
+2023-05-13 10:49:13 INFO NSScheduledThread1 - remove brokerName[broker-a], clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed
+2023-05-13 10:49:13 INFO NSScheduledThread1 - remove the clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed and no broker in this cluster
+2023-05-13 10:49:13 INFO NSScheduledThread1 - remove topic[RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 10:49:13 INFO NSScheduledThread1 - remove topic[RMQ_SYS_TRANS_HALF_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 10:49:13 INFO NSScheduledThread1 - remove topic[broker-a QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 10:49:13 INFO NSScheduledThread1 - remove topic[broker-a] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 10:49:13 INFO NSScheduledThread1 - remove topic[SELF_TEST_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 10:49:13 INFO NSScheduledThread1 - remove topic[SELF_TEST_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 10:49:13 INFO NSScheduledThread1 - remove topic[TBW102 QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 10:49:13 INFO NSScheduledThread1 - remove topic[TBW102] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 10:49:13 INFO NSScheduledThread1 - remove topic[BenchmarkTest QueueData [brokerName=broker-a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 10:49:13 INFO NSScheduledThread1 - remove topic[BenchmarkTest] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 10:49:13 INFO NSScheduledThread1 - remove topic[DefaultCluster QueueData [brokerName=broker-a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 10:49:13 INFO NSScheduledThread1 - remove topic[DefaultCluster] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 10:49:13 INFO NSScheduledThread1 - remove topic[OFFSET_MOVED_EVENT QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 10:49:13 INFO NSScheduledThread1 - remove topic[OFFSET_MOVED_EVENT] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 10:49:13 INFO NettyServerNIOSelector_3_3 - closeChannel: close the connection to remote address[172.18.0.11:51886] result: true
+2023-05-13 10:49:13 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.18.0.11:51886]
+2023-05-13 10:49:13 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.18.0.11:51886]
+2023-05-13 10:49:28 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.18.0.11:45016
+2023-05-13 10:49:28 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.18.0.11:45016]
+2023-05-13 10:49:28 INFO RemotingExecutorThread_3 - new topic registered, RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 10:49:28 INFO RemotingExecutorThread_3 - new topic registered, BenchmarkTest QueueData [brokerName=broker-a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2023-05-13 10:49:28 INFO RemotingExecutorThread_3 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 10:49:28 INFO RemotingExecutorThread_3 - new topic registered, broker-a QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2023-05-13 10:49:28 INFO RemotingExecutorThread_3 - new topic registered, TBW102 QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2023-05-13 10:49:28 INFO RemotingExecutorThread_3 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 10:49:28 INFO RemotingExecutorThread_3 - new topic registered, DefaultCluster QueueData [brokerName=broker-a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2023-05-13 10:49:28 INFO RemotingExecutorThread_3 - new broker registered, 192.168.1.10:10911 HAServer: 172.18.0.11:10912
+2023-05-13 10:52:50 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.18.0.11:45016]
+2023-05-13 10:52:50 INFO NettyEventExecutor - the broker's channel destroyed, 192.168.1.10:10911, clean it's data structure at once
+2023-05-13 10:52:50 INFO NettyEventExecutor - remove brokerAddr[0, 192.168.1.10:10911] from brokerAddrTable, because channel destroyed
+2023-05-13 10:52:50 INFO NettyEventExecutor - remove brokerName[broker-a] from brokerAddrTable, because channel destroyed
+2023-05-13 10:52:50 INFO NettyEventExecutor - remove brokerName[broker-a], clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed
+2023-05-13 10:52:50 INFO NettyEventExecutor - remove the clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed and no broker in this cluster
+2023-05-13 10:52:50 INFO NettyEventExecutor - remove topic[RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 10:52:50 INFO NettyEventExecutor - remove topic[RMQ_SYS_TRANS_HALF_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 10:52:50 INFO NettyEventExecutor - remove topic[broker-a QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 10:52:50 INFO NettyEventExecutor - remove topic[broker-a] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 10:52:50 INFO NettyEventExecutor - remove topic[SELF_TEST_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 10:52:50 INFO NettyEventExecutor - remove topic[SELF_TEST_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 10:52:50 INFO NettyEventExecutor - remove topic[TBW102 QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 10:52:50 INFO NettyEventExecutor - remove topic[TBW102] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 10:52:50 INFO NettyEventExecutor - remove topic[BenchmarkTest QueueData [brokerName=broker-a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 10:52:50 INFO NettyEventExecutor - remove topic[BenchmarkTest] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 10:52:50 INFO NettyEventExecutor - remove topic[DefaultCluster QueueData [brokerName=broker-a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 10:52:50 INFO NettyEventExecutor - remove topic[DefaultCluster] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 10:52:50 INFO NettyEventExecutor - remove topic[OFFSET_MOVED_EVENT QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 10:52:50 INFO NettyEventExecutor - remove topic[OFFSET_MOVED_EVENT] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 10:52:50 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.18.0.11:45016]
+2023-05-13 10:56:52 INFO main - rocketmqHome=/home/rocketmq/rocketmq-4.5.0
+2023-05-13 10:56:52 INFO main - kvConfigPath=/home/rocketmq/namesrv/kvConfig.json
+2023-05-13 10:56:52 INFO main - configStorePath=/home/rocketmq/namesrv/namesrv.properties
+2023-05-13 10:56:52 INFO main - productEnvName=center
+2023-05-13 10:56:52 INFO main - clusterTest=false
+2023-05-13 10:56:52 INFO main - orderMessageEnable=false
+2023-05-13 10:56:52 INFO main - listenPort=9876
+2023-05-13 10:56:52 INFO main - serverWorkerThreads=8
+2023-05-13 10:56:52 INFO main - serverCallbackExecutorThreads=0
+2023-05-13 10:56:52 INFO main - serverSelectorThreads=3
+2023-05-13 10:56:52 INFO main - serverOnewaySemaphoreValue=256
+2023-05-13 10:56:52 INFO main - serverAsyncSemaphoreValue=64
+2023-05-13 10:56:52 INFO main - serverChannelMaxIdleTimeSeconds=120
+2023-05-13 10:56:52 INFO main - serverSocketSndBufSize=65535
+2023-05-13 10:56:52 INFO main - serverSocketRcvBufSize=65535
+2023-05-13 10:56:52 INFO main - serverPooledByteBufAllocatorEnable=true
+2023-05-13 10:56:52 INFO main - useEpollNativeSelector=false
+2023-05-13 10:56:56 INFO main - Server is running in TLS permissive mode
+2023-05-13 10:56:56 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 10:56:56 INFO main - Log the final used tls related configuration
+2023-05-13 10:56:56 INFO main - tls.test.mode.enable = true
+2023-05-13 10:56:56 INFO main - tls.server.need.client.auth = none
+2023-05-13 10:56:56 INFO main - tls.server.keyPath = null
+2023-05-13 10:56:56 INFO main - tls.server.keyPassword = null
+2023-05-13 10:56:56 INFO main - tls.server.certPath = null
+2023-05-13 10:56:56 INFO main - tls.server.authClient = false
+2023-05-13 10:56:56 INFO main - tls.server.trustCertPath = null
+2023-05-13 10:56:56 INFO main - tls.client.keyPath = null
+2023-05-13 10:56:56 INFO main - tls.client.keyPassword = null
+2023-05-13 10:56:56 INFO main - tls.client.certPath = null
+2023-05-13 10:56:56 INFO main - tls.client.authServer = false
+2023-05-13 10:56:56 INFO main - tls.client.trustCertPath = null
+2023-05-13 10:57:06 INFO main - Using OpenSSL provider
+2023-05-13 10:57:11 INFO main - SSLContext created for server
+2023-05-13 10:57:12 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2023-05-13 10:57:12 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 10:57:12 INFO FileWatchService - FileWatchService service started
+2023-05-13 10:57:12 INFO main - The Name Server boot success. serializeType=JSON
+2023-05-13 10:57:20 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.18.0.8:41278
+2023-05-13 10:57:20 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.18.0.8:41278]
+2023-05-13 10:57:21 INFO RemotingExecutorThread_1 - new topic registered, RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 10:57:21 INFO RemotingExecutorThread_1 - new topic registered, BenchmarkTest QueueData [brokerName=broker-a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2023-05-13 10:57:21 INFO RemotingExecutorThread_1 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 10:57:21 INFO RemotingExecutorThread_1 - new topic registered, broker-a QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2023-05-13 10:57:21 INFO RemotingExecutorThread_1 - new topic registered, TBW102 QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2023-05-13 10:57:21 INFO RemotingExecutorThread_1 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 10:57:21 INFO RemotingExecutorThread_1 - new topic registered, DefaultCluster QueueData [brokerName=broker-a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2023-05-13 10:57:21 INFO RemotingExecutorThread_1 - new broker registered, 192.168.1.10:10911 HAServer: 172.18.0.8:10912
+2023-05-13 10:58:11 INFO NSScheduledThread1 - --------------------------------------------------------
+2023-05-13 10:58:11 INFO NSScheduledThread1 - configTable SIZE: 0
+2023-05-13 11:08:11 INFO NSScheduledThread1 - --------------------------------------------------------
+2023-05-13 11:08:11 INFO NSScheduledThread1 - configTable SIZE: 0
+2023-05-13 11:11:50 INFO main - rocketmqHome=/home/rocketmq/rocketmq-4.5.0
+2023-05-13 11:11:50 INFO main - kvConfigPath=/home/rocketmq/namesrv/kvConfig.json
+2023-05-13 11:11:50 INFO main - configStorePath=/home/rocketmq/namesrv/namesrv.properties
+2023-05-13 11:11:50 INFO main - productEnvName=center
+2023-05-13 11:11:50 INFO main - clusterTest=false
+2023-05-13 11:11:50 INFO main - orderMessageEnable=false
+2023-05-13 11:11:50 INFO main - listenPort=9876
+2023-05-13 11:11:50 INFO main - serverWorkerThreads=8
+2023-05-13 11:11:50 INFO main - serverCallbackExecutorThreads=0
+2023-05-13 11:11:50 INFO main - serverSelectorThreads=3
+2023-05-13 11:11:50 INFO main - serverOnewaySemaphoreValue=256
+2023-05-13 11:11:50 INFO main - serverAsyncSemaphoreValue=64
+2023-05-13 11:11:50 INFO main - serverChannelMaxIdleTimeSeconds=120
+2023-05-13 11:11:50 INFO main - serverSocketSndBufSize=65535
+2023-05-13 11:11:50 INFO main - serverSocketRcvBufSize=65535
+2023-05-13 11:11:50 INFO main - serverPooledByteBufAllocatorEnable=true
+2023-05-13 11:11:50 INFO main - useEpollNativeSelector=false
+2023-05-13 11:11:55 INFO main - Server is running in TLS permissive mode
+2023-05-13 11:11:55 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 11:11:55 INFO main - Log the final used tls related configuration
+2023-05-13 11:11:55 INFO main - tls.test.mode.enable = true
+2023-05-13 11:11:55 INFO main - tls.server.need.client.auth = none
+2023-05-13 11:11:55 INFO main - tls.server.keyPath = null
+2023-05-13 11:11:55 INFO main - tls.server.keyPassword = null
+2023-05-13 11:11:55 INFO main - tls.server.certPath = null
+2023-05-13 11:11:55 INFO main - tls.server.authClient = false
+2023-05-13 11:11:55 INFO main - tls.server.trustCertPath = null
+2023-05-13 11:11:55 INFO main - tls.client.keyPath = null
+2023-05-13 11:11:55 INFO main - tls.client.keyPassword = null
+2023-05-13 11:11:55 INFO main - tls.client.certPath = null
+2023-05-13 11:11:55 INFO main - tls.client.authServer = false
+2023-05-13 11:11:55 INFO main - tls.client.trustCertPath = null
+2023-05-13 11:12:05 INFO main - Using OpenSSL provider
+2023-05-13 11:12:08 INFO main - SSLContext created for server
+2023-05-13 11:12:09 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2023-05-13 11:12:09 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 11:12:09 INFO FileWatchService - FileWatchService service started
+2023-05-13 11:12:09 INFO main - The Name Server boot success. serializeType=JSON
+2023-05-13 11:12:15 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.18.0.9:37086
+2023-05-13 11:12:15 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.18.0.9:37086]
+2023-05-13 11:12:16 INFO RemotingExecutorThread_1 - new topic registered, RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 11:12:16 INFO RemotingExecutorThread_1 - new topic registered, BenchmarkTest QueueData [brokerName=broker-a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2023-05-13 11:12:16 INFO RemotingExecutorThread_1 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 11:12:16 INFO RemotingExecutorThread_1 - new topic registered, broker-a QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2023-05-13 11:12:16 INFO RemotingExecutorThread_1 - new topic registered, TBW102 QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2023-05-13 11:12:16 INFO RemotingExecutorThread_1 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 11:12:16 INFO RemotingExecutorThread_1 - new topic registered, DefaultCluster QueueData [brokerName=broker-a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2023-05-13 11:12:16 INFO RemotingExecutorThread_1 - new broker registered, 192.168.1.10:10911 HAServer: 172.18.0.9:10912
+2023-05-13 11:13:08 INFO NSScheduledThread1 - --------------------------------------------------------
+2023-05-13 11:13:08 INFO NSScheduledThread1 - configTable SIZE: 0
+2023-05-13 11:23:08 INFO NSScheduledThread1 - --------------------------------------------------------
+2023-05-13 11:23:08 INFO NSScheduledThread1 - configTable SIZE: 0
+2023-05-13 11:23:37 INFO main - rocketmqHome=/home/rocketmq/rocketmq-4.5.0
+2023-05-13 11:23:38 INFO main - kvConfigPath=/home/rocketmq/namesrv/kvConfig.json
+2023-05-13 11:23:38 INFO main - configStorePath=/home/rocketmq/namesrv/namesrv.properties
+2023-05-13 11:23:38 INFO main - productEnvName=center
+2023-05-13 11:23:38 INFO main - clusterTest=false
+2023-05-13 11:23:38 INFO main - orderMessageEnable=false
+2023-05-13 11:23:38 INFO main - listenPort=9876
+2023-05-13 11:23:38 INFO main - serverWorkerThreads=8
+2023-05-13 11:23:38 INFO main - serverCallbackExecutorThreads=0
+2023-05-13 11:23:38 INFO main - serverSelectorThreads=3
+2023-05-13 11:23:38 INFO main - serverOnewaySemaphoreValue=256
+2023-05-13 11:23:38 INFO main - serverAsyncSemaphoreValue=64
+2023-05-13 11:23:38 INFO main - serverChannelMaxIdleTimeSeconds=120
+2023-05-13 11:23:38 INFO main - serverSocketSndBufSize=65535
+2023-05-13 11:23:38 INFO main - serverSocketRcvBufSize=65535
+2023-05-13 11:23:38 INFO main - serverPooledByteBufAllocatorEnable=true
+2023-05-13 11:23:38 INFO main - useEpollNativeSelector=false
+2023-05-13 11:23:41 INFO main - Server is running in TLS permissive mode
+2023-05-13 11:23:41 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 11:23:41 INFO main - Log the final used tls related configuration
+2023-05-13 11:23:41 INFO main - tls.test.mode.enable = true
+2023-05-13 11:23:41 INFO main - tls.server.need.client.auth = none
+2023-05-13 11:23:41 INFO main - tls.server.keyPath = null
+2023-05-13 11:23:41 INFO main - tls.server.keyPassword = null
+2023-05-13 11:23:41 INFO main - tls.server.certPath = null
+2023-05-13 11:23:41 INFO main - tls.server.authClient = false
+2023-05-13 11:23:41 INFO main - tls.server.trustCertPath = null
+2023-05-13 11:23:41 INFO main - tls.client.keyPath = null
+2023-05-13 11:23:41 INFO main - tls.client.keyPassword = null
+2023-05-13 11:23:41 INFO main - tls.client.certPath = null
+2023-05-13 11:23:41 INFO main - tls.client.authServer = false
+2023-05-13 11:23:41 INFO main - tls.client.trustCertPath = null
+2023-05-13 11:23:51 INFO main - Using OpenSSL provider
+2023-05-13 11:23:55 INFO main - SSLContext created for server
+2023-05-13 11:23:56 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2023-05-13 11:23:56 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 11:23:56 INFO FileWatchService - FileWatchService service started
+2023-05-13 11:23:56 INFO main - The Name Server boot success. serializeType=JSON
+2023-05-13 11:24:04 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.18.0.11:59010
+2023-05-13 11:24:04 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.18.0.11:59010]
+2023-05-13 11:24:05 INFO RemotingExecutorThread_1 - new topic registered, RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 11:24:05 INFO RemotingExecutorThread_1 - new topic registered, BenchmarkTest QueueData [brokerName=broker-a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2023-05-13 11:24:05 INFO RemotingExecutorThread_1 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 11:24:05 INFO RemotingExecutorThread_1 - new topic registered, broker-a QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2023-05-13 11:24:05 INFO RemotingExecutorThread_1 - new topic registered, TBW102 QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2023-05-13 11:24:05 INFO RemotingExecutorThread_1 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2023-05-13 11:24:05 INFO RemotingExecutorThread_1 - new topic registered, DefaultCluster QueueData [brokerName=broker-a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2023-05-13 11:24:05 INFO RemotingExecutorThread_1 - new broker registered, 192.168.1.10:10911 HAServer: 172.18.0.11:10912
+2023-05-13 11:24:55 INFO NSScheduledThread1 - --------------------------------------------------------
+2023-05-13 11:24:55 INFO NSScheduledThread1 - configTable SIZE: 0
+2023-05-13 11:28:17 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.18.0.11:59010]
+2023-05-13 11:28:17 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.18.0.11:59010]
+2023-05-13 11:28:17 INFO NettyEventExecutor - the broker's channel destroyed, 192.168.1.10:10911, clean it's data structure at once
+2023-05-13 11:28:17 INFO NettyEventExecutor - remove brokerAddr[0, 192.168.1.10:10911] from brokerAddrTable, because channel destroyed
+2023-05-13 11:28:17 INFO NettyEventExecutor - remove brokerName[broker-a] from brokerAddrTable, because channel destroyed
+2023-05-13 11:28:17 INFO NettyEventExecutor - remove brokerName[broker-a], clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed
+2023-05-13 11:28:17 INFO NettyEventExecutor - remove the clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed and no broker in this cluster
+2023-05-13 11:28:17 INFO NettyEventExecutor - remove topic[RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 11:28:17 INFO NettyEventExecutor - remove topic[RMQ_SYS_TRANS_HALF_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 11:28:17 INFO NettyEventExecutor - remove topic[broker-a QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 11:28:17 INFO NettyEventExecutor - remove topic[broker-a] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 11:28:17 INFO NettyEventExecutor - remove topic[SELF_TEST_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 11:28:17 INFO NettyEventExecutor - remove topic[SELF_TEST_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 11:28:17 INFO NettyEventExecutor - remove topic[TBW102 QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 11:28:17 INFO NettyEventExecutor - remove topic[TBW102] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 11:28:17 INFO NettyEventExecutor - remove topic[BenchmarkTest QueueData [brokerName=broker-a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 11:28:17 INFO NettyEventExecutor - remove topic[BenchmarkTest] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 11:28:17 INFO NettyEventExecutor - remove topic[DefaultCluster QueueData [brokerName=broker-a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 11:28:17 INFO NettyEventExecutor - remove topic[DefaultCluster] all queue, from topicQueueTable, because channel destroyed
+2023-05-13 11:28:17 INFO NettyEventExecutor - remove topic[OFFSET_MOVED_EVENT QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2023-05-13 11:28:17 INFO NettyEventExecutor - remove topic[OFFSET_MOVED_EVENT] all queue, from topicQueueTable, because channel destroyed

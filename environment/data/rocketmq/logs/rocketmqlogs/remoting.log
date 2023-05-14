@@ -1,0 +1,451 @@
+2023-05-13 08:10:29 INFO main - Server is running in TLS permissive mode
+2023-05-13 08:10:29 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 08:10:29 INFO main - Log the final used tls related configuration
+2023-05-13 08:10:29 INFO main - tls.test.mode.enable = true
+2023-05-13 08:10:29 INFO main - tls.server.need.client.auth = none
+2023-05-13 08:10:29 INFO main - tls.server.keyPath = null
+2023-05-13 08:10:29 INFO main - tls.server.keyPassword = null
+2023-05-13 08:10:29 INFO main - tls.server.certPath = null
+2023-05-13 08:10:29 INFO main - tls.server.authClient = false
+2023-05-13 08:10:29 INFO main - tls.server.trustCertPath = null
+2023-05-13 08:10:29 INFO main - tls.client.keyPath = null
+2023-05-13 08:10:29 INFO main - tls.client.keyPassword = null
+2023-05-13 08:10:29 INFO main - tls.client.certPath = null
+2023-05-13 08:10:29 INFO main - tls.client.authServer = false
+2023-05-13 08:10:29 INFO main - tls.client.trustCertPath = null
+2023-05-13 08:10:38 INFO main - Using OpenSSL provider
+2023-05-13 08:10:42 INFO main - SSLContext created for server
+2023-05-13 08:10:42 INFO main - Server is running in TLS permissive mode
+2023-05-13 08:10:42 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 08:10:42 INFO main - Log the final used tls related configuration
+2023-05-13 08:10:42 INFO main - tls.test.mode.enable = true
+2023-05-13 08:10:42 INFO main - tls.server.need.client.auth = none
+2023-05-13 08:10:42 INFO main - tls.server.keyPath = null
+2023-05-13 08:10:42 INFO main - tls.server.keyPassword = null
+2023-05-13 08:10:42 INFO main - tls.server.certPath = null
+2023-05-13 08:10:42 INFO main - tls.server.authClient = false
+2023-05-13 08:10:42 INFO main - tls.server.trustCertPath = null
+2023-05-13 08:10:42 INFO main - tls.client.keyPath = null
+2023-05-13 08:10:42 INFO main - tls.client.keyPassword = null
+2023-05-13 08:10:42 INFO main - tls.client.certPath = null
+2023-05-13 08:10:42 INFO main - tls.client.authServer = false
+2023-05-13 08:10:42 INFO main - tls.client.trustCertPath = null
+2023-05-13 08:10:42 INFO main - Using OpenSSL provider
+2023-05-13 08:10:43 INFO main - SSLContext created for server
+2023-05-13 08:10:43 INFO main - name server address updated. NEW : [rmqnamesrv:9876] , OLD: null
+2023-05-13 08:10:46 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 08:10:46 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 08:10:48 INFO brokerOutApi_thread_1 - createChannel: begin to connect remote host[rmqnamesrv:9876] asynchronously
+2023-05-13 08:10:48 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => mqnamesrv/172.18.0.5:9876
+2023-05-13 08:10:48 INFO brokerOutApi_thread_1 - createChannel: connect remote host[rmqnamesrv:9876] success, DefaultChannelPromise@f26fc07(success)
+2023-05-13 08:26:47 INFO main - Server is running in TLS permissive mode
+2023-05-13 08:26:47 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 08:26:47 INFO main - Log the final used tls related configuration
+2023-05-13 08:26:47 INFO main - tls.test.mode.enable = true
+2023-05-13 08:26:47 INFO main - tls.server.need.client.auth = none
+2023-05-13 08:26:47 INFO main - tls.server.keyPath = null
+2023-05-13 08:26:47 INFO main - tls.server.keyPassword = null
+2023-05-13 08:26:47 INFO main - tls.server.certPath = null
+2023-05-13 08:26:47 INFO main - tls.server.authClient = false
+2023-05-13 08:26:47 INFO main - tls.server.trustCertPath = null
+2023-05-13 08:26:47 INFO main - tls.client.keyPath = null
+2023-05-13 08:26:47 INFO main - tls.client.keyPassword = null
+2023-05-13 08:26:47 INFO main - tls.client.certPath = null
+2023-05-13 08:26:47 INFO main - tls.client.authServer = false
+2023-05-13 08:26:47 INFO main - tls.client.trustCertPath = null
+2023-05-13 08:26:53 INFO main - Using OpenSSL provider
+2023-05-13 08:26:55 INFO main - SSLContext created for server
+2023-05-13 08:26:55 INFO main - Server is running in TLS permissive mode
+2023-05-13 08:26:55 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 08:26:55 INFO main - Log the final used tls related configuration
+2023-05-13 08:26:55 INFO main - tls.test.mode.enable = true
+2023-05-13 08:26:55 INFO main - tls.server.need.client.auth = none
+2023-05-13 08:26:55 INFO main - tls.server.keyPath = null
+2023-05-13 08:26:55 INFO main - tls.server.keyPassword = null
+2023-05-13 08:26:55 INFO main - tls.server.certPath = null
+2023-05-13 08:26:55 INFO main - tls.server.authClient = false
+2023-05-13 08:26:55 INFO main - tls.server.trustCertPath = null
+2023-05-13 08:26:55 INFO main - tls.client.keyPath = null
+2023-05-13 08:26:55 INFO main - tls.client.keyPassword = null
+2023-05-13 08:26:55 INFO main - tls.client.certPath = null
+2023-05-13 08:26:55 INFO main - tls.client.authServer = false
+2023-05-13 08:26:55 INFO main - tls.client.trustCertPath = null
+2023-05-13 08:26:56 INFO main - Using OpenSSL provider
+2023-05-13 08:26:56 INFO main - SSLContext created for server
+2023-05-13 08:26:56 INFO main - name server address updated. NEW : [rmqnamesrv:9876] , OLD: null
+2023-05-13 08:26:57 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 08:26:57 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 08:26:58 INFO brokerOutApi_thread_1 - createChannel: begin to connect remote host[rmqnamesrv:9876] asynchronously
+2023-05-13 08:26:58 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => mqnamesrv/172.18.0.2:9876
+2023-05-13 08:26:58 INFO brokerOutApi_thread_1 - createChannel: connect remote host[rmqnamesrv:9876] success, DefaultChannelPromise@7a20b98b(success)
+2023-05-13 08:31:42 INFO brokerOutApi_thread_3 - createChannel: begin to connect remote host[rmqnamesrv:9876] asynchronously
+2023-05-13 08:31:42 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => mqnamesrv:9876
+2023-05-13 08:31:42 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CLOSE 
+2023-05-13 08:31:42 INFO NettyClientWorkerThread_2 - closeChannel: the channel[rmqnamesrv:9876] was removed from channel table
+2023-05-13 08:31:42 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CLOSE 
+2023-05-13 08:31:42 INFO NettyClientWorkerThread_2 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2023-05-13 08:31:42 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[] result: true
+2023-05-13 08:31:42 WARN brokerOutApi_thread_3 - createChannel: connect remote host[rmqnamesrv:9876] failed, DefaultChannelPromise@3784c8fc(failure: java.nio.channels.UnresolvedAddressException)
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Net.java:101) ~[na:1.8.0_232]
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:622) ~[na:1.8.0_232]
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:242) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:205) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1226) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:550) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.access$1000(AbstractChannelHandlerContext.java:36) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext$11.run(AbstractChannelHandlerContext.java:540) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:408) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:455) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_232]
+2023-05-13 08:32:11 INFO main - Server is running in TLS permissive mode
+2023-05-13 08:32:11 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 08:32:11 INFO main - Log the final used tls related configuration
+2023-05-13 08:32:11 INFO main - tls.test.mode.enable = true
+2023-05-13 08:32:11 INFO main - tls.server.need.client.auth = none
+2023-05-13 08:32:11 INFO main - tls.server.keyPath = null
+2023-05-13 08:32:11 INFO main - tls.server.keyPassword = null
+2023-05-13 08:32:11 INFO main - tls.server.certPath = null
+2023-05-13 08:32:11 INFO main - tls.server.authClient = false
+2023-05-13 08:32:11 INFO main - tls.server.trustCertPath = null
+2023-05-13 08:32:11 INFO main - tls.client.keyPath = null
+2023-05-13 08:32:11 INFO main - tls.client.keyPassword = null
+2023-05-13 08:32:11 INFO main - tls.client.certPath = null
+2023-05-13 08:32:11 INFO main - tls.client.authServer = false
+2023-05-13 08:32:11 INFO main - tls.client.trustCertPath = null
+2023-05-13 08:32:19 INFO main - Using OpenSSL provider
+2023-05-13 08:32:22 INFO main - SSLContext created for server
+2023-05-13 08:32:22 INFO main - Server is running in TLS permissive mode
+2023-05-13 08:32:22 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 08:32:22 INFO main - Log the final used tls related configuration
+2023-05-13 08:32:22 INFO main - tls.test.mode.enable = true
+2023-05-13 08:32:22 INFO main - tls.server.need.client.auth = none
+2023-05-13 08:32:22 INFO main - tls.server.keyPath = null
+2023-05-13 08:32:22 INFO main - tls.server.keyPassword = null
+2023-05-13 08:32:22 INFO main - tls.server.certPath = null
+2023-05-13 08:32:22 INFO main - tls.server.authClient = false
+2023-05-13 08:32:22 INFO main - tls.server.trustCertPath = null
+2023-05-13 08:32:22 INFO main - tls.client.keyPath = null
+2023-05-13 08:32:22 INFO main - tls.client.keyPassword = null
+2023-05-13 08:32:22 INFO main - tls.client.certPath = null
+2023-05-13 08:32:22 INFO main - tls.client.authServer = false
+2023-05-13 08:32:22 INFO main - tls.client.trustCertPath = null
+2023-05-13 08:32:22 INFO main - Using OpenSSL provider
+2023-05-13 08:32:23 INFO main - SSLContext created for server
+2023-05-13 08:32:23 INFO main - name server address updated. NEW : [rmqnamesrv:9876] , OLD: null
+2023-05-13 08:32:24 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 08:32:24 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 08:32:26 INFO brokerOutApi_thread_1 - createChannel: begin to connect remote host[rmqnamesrv:9876] asynchronously
+2023-05-13 08:32:26 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => mqnamesrv/172.18.0.6:9876
+2023-05-13 08:32:26 INFO brokerOutApi_thread_1 - createChannel: connect remote host[rmqnamesrv:9876] success, DefaultChannelPromise@7a20b98b(success)
+2023-05-13 09:37:58 INFO main - Server is running in TLS permissive mode
+2023-05-13 09:37:58 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 09:37:58 INFO main - Log the final used tls related configuration
+2023-05-13 09:37:58 INFO main - tls.test.mode.enable = true
+2023-05-13 09:37:58 INFO main - tls.server.need.client.auth = none
+2023-05-13 09:37:58 INFO main - tls.server.keyPath = null
+2023-05-13 09:37:58 INFO main - tls.server.keyPassword = null
+2023-05-13 09:37:58 INFO main - tls.server.certPath = null
+2023-05-13 09:37:58 INFO main - tls.server.authClient = false
+2023-05-13 09:37:58 INFO main - tls.server.trustCertPath = null
+2023-05-13 09:37:58 INFO main - tls.client.keyPath = null
+2023-05-13 09:37:58 INFO main - tls.client.keyPassword = null
+2023-05-13 09:37:58 INFO main - tls.client.certPath = null
+2023-05-13 09:37:58 INFO main - tls.client.authServer = false
+2023-05-13 09:37:58 INFO main - tls.client.trustCertPath = null
+2023-05-13 09:38:05 INFO main - Using OpenSSL provider
+2023-05-13 09:38:09 INFO main - SSLContext created for server
+2023-05-13 09:38:09 INFO main - Server is running in TLS permissive mode
+2023-05-13 09:38:09 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 09:38:09 INFO main - Log the final used tls related configuration
+2023-05-13 09:38:09 INFO main - tls.test.mode.enable = true
+2023-05-13 09:38:09 INFO main - tls.server.need.client.auth = none
+2023-05-13 09:38:09 INFO main - tls.server.keyPath = null
+2023-05-13 09:38:09 INFO main - tls.server.keyPassword = null
+2023-05-13 09:38:09 INFO main - tls.server.certPath = null
+2023-05-13 09:38:09 INFO main - tls.server.authClient = false
+2023-05-13 09:38:09 INFO main - tls.server.trustCertPath = null
+2023-05-13 09:38:09 INFO main - tls.client.keyPath = null
+2023-05-13 09:38:09 INFO main - tls.client.keyPassword = null
+2023-05-13 09:38:09 INFO main - tls.client.certPath = null
+2023-05-13 09:38:09 INFO main - tls.client.authServer = false
+2023-05-13 09:38:09 INFO main - tls.client.trustCertPath = null
+2023-05-13 09:38:09 INFO main - Using OpenSSL provider
+2023-05-13 09:38:10 INFO main - SSLContext created for server
+2023-05-13 09:38:10 INFO main - name server address updated. NEW : [rmqnamesrv:9876] , OLD: null
+2023-05-13 09:38:11 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 09:38:11 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 09:38:12 INFO brokerOutApi_thread_1 - createChannel: begin to connect remote host[rmqnamesrv:9876] asynchronously
+2023-05-13 09:38:12 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => mqnamesrv/172.18.0.6:9876
+2023-05-13 09:38:12 INFO brokerOutApi_thread_1 - createChannel: connect remote host[rmqnamesrv:9876] success, DefaultChannelPromise@7aa3bee4(success)
+2023-05-13 09:57:55 INFO main - Server is running in TLS permissive mode
+2023-05-13 09:57:55 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 09:57:55 INFO main - Log the final used tls related configuration
+2023-05-13 09:57:55 INFO main - tls.test.mode.enable = true
+2023-05-13 09:57:55 INFO main - tls.server.need.client.auth = none
+2023-05-13 09:57:55 INFO main - tls.server.keyPath = null
+2023-05-13 09:57:55 INFO main - tls.server.keyPassword = null
+2023-05-13 09:57:55 INFO main - tls.server.certPath = null
+2023-05-13 09:57:55 INFO main - tls.server.authClient = false
+2023-05-13 09:57:55 INFO main - tls.server.trustCertPath = null
+2023-05-13 09:57:55 INFO main - tls.client.keyPath = null
+2023-05-13 09:57:55 INFO main - tls.client.keyPassword = null
+2023-05-13 09:57:55 INFO main - tls.client.certPath = null
+2023-05-13 09:57:55 INFO main - tls.client.authServer = false
+2023-05-13 09:57:55 INFO main - tls.client.trustCertPath = null
+2023-05-13 09:58:01 INFO main - Using OpenSSL provider
+2023-05-13 09:58:04 INFO main - SSLContext created for server
+2023-05-13 09:58:04 INFO main - Server is running in TLS permissive mode
+2023-05-13 09:58:04 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 09:58:04 INFO main - Log the final used tls related configuration
+2023-05-13 09:58:04 INFO main - tls.test.mode.enable = true
+2023-05-13 09:58:04 INFO main - tls.server.need.client.auth = none
+2023-05-13 09:58:04 INFO main - tls.server.keyPath = null
+2023-05-13 09:58:04 INFO main - tls.server.keyPassword = null
+2023-05-13 09:58:04 INFO main - tls.server.certPath = null
+2023-05-13 09:58:04 INFO main - tls.server.authClient = false
+2023-05-13 09:58:04 INFO main - tls.server.trustCertPath = null
+2023-05-13 09:58:04 INFO main - tls.client.keyPath = null
+2023-05-13 09:58:04 INFO main - tls.client.keyPassword = null
+2023-05-13 09:58:04 INFO main - tls.client.certPath = null
+2023-05-13 09:58:04 INFO main - tls.client.authServer = false
+2023-05-13 09:58:04 INFO main - tls.client.trustCertPath = null
+2023-05-13 09:58:04 INFO main - Using OpenSSL provider
+2023-05-13 09:58:05 INFO main - SSLContext created for server
+2023-05-13 09:58:05 INFO main - name server address updated. NEW : [rmqnamesrv:9876] , OLD: null
+2023-05-13 09:58:06 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 09:58:06 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 09:58:07 INFO brokerOutApi_thread_1 - createChannel: begin to connect remote host[rmqnamesrv:9876] asynchronously
+2023-05-13 09:58:07 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => mqnamesrv/172.18.0.4:9876
+2023-05-13 09:58:07 INFO brokerOutApi_thread_1 - createChannel: connect remote host[rmqnamesrv:9876] success, DefaultChannelPromise@46dd2db0(success)
+2023-05-13 10:12:28 INFO main - Server is running in TLS permissive mode
+2023-05-13 10:12:28 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 10:12:28 INFO main - Log the final used tls related configuration
+2023-05-13 10:12:28 INFO main - tls.test.mode.enable = true
+2023-05-13 10:12:28 INFO main - tls.server.need.client.auth = none
+2023-05-13 10:12:28 INFO main - tls.server.keyPath = null
+2023-05-13 10:12:28 INFO main - tls.server.keyPassword = null
+2023-05-13 10:12:28 INFO main - tls.server.certPath = null
+2023-05-13 10:12:28 INFO main - tls.server.authClient = false
+2023-05-13 10:12:28 INFO main - tls.server.trustCertPath = null
+2023-05-13 10:12:28 INFO main - tls.client.keyPath = null
+2023-05-13 10:12:28 INFO main - tls.client.keyPassword = null
+2023-05-13 10:12:28 INFO main - tls.client.certPath = null
+2023-05-13 10:12:28 INFO main - tls.client.authServer = false
+2023-05-13 10:12:28 INFO main - tls.client.trustCertPath = null
+2023-05-13 10:12:36 INFO main - Using OpenSSL provider
+2023-05-13 10:12:38 INFO main - SSLContext created for server
+2023-05-13 10:12:38 INFO main - Server is running in TLS permissive mode
+2023-05-13 10:12:38 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 10:12:38 INFO main - Log the final used tls related configuration
+2023-05-13 10:12:38 INFO main - tls.test.mode.enable = true
+2023-05-13 10:12:38 INFO main - tls.server.need.client.auth = none
+2023-05-13 10:12:38 INFO main - tls.server.keyPath = null
+2023-05-13 10:12:38 INFO main - tls.server.keyPassword = null
+2023-05-13 10:12:38 INFO main - tls.server.certPath = null
+2023-05-13 10:12:38 INFO main - tls.server.authClient = false
+2023-05-13 10:12:38 INFO main - tls.server.trustCertPath = null
+2023-05-13 10:12:38 INFO main - tls.client.keyPath = null
+2023-05-13 10:12:38 INFO main - tls.client.keyPassword = null
+2023-05-13 10:12:38 INFO main - tls.client.certPath = null
+2023-05-13 10:12:38 INFO main - tls.client.authServer = false
+2023-05-13 10:12:38 INFO main - tls.client.trustCertPath = null
+2023-05-13 10:12:38 INFO main - Using OpenSSL provider
+2023-05-13 10:12:39 INFO main - SSLContext created for server
+2023-05-13 10:12:39 INFO main - name server address updated. NEW : [rmqnamesrv:9876] , OLD: null
+2023-05-13 10:12:39 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 10:12:39 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 10:12:39 INFO brokerOutApi_thread_1 - createChannel: begin to connect remote host[rmqnamesrv:9876] asynchronously
+2023-05-13 10:12:39 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => mqnamesrv/172.18.0.6:9876
+2023-05-13 10:12:39 INFO brokerOutApi_thread_1 - createChannel: connect remote host[rmqnamesrv:9876] success, DefaultChannelPromise@318d0861(success)
+2023-05-13 10:12:52 INFO brokerOutApi_thread_2 - createChannel: begin to connect remote host[rmqnamesrv:9876] asynchronously
+2023-05-13 10:12:52 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => mqnamesrv:9876
+2023-05-13 10:12:52 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CLOSE 
+2023-05-13 10:12:52 INFO NettyClientWorkerThread_2 - closeChannel: the channel[rmqnamesrv:9876] was removed from channel table
+2023-05-13 10:12:52 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CLOSE 
+2023-05-13 10:12:52 INFO NettyClientWorkerThread_2 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2023-05-13 10:12:52 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[] result: true
+2023-05-13 10:12:52 WARN brokerOutApi_thread_2 - createChannel: connect remote host[rmqnamesrv:9876] failed, DefaultChannelPromise@6422a4d8(failure: java.nio.channels.UnresolvedAddressException)
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Net.java:101) ~[na:1.8.0_232]
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:622) ~[na:1.8.0_232]
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:242) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:205) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1226) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:550) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.access$1000(AbstractChannelHandlerContext.java:36) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext$11.run(AbstractChannelHandlerContext.java:540) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:408) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:455) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_232]
+2023-05-13 10:13:26 INFO main - Server is running in TLS permissive mode
+2023-05-13 10:13:26 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 10:13:26 INFO main - Log the final used tls related configuration
+2023-05-13 10:13:26 INFO main - tls.test.mode.enable = true
+2023-05-13 10:13:26 INFO main - tls.server.need.client.auth = none
+2023-05-13 10:13:26 INFO main - tls.server.keyPath = null
+2023-05-13 10:13:26 INFO main - tls.server.keyPassword = null
+2023-05-13 10:13:26 INFO main - tls.server.certPath = null
+2023-05-13 10:13:26 INFO main - tls.server.authClient = false
+2023-05-13 10:13:26 INFO main - tls.server.trustCertPath = null
+2023-05-13 10:13:26 INFO main - tls.client.keyPath = null
+2023-05-13 10:13:26 INFO main - tls.client.keyPassword = null
+2023-05-13 10:13:26 INFO main - tls.client.certPath = null
+2023-05-13 10:13:26 INFO main - tls.client.authServer = false
+2023-05-13 10:13:26 INFO main - tls.client.trustCertPath = null
+2023-05-13 10:13:33 INFO main - Using OpenSSL provider
+2023-05-13 10:13:36 INFO main - SSLContext created for server
+2023-05-13 10:13:36 INFO main - Server is running in TLS permissive mode
+2023-05-13 10:13:36 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 10:13:36 INFO main - Log the final used tls related configuration
+2023-05-13 10:13:36 INFO main - tls.test.mode.enable = true
+2023-05-13 10:13:36 INFO main - tls.server.need.client.auth = none
+2023-05-13 10:13:36 INFO main - tls.server.keyPath = null
+2023-05-13 10:13:36 INFO main - tls.server.keyPassword = null
+2023-05-13 10:13:36 INFO main - tls.server.certPath = null
+2023-05-13 10:13:36 INFO main - tls.server.authClient = false
+2023-05-13 10:13:36 INFO main - tls.server.trustCertPath = null
+2023-05-13 10:13:36 INFO main - tls.client.keyPath = null
+2023-05-13 10:13:36 INFO main - tls.client.keyPassword = null
+2023-05-13 10:13:36 INFO main - tls.client.certPath = null
+2023-05-13 10:13:37 INFO main - tls.client.authServer = false
+2023-05-13 10:13:37 INFO main - tls.client.trustCertPath = null
+2023-05-13 10:13:37 INFO main - Using OpenSSL provider
+2023-05-13 10:13:37 INFO main - SSLContext created for server
+2023-05-13 10:13:37 INFO main - name server address updated. NEW : [rmqnamesrv:9876] , OLD: null
+2023-05-13 10:13:38 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 10:13:38 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 10:13:39 INFO brokerOutApi_thread_1 - createChannel: begin to connect remote host[rmqnamesrv:9876] asynchronously
+2023-05-13 10:13:39 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => mqnamesrv/172.18.0.6:9876
+2023-05-13 10:13:39 INFO brokerOutApi_thread_1 - createChannel: connect remote host[rmqnamesrv:9876] success, DefaultChannelPromise@5401dba6(success)
+2023-05-13 10:34:10 INFO brokerOutApi_thread_3 - createChannel: begin to connect remote host[rmqnamesrv:9876] asynchronously
+2023-05-13 10:34:10 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => mqnamesrv/172.18.0.6:9876
+2023-05-13 10:34:10 INFO brokerOutApi_thread_3 - createChannel: connect remote host[rmqnamesrv:9876] success, DefaultChannelPromise@73597d3e(success)
+2023-05-13 10:37:39 INFO brokerOutApi_thread_4 - createChannel: begin to connect remote host[rmqnamesrv:9876] asynchronously
+2023-05-13 10:37:39 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => mqnamesrv/172.18.0.6:9876
+2023-05-13 10:37:39 INFO brokerOutApi_thread_4 - createChannel: connect remote host[rmqnamesrv:9876] success, DefaultChannelPromise@22c52e63(success)
+2023-05-13 10:49:28 INFO brokerOutApi_thread_3 - createChannel: begin to connect remote host[rmqnamesrv:9876] asynchronously
+2023-05-13 10:49:28 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => mqnamesrv/172.18.0.6:9876
+2023-05-13 10:49:28 INFO brokerOutApi_thread_3 - createChannel: connect remote host[rmqnamesrv:9876] success, DefaultChannelPromise@7d9e8d25(success)
+2023-05-13 10:57:04 INFO main - Server is running in TLS permissive mode
+2023-05-13 10:57:04 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 10:57:04 INFO main - Log the final used tls related configuration
+2023-05-13 10:57:04 INFO main - tls.test.mode.enable = true
+2023-05-13 10:57:04 INFO main - tls.server.need.client.auth = none
+2023-05-13 10:57:04 INFO main - tls.server.keyPath = null
+2023-05-13 10:57:04 INFO main - tls.server.keyPassword = null
+2023-05-13 10:57:04 INFO main - tls.server.certPath = null
+2023-05-13 10:57:04 INFO main - tls.server.authClient = false
+2023-05-13 10:57:04 INFO main - tls.server.trustCertPath = null
+2023-05-13 10:57:04 INFO main - tls.client.keyPath = null
+2023-05-13 10:57:04 INFO main - tls.client.keyPassword = null
+2023-05-13 10:57:04 INFO main - tls.client.certPath = null
+2023-05-13 10:57:04 INFO main - tls.client.authServer = false
+2023-05-13 10:57:04 INFO main - tls.client.trustCertPath = null
+2023-05-13 10:57:13 INFO main - Using OpenSSL provider
+2023-05-13 10:57:16 INFO main - SSLContext created for server
+2023-05-13 10:57:16 INFO main - Server is running in TLS permissive mode
+2023-05-13 10:57:16 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 10:57:16 INFO main - Log the final used tls related configuration
+2023-05-13 10:57:16 INFO main - tls.test.mode.enable = true
+2023-05-13 10:57:16 INFO main - tls.server.need.client.auth = none
+2023-05-13 10:57:16 INFO main - tls.server.keyPath = null
+2023-05-13 10:57:16 INFO main - tls.server.keyPassword = null
+2023-05-13 10:57:16 INFO main - tls.server.certPath = null
+2023-05-13 10:57:16 INFO main - tls.server.authClient = false
+2023-05-13 10:57:16 INFO main - tls.server.trustCertPath = null
+2023-05-13 10:57:16 INFO main - tls.client.keyPath = null
+2023-05-13 10:57:16 INFO main - tls.client.keyPassword = null
+2023-05-13 10:57:16 INFO main - tls.client.certPath = null
+2023-05-13 10:57:16 INFO main - tls.client.authServer = false
+2023-05-13 10:57:16 INFO main - tls.client.trustCertPath = null
+2023-05-13 10:57:16 INFO main - Using OpenSSL provider
+2023-05-13 10:57:17 INFO main - SSLContext created for server
+2023-05-13 10:57:17 INFO main - name server address updated. NEW : [rmqnamesrv:9876] , OLD: null
+2023-05-13 10:57:18 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 10:57:18 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 10:57:19 INFO brokerOutApi_thread_1 - createChannel: begin to connect remote host[rmqnamesrv:9876] asynchronously
+2023-05-13 10:57:19 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => mqnamesrv/172.18.0.5:9876
+2023-05-13 10:57:19 INFO brokerOutApi_thread_1 - createChannel: connect remote host[rmqnamesrv:9876] success, DefaultChannelPromise@2c780d6(success)
+2023-05-13 11:12:03 INFO main - Server is running in TLS permissive mode
+2023-05-13 11:12:03 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 11:12:03 INFO main - Log the final used tls related configuration
+2023-05-13 11:12:03 INFO main - tls.test.mode.enable = true
+2023-05-13 11:12:03 INFO main - tls.server.need.client.auth = none
+2023-05-13 11:12:03 INFO main - tls.server.keyPath = null
+2023-05-13 11:12:03 INFO main - tls.server.keyPassword = null
+2023-05-13 11:12:03 INFO main - tls.server.certPath = null
+2023-05-13 11:12:03 INFO main - tls.server.authClient = false
+2023-05-13 11:12:03 INFO main - tls.server.trustCertPath = null
+2023-05-13 11:12:03 INFO main - tls.client.keyPath = null
+2023-05-13 11:12:03 INFO main - tls.client.keyPassword = null
+2023-05-13 11:12:03 INFO main - tls.client.certPath = null
+2023-05-13 11:12:03 INFO main - tls.client.authServer = false
+2023-05-13 11:12:03 INFO main - tls.client.trustCertPath = null
+2023-05-13 11:12:09 INFO main - Using OpenSSL provider
+2023-05-13 11:12:12 INFO main - SSLContext created for server
+2023-05-13 11:12:12 INFO main - Server is running in TLS permissive mode
+2023-05-13 11:12:12 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 11:12:12 INFO main - Log the final used tls related configuration
+2023-05-13 11:12:12 INFO main - tls.test.mode.enable = true
+2023-05-13 11:12:12 INFO main - tls.server.need.client.auth = none
+2023-05-13 11:12:12 INFO main - tls.server.keyPath = null
+2023-05-13 11:12:12 INFO main - tls.server.keyPassword = null
+2023-05-13 11:12:12 INFO main - tls.server.certPath = null
+2023-05-13 11:12:12 INFO main - tls.server.authClient = false
+2023-05-13 11:12:12 INFO main - tls.server.trustCertPath = null
+2023-05-13 11:12:12 INFO main - tls.client.keyPath = null
+2023-05-13 11:12:12 INFO main - tls.client.keyPassword = null
+2023-05-13 11:12:12 INFO main - tls.client.certPath = null
+2023-05-13 11:12:12 INFO main - tls.client.authServer = false
+2023-05-13 11:12:12 INFO main - tls.client.trustCertPath = null
+2023-05-13 11:12:12 INFO main - Using OpenSSL provider
+2023-05-13 11:12:12 INFO main - SSLContext created for server
+2023-05-13 11:12:12 INFO main - name server address updated. NEW : [rmqnamesrv:9876] , OLD: null
+2023-05-13 11:12:14 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 11:12:14 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 11:12:15 INFO brokerOutApi_thread_1 - createChannel: begin to connect remote host[rmqnamesrv:9876] asynchronously
+2023-05-13 11:12:15 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => mqnamesrv/172.18.0.7:9876
+2023-05-13 11:12:15 INFO brokerOutApi_thread_1 - createChannel: connect remote host[rmqnamesrv:9876] success, DefaultChannelPromise@261d40d8(success)
+2023-05-13 11:23:49 INFO main - Server is running in TLS permissive mode
+2023-05-13 11:23:49 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 11:23:49 INFO main - Log the final used tls related configuration
+2023-05-13 11:23:49 INFO main - tls.test.mode.enable = true
+2023-05-13 11:23:49 INFO main - tls.server.need.client.auth = none
+2023-05-13 11:23:49 INFO main - tls.server.keyPath = null
+2023-05-13 11:23:49 INFO main - tls.server.keyPassword = null
+2023-05-13 11:23:49 INFO main - tls.server.certPath = null
+2023-05-13 11:23:49 INFO main - tls.server.authClient = false
+2023-05-13 11:23:49 INFO main - tls.server.trustCertPath = null
+2023-05-13 11:23:49 INFO main - tls.client.keyPath = null
+2023-05-13 11:23:49 INFO main - tls.client.keyPassword = null
+2023-05-13 11:23:49 INFO main - tls.client.certPath = null
+2023-05-13 11:23:49 INFO main - tls.client.authServer = false
+2023-05-13 11:23:49 INFO main - tls.client.trustCertPath = null
+2023-05-13 11:23:57 INFO main - Using OpenSSL provider
+2023-05-13 11:24:00 INFO main - SSLContext created for server
+2023-05-13 11:24:00 INFO main - Server is running in TLS permissive mode
+2023-05-13 11:24:00 INFO main - Tls config file doesn't exist, skip it
+2023-05-13 11:24:00 INFO main - Log the final used tls related configuration
+2023-05-13 11:24:00 INFO main - tls.test.mode.enable = true
+2023-05-13 11:24:00 INFO main - tls.server.need.client.auth = none
+2023-05-13 11:24:00 INFO main - tls.server.keyPath = null
+2023-05-13 11:24:00 INFO main - tls.server.keyPassword = null
+2023-05-13 11:24:00 INFO main - tls.server.certPath = null
+2023-05-13 11:24:00 INFO main - tls.server.authClient = false
+2023-05-13 11:24:00 INFO main - tls.server.trustCertPath = null
+2023-05-13 11:24:00 INFO main - tls.client.keyPath = null
+2023-05-13 11:24:00 INFO main - tls.client.keyPassword = null
+2023-05-13 11:24:00 INFO main - tls.client.certPath = null
+2023-05-13 11:24:00 INFO main - tls.client.authServer = false
+2023-05-13 11:24:00 INFO main - tls.client.trustCertPath = null
+2023-05-13 11:24:00 INFO main - Using OpenSSL provider
+2023-05-13 11:24:01 INFO main - SSLContext created for server
+2023-05-13 11:24:01 INFO main - name server address updated. NEW : [rmqnamesrv:9876] , OLD: null
+2023-05-13 11:24:03 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 11:24:03 INFO NettyEventExecutor - NettyEventExecutor service started
+2023-05-13 11:24:03 INFO brokerOutApi_thread_1 - createChannel: begin to connect remote host[rmqnamesrv:9876] asynchronously
+2023-05-13 11:24:04 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => mqnamesrv/172.18.0.6:9876
+2023-05-13 11:24:04 INFO brokerOutApi_thread_1 - createChannel: connect remote host[rmqnamesrv:9876] success, DefaultChannelPromise@5401dba6(success)

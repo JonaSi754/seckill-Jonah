@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0d49e5b0-1442-40e7-8196-7d092bf8f786" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/environment/config/elk/config/export.ndjson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/environment/config/elk/elasticsearch.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/environment/config/elk/kibana.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/environment/config/elk/logstash.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/environment/config/elk/pipeline/logstash.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/environment/config/mysql-exporter/.my.cnf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/environment/config/mysql/init/nacos_init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/environment/config/mysql/init/seckill_init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/environment/config/nacos/custom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/environment/config/nacos/degrade-rule.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/environment/config/nacos/flow-rule.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/environment/config/nacos/nacos-standalone-mysql.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/environment/config/prometheus/prometheus.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/environment/config/rocketmq/broker.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/environment/docker-compose-light.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seckill-application/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2PgxNyT10Y4L6LxNr1fH2TE8v2E" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "zulu-1.8",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.sourceCode.General",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d49e5b0-1442-40e7-8196-7d092bf8f786" name="Changes" comment="" />
+      <created>1683892491147</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683892491147</updated>
+      <workItem from="1683892492611" duration="9208000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
