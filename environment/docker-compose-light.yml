@@ -3,14 +3,13 @@ version: '3.2'
 networks:
   jinghua-network:
     driver: bridge
-#  binghe-network:
-#    driver: bridge
 
 volumes:
   prometheus_data: {}
 services:
   mysql:
-    image: mysql/mysql-server:latest
+    image: biarms/mysql:5.7
+#    image: mysql/mysql-server:latest
     container_name: mysql
     volumes:
       - ./data/db_data:/var/lib/mysql
@@ -29,6 +28,7 @@ services:
       - 3306:3306
     networks:
       - jinghua-network
+    user: mysql
   
   redis:
     container_name: redis
@@ -144,5 +144,16 @@ services:
     depends_on:
       - mysql
     restart: on-failure
+    networks:
+      - jinghua-network
+      
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - 10000:80
+    volumes:
+      - ./config/nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./webpage/seckill:/usr/share/nginx/html/seckill
     networks:
       - jinghua-network
